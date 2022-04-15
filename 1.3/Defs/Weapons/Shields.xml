@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BloodborneRemake_BaseShield">
+        <defName>BloodborneRemake_WoodenShield</defName>
+        <label>(BBRe)WoodenShield</label>
+        <description>A crude wooden shield used by the masses who have arisen to join the hunt. Hunters do not normally employ shields, ineffectual against the strength of the beasts as they tend to be. Shields are nice, but not if they engender passivity.</description>
+        <graphicData>
+            <texPath>Shields/WoodenShield</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <costList>
+            <WoodLog>50</WoodLog>
+            <Steel>10</Steel>
+        </costList>
+        <equippedAngleOffset>-40</equippedAngleOffset>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.25</ArmorRating_Heat>
+            <WorkToMake>200</WorkToMake>
+            <Mass>2.0</Mass>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.15</MoveSpeed>
+        </equippedStatOffsets>
+        <tools>
+            <li>
+                <label>base</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>centre</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="VFECore.CompProperties_Shield">
+                <shieldTags>
+                    <li>BloodborneRemake_Shield</li>
+                </shieldTags>
+                <useDeflectMetalEffect>false</useDeflectMetalEffect>
+                <coveredBodyPartGroups>
+                    <li>Neck</li>
+                    <li>Torso</li>
+                    <li>Arms</li>
+                    <li>Hands</li>
+                    <li>Legs</li>
+                </coveredBodyPartGroups>
+                <offHandGraphicData>
+                    <texPath>Shields/WoodenShield</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <shaderType>CutoutComplex</shaderType>
+                    <drawSize>1.0</drawSize>
+                </offHandGraphicData>
+                <offHandHoldOffset>
+                    <northDefault>
+                        <offset>(-0.15, 0, 0.20)</offset>
+                        <behind>true</behind>
+                    </northDefault>
+                    <east>
+                        <offset>(0.05, 0, 0.2)</offset>
+                        <behind>true</behind>
+                    </east>
+                    <south>
+                        <offset>(0.2, -0.04, 0.15)</offset>
+                    </south>
+                    <west>
+                        <offset>(-0.05, 0, 0.2)</offset>
+                    </west>
+                </offHandHoldOffset>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="BloodborneRemake_BaseShield">
+        <defName>BloodborneRemake_LochShield</defName>
+        <label>(BBRe)LochShield</label>
+        <description>An artisanal shield crafted with blue glass. Originally used to safeguard the leader presiding over a sacred Healing Church ceremony, and later supplied to tomb prospectors, in particular those exploring the labyrinth of Isz. The blue is fashioned after a lake, and the shield greatly reduces all forms of non-physical damage.</description>
+        <graphicData>
+            <texPath>Shields/LochShield</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <costList>
+            <Steel>50</Steel>
+            <Jade>25</Jade>
+        </costList>
+        <equippedAngleOffset>-40</equippedAngleOffset>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <Flammability>0.1</Flammability>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.65</ArmorRating_Heat>
+            <WorkToMake>200</WorkToMake>
+            <Mass>3.0</Mass>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.15</MoveSpeed>
+        </equippedStatOffsets>
+        <tools>
+            <li>
+                <label>base</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>centre</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="VFECore.CompProperties_Shield">
+                <shieldTags>
+                    <li>BloodborneRemake_Shield</li>
+                </shieldTags>
+                <useDeflectMetalEffect>true</useDeflectMetalEffect>
+                <coveredBodyPartGroups>
+                    <li>Neck</li>
+                    <li>Torso</li>
+                    <li>Arms</li>
+                    <li>Hands</li>
+                    <li>Legs</li>
+                </coveredBodyPartGroups>
+                <offHandGraphicData>
+                    <texPath>Shields/LochShield</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <shaderType>CutoutComplex</shaderType>
+                    <drawSize>0.85</drawSize>
+                </offHandGraphicData>
+                <offHandHoldOffset>
+                    <northDefault>
+                        <offset>(-0.15, 0, 0.20)</offset>
+                        <behind>true</behind>
+                    </northDefault>
+                    <east>
+                        <offset>(0.05, 0, 0.2)</offset>
+                        <behind>true</behind>
+                    </east>
+                    <south>
+                        <offset>(0.2, -0.04, 0.15)</offset>
+                    </south>
+                    <west>
+                        <offset>(-0.05, 0, 0.2)</offset>
+                    </west>
+                </offHandHoldOffset>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="BloodborneRemake_BaseShield">
+        <defName>BloodborneRemake_TorchOff</defName>
+        <label>(BBRe)TorchOff</label>
+        <description>A common torch formed by wrapping a pine resin-drenched cloth around the end of a long stick. Hunters choose torches not only because the hunt leads them to the darkest nooks, but also because certain creatures they encounter are possessed of a deathly fear of flame.</description>
+        <graphicData>
+            <texPath>Shields/TorchOff</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <costList>
+            <WoodLog>10</WoodLog>
+        </costList>
+        <equippedAngleOffset>-15</equippedAngleOffset>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.05</ArmorRating_Heat>
+            <WorkToMake>10</WorkToMake>
+            <Mass>1.0</Mass>
+        </statBases>
+        <equippedStatOffsets>
+            <MeleeHitChance>2</MeleeHitChance>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <verbs>
+            <li>
+                <label>torch</label>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>BloodborneRemake_Torch</defaultProjectile>
+                <warmupTime>1.0</warmupTime>
+                <range>7.9</range>
+                <forcedMissRadius>0.9</forcedMissRadius>
+                <soundCast>BloodborneRemake_Sound_Torch</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="VFECore.CompProperties_Shield">
+                <shieldTags>
+                    <li>BloodborneRemake_Shield</li>
+                </shieldTags>
+                <useDeflectMetalEffect>false</useDeflectMetalEffect>
+                <coveredBodyPartGroups>
+                    <li>Neck</li>
+                    <li>Torso</li>
+                    <li>Arms</li>
+                    <li>Hands</li>
+                    <li>Legs</li>
+                </coveredBodyPartGroups>
+                <offHandGraphicData>
+                    <texPath>Shields/TorchOff</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <shaderType>CutoutComplex</shaderType>
+                    <drawSize>1.0</drawSize>
+                </offHandGraphicData>
+                <offHandHoldOffset>
+                    <northDefault>
+                        <offset>(0.05, 0, 0.45)</offset>
+                        <behind>true</behind>
+                    </northDefault>
+                    <east>
+                        <offset>(0.05, 0, 0.35)</offset>
+                        <behind>true</behind>
+                    </east>
+                    <south>
+                        <offset>(0.075, -0.04, 0.35)</offset>
+                    </south>
+                    <west>
+                        <offset>(-0.05, 0, 0.35)</offset>
+                    </west>
+                </offHandHoldOffset>
+            </li>
+            <li Class="MVCF.Comps.CompProperties_VerbGiver">
+                <verbProps>
+                    <li>
+                        <label>torch</label>
+                        <visualLabel>throw torch</visualLabel>
+                        <canBeToggled>true</canBeToggled>
+                    </li>
+                </verbProps>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="BloodborneRemake_BaseShield">
+        <defName>BloodborneRemake_TorchOn</defName>
+        <label>(BBRe)TorchOn</label>
+        <description>A common torch formed by wrapping a pine resin-drenched cloth around the end of a long stick. Hunters choose torches not only because the hunt leads them to the darkest nooks, but also because certain creatures they encounter are possessed of a deathly fear of flame.</description>
+        <graphicData>
+            <texPath>Shields/TorchOn</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <costList>
+            <WoodLog>10</WoodLog>
+        </costList>
+        <equippedAngleOffset>-15</equippedAngleOffset>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.05</ArmorRating_Heat>
+            <WorkToMake>10</WorkToMake>
+            <Mass>1.0</Mass>
+        </statBases>
+        <equippedStatOffsets>
+            <MeleeHitChance>2</MeleeHitChance>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <verbs>
+            <li>
+                <label>torch</label>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>BloodborneRemake_Torch</defaultProjectile>
+                <warmupTime>1.0</warmupTime>
+                <range>7.9</range>
+                <forcedMissRadius>0.9</forcedMissRadius>
+                <soundCast>BloodborneRemake_Sound_Torch</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="VFECore.CompProperties_Shield">
+                <shieldTags>
+                    <li>BloodborneRemake_Shield</li>
+                </shieldTags>
+                <useDeflectMetalEffect>false</useDeflectMetalEffect>
+                <coveredBodyPartGroups>
+                    <li>Neck</li>
+                    <li>Torso</li>
+                    <li>Arms</li>
+                    <li>Hands</li>
+                    <li>Legs</li>
+                </coveredBodyPartGroups>
+                <offHandGraphicData>
+                    <texPath>Shields/TorchOn</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <shaderType>CutoutComplex</shaderType>
+                    <drawSize>1.0</drawSize>
+                </offHandGraphicData>
+                <offHandHoldOffset>
+                    <northDefault>
+                        <offset>(0.05, 0, 0.45)</offset>
+                        <behind>true</behind>
+                    </northDefault>
+                    <east>
+                        <offset>(0.05, 0, 0.35)</offset>
+                        <behind>true</behind>
+                    </east>
+                    <south>
+                        <offset>(0.075, -0.04, 0.35)</offset>
+                    </south>
+                    <west>
+                        <offset>(-0.05, 0, 0.35)</offset>
+                    </west>
+                </offHandHoldOffset>
+            </li>
+            <li Class="MVCF.Comps.CompProperties_VerbGiver">
+                <verbProps>
+                    <li>
+                        <label>torch</label>
+                        <visualLabel>throw torch</visualLabel>
+                        <canBeToggled>true</canBeToggled>
+                    </li>
+                </verbProps>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>
