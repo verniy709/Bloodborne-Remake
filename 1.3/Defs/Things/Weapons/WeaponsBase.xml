@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>Category_BloodborneRemake_Weapons</defName>
+    <parent>Weapons</parent>
+    <label>Bloodborne Weapons Remake</label>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>Category_BloodborneRemake_Melee</defName>
+    <parent>Category_BloodborneRemake_Weapons</parent>
+    <label>Bloodborne Melee Weapons</label>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>Category_BloodborneRemake_Firearm</defName>
+    <parent>Category_BloodborneRemake_Weapons</parent>
+    <label>Bloodborne Firearm Weapons</label>
+  </ThingCategoryDef>
+
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>BloodborneRemake_Unfinished</defName>
+    <label>unfinished Bloodborne item</label>
+    <description>An unfinished Bloodborne item.</description>
+    <statBases>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Items/BloodEchoes</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
+
+  <!-- Bloodborne Shield Base -->
+
+  <ThingDef Name="BloodborneRemake_BaseShield" ParentName="BaseMeleeWeapon_Blunt_Quality" Abstract="True">
+    <techLevel>Medieval</techLevel>
+    <thingCategories Inherit="False">
+      <li>VFEC_Shields</li>
+    </thingCategories>
+    <thingClass>VFECore.Apparel_Shield</thingClass>
+    <statBases>
+      <WorkToMake>150</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Mass>2.0</Mass>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>BloodborneRemake_Sound_Messenger</soundWorking>
+      <recipeUsers>
+        <li>BloodborneRemake_Bench</li>
+      </recipeUsers>
+      <unfinishedThingDef>BloodborneRemake_Unfinished</unfinishedThingDef>
+    </recipeMaker>
+    <costList>
+      <BloodborneRemake_BloodEchoes>5</BloodborneRemake_BloodEchoes>
+    </costList>
+    <apparel>
+      <defaultOutfitTags>
+        <li>BloodborneRemake</li>
+        <li>BloodborneRemake_Shield</li>
+      </defaultOutfitTags>
+      <bodyPartGroups>
+        <li>LeftHand</li>
+      </bodyPartGroups>
+      <layers>
+        <li>VFEC_OuterShell</li>
+      </layers>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+  </ThingDef>
+
+  <!-- Bloodborne Melee Base -->
+
+  <ThingDef Name="BloodborneRemake_BaseMelee" Abstract="True" ParentName="BaseMeleeWeapon">
+    <techLevel>Medieval</techLevel>
+    <thingClass>Bloodborne_Remake.BloodborneWeapon</thingClass>    <!-- Very important for ModExtension -->
+    <thingCategories>
+      <li>Category_BloodborneRemake_Melee</li>
+    </thingCategories>
+    <equippedAngleOffset>-15</equippedAngleOffset>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costList>
+      <BloodborneRemake_BloodEchoes>50</BloodborneRemake_BloodEchoes>
+    </costList>
+    <statBases>
+      <WorkToMake>200</WorkToMake>
+      <Mass>1.0</Mass>
+    </statBases>
+    <weaponTags>
+      <li>UltratechMelee</li>
+      <li>BloodborneRemake_Melee</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>BloodborneRemake_Sound_Messenger</soundWorking>
+      <recipeUsers>
+        <li>BloodborneRemake_Bench</li>
+      </recipeUsers>
+      <unfinishedThingDef>BloodborneRemake_Unfinished</unfinishedThingDef>
+    </recipeMaker>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Bloodborne Firearm Base -->
+
+  <ThingDef Name="BloodborneRemake_BaseFirearm" ParentName="BaseGunWithQuality"  Abstract="True">
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>Category_BloodborneRemake_Firearm</li>
+    </thingCategories>
+    <graphicData>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costList>
+      <BloodborneRemake_BloodEchoes>50</BloodborneRemake_BloodEchoes>
+    </costList>
+    <statBases>
+      <WorkToMake>200</WorkToMake>
+      <Mass>1.0</Mass>
+    </statBases>
+    <weaponTags>
+      <!-- <li>GunHeavy</li> -->
+      <li>BloodborneRemake_Firearm</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>BloodborneRemake_Sound_Messenger</soundWorking>
+      <recipeUsers>
+        <li>BloodborneRemake_Bench</li>
+      </recipeUsers>
+      <unfinishedThingDef>BloodborneRemake_Unfinished</unfinishedThingDef>
+    </recipeMaker>
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Bloodborne Melee Blunt -->
+
+  <!-- <ThingDef Name="BloodborneRemake_BaseBlunt" Abstract="True" ParentName="BloodborneRemake_BaseMelee">
+    <soundInteract>BloodborneRemake_Sound_InteractBaseBlunt</soundInteract>
+    <statBases>
+      <Mass>2.5</Mass>
+    </statBases>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef> -->
+
+  <!-- Bloodborne Melee Blunt Heavy-->
+
+  <!-- <ThingDef Name="BloodborneRemake_BaseBluntHeavy" Abstract="True" ParentName="BloodborneRemake_BaseMelee">
+    <soundInteract>BloodborneRemake_Sound_InteractBaseBluntHeavy</soundInteract>
+    <statBases>
+      <Mass>6</Mass>
+    </statBases>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.3</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef> -->
+
+  <!-- Bloodborne Melee Glove-->
+
+  <!-- <ThingDef Name="BloodborneRemake_BaseGlove" Abstract="True" ParentName="BloodborneRemake_BaseMelee">
+    <soundInteract>BloodborneRemake_Sound_InteractBaseGlove</soundInteract>
+    <statBases>
+      <Mass>2</Mass>
+    </statBases>
+    <tools>
+      <li>
+        <label>Claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>0.7</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>0.7</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef> -->
+
+  <!-- Bloodborne Melee Sharp Light-->
+
+  <!-- <ThingDef Name="BloodborneRemake_BaseSharpLight" Abstract="True" ParentName="BloodborneRemake_BaseMelee">
+    <soundInteract>BloodborneRemake_Sound_InteractBaseSharpLight</soundInteract>
+    <statBases>
+      <Mass>1.5</Mass>
+    </statBases>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef> -->
+
+  <!-- Bloodborne Melee Sharp Medium-->
+
+  <!-- <ThingDef Name="BloodborneRemake_BaseSharpMedium" Abstract="True" ParentName="BloodborneRemake_BaseMelee">
+    <soundInteract>BloodborneRemake_Sound_InteractBaseSharpMedium</soundInteract>
+    <statBases>
+      <Mass>2.4</Mass>
+    </statBases>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef> -->
+
+  <!-- Bloodborne Melee Sharp Heavy-->
+
+  <!-- <ThingDef Name="BloodborneRemake_BaseSharpHeavy" Abstract="True" ParentName="BloodborneRemake_BaseMelee">
+    <soundInteract>BloodborneRemake_Sound_InteractBaseSharpHeavy</soundInteract>
+    <statBases>
+      <Mass>3.5</Mass>
+    </statBases>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef> -->
+
+  <!-- Bloodborne Melee Tentacle-->
+
+  <!-- <ThingDef Name="BloodborneRemake_BaseTentacle" Abstract="True" ParentName="BloodborneRemake_BaseMelee">
+    <soundInteract>BloodborneRemake_Sound_InteractBaseTentacle</soundInteract>
+    <statBases>
+      <Mass>1.0</Mass>
+    </statBases>
+    <tools>
+      <li>
+        <label>Tentacle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14.0</power>
+        <cooldownTime>0.8</cooldownTime>
+      </li>
+      <li>
+        <label>Radula</label>
+        <capacities>
+          <li>ToxicBite</li>
+        </capacities>
+        <power>11.0</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef> -->
+
+</Defs>

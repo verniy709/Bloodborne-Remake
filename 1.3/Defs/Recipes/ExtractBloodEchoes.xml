@@ -6,14 +6,14 @@
     <label>extract blood echoes</label>
     <description>The Bloody memories of those cursed by the plague of the Beast.</description>
     <jobString>Extracting blood echoes.</jobString>
-    <workAmount>100</workAmount>
+    <workAmount>20</workAmount>
     <recipeUsers>
       <li>BloodborneRemake_Bench</li>
     </recipeUsers>
-    <workSkill>Intellectual</workSkill>
-    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
     <effectWorking>ButcherFlesh</effectWorking>
-    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <soundWorking>BloodborneRemake_Sound_BloodExtract</soundWorking>
     <products>
       <BloodborneRemake_BloodEchoes>5</BloodborneRemake_BloodEchoes>
     </products>

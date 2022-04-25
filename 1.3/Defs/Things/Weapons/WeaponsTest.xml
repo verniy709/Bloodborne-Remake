@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Area attack test tool-->
+
+  <ToolCapacityDef>
+    <defName>BloodborneRemake_Tool_AreaTest</defName>
+    <label>area cut A</label>
+  </ToolCapacityDef>
+
+  <ManeuverDef>
+    <defName>BloodborneRemake_Maneuver_AreaTest</defName>
+    <requiredCapacity>BloodborneRemake_Tool_AreaTest</requiredCapacity>
+    <verb>
+      <verbClass>Bloodborne_Remake.Verb_MeleeAttackDamage_Area</verbClass>
+      <meleeDamageDef>Cut</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+
+  <!-- Hit effecter test tool-->
+
+  <ToolCapacityDef>
+    <defName>BloodborneRemake_Tool_effecterTest</defName>
+    <label>tool test</label>
+  </ToolCapacityDef>
+
+  <ManeuverDef>
+    <defName>BloodborneRemake_Maneuver_effecterTest</defName>
+    <requiredCapacity>BloodborneRemake_Tool_effecterTest</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>Cut</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+
+  <!-- Test weapon-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_Test</defName> 
+    <label>(a)test</label>
+    <description>.</description>
+    <equippedAngleOffset>-15</equippedAngleOffset>
+    <graphicData>
+      <texPath>Things/TrickWeapons/AmygdalanArm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformQ</soundInteract>
+    <tools>
+      <!-- Normal Attack Blunt-->
+      <li>
+        <label>normal head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaTest</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <!-- Transformation Attack Blunt Heavy -->
+      <li>
+        <label>transformed head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaTest</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>3</range>
+        <chance>0.99</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_TransformA</effecter_Normal>
+        <effecter_Mechanoid>Damage_HitMechanoid</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>normal head</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/AmygdalanArm</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformA</effecter>
+            <sound>BloodborneRemake_Sound_TransformQ</sound>
+          </li>
+          <li>
+            <labels>
+              <li>transformed head</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/AmygdalanArm_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformA</effecter>
+            <sound>BloodborneRemake_Sound_TransformQ</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  
+
+</Defs>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Cannon-->
+
+	<ThingDef ParentName="BloodborneRemake_BaseFirearm">
+		<defName>BloodborneRemake_Cannon</defName> 
+		<label>(BBRe)Cannon</label>
+		<description>Large prototype firearms fashioned by the workshop heretics, the Powder Kegs. Use of this weapon is equivalent to toting a mounted cannon, complete with its ridiculous weight, staggering kick, and lavish use of Quicksilver Bullets, into battle. Such a monstrosity was doomed from the start, and indeed its development was cut short. Yet, against impossibly gigantic foes, it might be just the thing.</description>
+		<graphicData>
+			<texPath>Things/Firearms/Cannon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>BloodborneRemake_Sound_InteractHeavy</soundInteract>
+		<costStuffCount>1</costStuffCount>
+		<costList>
+			<BloodborneRemake_BloodEchoes>100</BloodborneRemake_BloodEchoes>
+		</costList>
+		<statBases>
+			<Mass>6</Mass>
+			<RangedWeapon_Cooldown>5.4</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BloodborneRemake_Shell</defaultProjectile>
+				<forcedMissRadius>2.9</forcedMissRadius>
+				<warmupTime>2.0</warmupTime>
+				<range>59.9</range>
+				<soundCast>BloodborneRemake_Sound_CannonShot</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>15</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>false</usableWithShields>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ChurchCannon-->
+
+	<ThingDef ParentName="BloodborneRemake_BaseFirearm">
+		<defName>BloodborneRemake_ChurchCannon</defName> 
+		<label>(BBRe)Church Cannon</label>
+		<description>An oversized weapon used by the Healing Church. A type of cannon that fires with a curved trajectory and creates an explosion upon impact. Originally designed for use by brawny men with deteriorated brains, not for just any ordinary hunter. But the men lacked the wits to effectively operate firearms, and the weapon was quietly ushered into permanent storage.</description>
+		<graphicData>
+			<texPath>Things/Firearms/ChurchCannon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>BloodborneRemake_Sound_InteractHeavy</soundInteract>
+		<costStuffCount>1</costStuffCount>
+		<costList>
+			<BloodborneRemake_BloodEchoes>100</BloodborneRemake_BloodEchoes>
+		</costList>
+		<statBases>
+			<Mass>6</Mass>
+			<RangedWeapon_Cooldown>3.6</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BloodborneRemake_Shell</defaultProjectile>
+				<forcedMissRadius>2.9</forcedMissRadius>
+				<warmupTime>2.0</warmupTime>
+				<range>47.9</range>
+				<soundCast>BloodborneRemake_Sound_CannonShot</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>15</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>false</usableWithShields>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- Evelyn-->
+
+	<ThingDef ParentName="BloodborneRemake_BaseFirearm">
+		<defName>BloodborneRemake_Evelyn</defName> 
+		<label>(BBRe)Evelyn</label>
+		<description>Special pistol used by Cainhurst knights. The Evelyn uses Quicksilver Bullets, just as any workshop firearm, but the Cainhurst variant relies more on bloodtinge. Lovingly named after a woman and graced with an intricate design, Evelyns were adored by Cainhurst knights.</description>
+		<graphicData>
+			<texPath>Things/Firearms/Evelyn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>BloodborneRemake_Sound_InteractPistol</soundInteract>
+		<statBases>
+			<Mass>1</Mass>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BloodborneRemake_BulletMedium</defaultProjectile>
+				<warmupTime>0.6</warmupTime>
+				<range>37.9</range>
+				<soundCast>BloodborneRemake_Sound_Pistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- Flamesprayer-->
+
+	<ThingDef ParentName="BloodborneRemake_BaseFirearm">
+		<defName>BloodborneRemake_Flamesprayer</defName> 
+		<label>(BBRe)Flamesprayer</label>
+		<description>A special weapon used by certain members of the Healing Church. Spits searing flames by using blood-imbued Quicksilver Bullets as a special medium. Not the most efficient weapon by any stretch, but sometimes a sea of flame is just what the doctor ordered. Besides, the beasts of Yharnam can always use a good cleansing.</description>
+		<graphicData>
+			<texPath>Things/Firearms/Flamesprayer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>BloodborneRemake_Sound_InteractSprayer</soundInteract>
+		<statBases>
+			<Mass>1.8</Mass>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BloodborneRemake_Flame</defaultProjectile>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+				<warmupTime>1.20</warmupTime>
+				<range>17.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<soundCast>BloodborneRemake_Sound_Flame</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- GatlingGun-->
+
+	<ThingDef ParentName="BloodborneRemake_BaseFirearm">
+		<defName>BloodborneRemake_GatlingGun</defName> 
+		<label>(BBRe)Gatling Gun</label>
+		<description>Special pistol used by Cainhurst knights. The GatlingGun uses Quicksilver Bullets, just as any workshop firearm, but the Cainhurst variant relies more on bloodtinge. Lovingly named after a woman and graced with an intricate design, GatlingGuns were adored by Cainhurst knights.</description>
+		<graphicData>
+			<texPath>Things/Firearms/GatlingGun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>BloodborneRemake_Sound_TransformE</soundInteract>
+		<costStuffCount>1</costStuffCount>
+		<costList>
+			<BloodborneRemake_BloodEchoes>100</BloodborneRemake_BloodEchoes>
+		</costList>
+		<statBases>
+			<Mass>6</Mass>
+			<AccuracyTouch>0.30</AccuracyTouch>
+			<AccuracyShort>0.40</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.25</AccuracyLong>
+			<RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BloodborneRemake_BulletMedium</defaultProjectile>
+				<warmupTime>1.9</warmupTime>
+				<range>49.9</range>
+				<burstShotCount>25</burstShotCount>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<soundCast>BloodborneRemake_Sound_Rifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>false</usableWithShields>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- HunterBlunderbuss-->
+
+	<ThingDef ParentName="BloodborneRemake_BaseFirearm">
+		<defName>BloodborneRemake_HunterBlunderbuss</defName> 
+		<label>(BBRe)Hunter Blunderbuss</label>
+		<description>A blunderbuss created at the workshop for the hunters' line of work. Hunter firearms are specially crafted to employ Quicksilver Bullets fused with the wielder's own blood, boosting damage against beasts. The impact of this highly-effective weapon counters beasts' swift movements, and its wide spread is nigh-on guaranteed to hit the mark.</description>
+		<graphicData>
+			<texPath>Things/Firearms/HunterBlunderbuss</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>BloodborneRemake_Sound_InteractRifle</soundInteract>
+		<statBases>
+			<Mass>2.2</Mass>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.50</AccuracyLong>
+			<RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<label>Slug</label>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BloodborneRemake_BulletHeavy</defaultProjectile>
+				<warmupTime>0.65</warmupTime>
+				<range>27.9</range>
+				<soundCast>BloodborneRemake_Sound_Shotgun</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>12</muzzleFlashScale>
+			</li>
+			<!-- <li>
+				<label>Buckshot</label>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BloodborneRemake_BulletBuckshot</defaultProjectile>
+				<warmupTime>0.6</warmupTime>
+				<range>27.9</range>
+				<soundCast>BloodborneRemake_Sound_Shotgun</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>12</muzzleFlashScale>
+			</li> -->
+		</verbs>
+	</ThingDef>
+
+	<!-- HunterPistol-->
+
+	<ThingDef ParentName="BloodborneRemake_BaseFirearm">
+		<defName>BloodborneRemake_HunterPistol</defName> 
+		<label>(BBRe)Hunter Pistol</label>
+		<description>Pistol made at the workshop, for hunters stalking beasts. Hunter firearms are specially crafted to employ Quicksilver Bullets fused with the wielder's own blood, boosting damage against beasts. The pistol is a quicker draw than the blunderbuss, allowing for speedier responses to attacks.</description>
+		<graphicData>
+			<texPath>Things/Firearms/HunterPistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>BloodborneRemake_Sound_InteractPistol</soundInteract>
+		<statBases>
+			<Mass>1</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BloodborneRemake_BulletLight</defaultProjectile>
+				<warmupTime>0.30</warmupTime>
+				<range>30.9</range>
+				<soundCast>BloodborneRemake_Sound_Pistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- Ludwig'sRifle-->
+
+	<ThingDef ParentName="BloodborneRemake_BaseFirearm">
+		<defName>BloodborneRemake_LudwigsRifle</defName> 
+		<label>(BBRe)Ludwig's Rifle</label>
+		<description>A rifle engineered by the Oto Workshop, the precursor to the workshop oA rifle typically used by Healing Church hunters. It is said that this rifle was employed by Ludwig, the first hunter of the Church. Its long, heavy barrel makes up in range for what it lacks in reload speed. Ludwig's Rifle exhibits several departures from the workshop's design, suggesting that the Church anticipated much larger inhuman beasts.f the heretical Powder Kegs. Designed for hunting on narrow streets, this weapon has been optimized to cause perforation wounds, but is unfit for reliably counter attacks.</description>
+		<graphicData>
+			<texPath>Things/Firearms/LudwigsRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>BloodborneRemake_Sound_InteractRifle</soundInteract>
+		<statBases>
+			<Mass>2.2</Mass>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.80</AccuracyMedium>
+			<AccuracyLong>0.80</AccuracyLong>
+			<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<!-- <li>
+				<label>Rifle Bullet</label>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BloodborneRemake_BulletMedium</defaultProjectile>
+				<warmupTime>1.1</warmupTime>
+				<range>51.9</range>
+				<soundCast>BloodborneRemake_Sound_Rifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>12</muzzleFlashScale>
+			</li> -->
+			<li>
+				<label>Buckshot</label>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BloodborneRemake_BulletBuckshot</defaultProjectile>
+				<warmupTime>0.55</warmupTime>
+				<range>21.9</range>
+				<soundCast>BloodborneRemake_Sound_Shotgun</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>12</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- PiercingRifle-->
+
+	<ThingDef ParentName="BloodborneRemake_BaseFirearm">
+		<defName>BloodborneRemake_PiercingRifle</defName> 
+		<label>(BBRe)Piercing Rifle</label>
+		<description>A rifle engineered by the Oto Workshop, the precursor to the workshop of the heretical Powder Kegs. Designed for hunting on narrow streets, this weapon has been optimized to cause perforation wounds, but is unfit for reliably counter attacks.</description>
+		<graphicData>
+			<texPath>Things/Firearms/PiercingRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>BloodborneRemake_Sound_InteractRifle</soundInteract>
+		<statBases>
+			<Mass>2.2</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.80</AccuracyMedium>
+			<AccuracyLong>0.75</AccuracyLong>
+			<RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BloodborneRemake_BulletMedium</defaultProjectile>
+				<warmupTime>1.1</warmupTime>
+				<range>51.9</range>
+				<soundCast>BloodborneRemake_Sound_Rifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>12</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- RepeatingPistol-->
+
+	<ThingDef ParentName="BloodborneRemake_BaseFirearm">
+		<defName>BloodborneRemake_RepeatingPistol</defName> 
+		<label>(BBRe)Repeating Pistol</label>
+		<description>Repeating pistol typically used by Healing Church hunters. Crafted with mostly metal parts and exhibiting a complex design, the repeating pistol fires two shots at once, making it a ravenous consumer of Quicksilver Bullets. Should be used sparingly compared to its workshop counterpart, as the trump card in one's arsenal.</description>
+		<graphicData>
+			<texPath>Things/Firearms/RepeatingPistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>BloodborneRemake_Sound_InteractPistol</soundInteract>
+		<statBases>
+			<Mass>1</Mass>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.60</AccuracyShort>
+			<AccuracyMedium>0.50</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BloodborneRemake_BulletLight</defaultProjectile>
+				<warmupTime>0.4</warmupTime>
+				<range>30.9</range>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+				<soundCast>BloodborneRemake_Sound_Pistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- Rosmarinus-->
+
+	<ThingDef ParentName="BloodborneRemake_BaseFirearm">
+		<defName>BloodborneRemake_Rosmarinus</defName> 
+		<label>(BBRe)Rosmarinus</label>
+		<description>A special weapon used by the Choir, high-ranking members of the Healing Church. Sprays a cloud of sacred mist, created by using blood-imbued Quicksilver Bullets as a special medium. Arias are heard wherever sacred mist is seen, proving that the mist is a heavenly blessing. "Oh, fair maiden, why is it that you weep?"</description>
+		<graphicData>
+			<texPath>Things/Firearms/Rosmarinus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>BloodborneRemake_Sound_InteractSprayer</soundInteract>
+		<statBases>
+			<Mass>1.8</Mass>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BloodborneRemake_Gas</defaultProjectile>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+				<warmupTime>1.2</warmupTime>
+				<range>17.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<soundCast>BloodborneRemake_Sound_Gas</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

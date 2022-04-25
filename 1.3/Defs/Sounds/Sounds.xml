@@ -13,8 +13,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -36,8 +36,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -59,8 +59,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -82,8 +82,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -105,8 +105,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -128,8 +128,54 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_Messenger</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_Messenger</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>5</min>
+					<max>10</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_BloodExtract</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_BloodExtract</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -151,8 +197,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -174,8 +220,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -197,8 +243,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -220,8 +266,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -243,8 +289,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -266,8 +312,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -289,8 +335,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -312,8 +358,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -335,8 +381,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -358,8 +404,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -381,8 +427,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>20</min>
-					<max>20</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -404,8 +450,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>20</min>
-					<max>20</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -416,19 +462,249 @@
 	</SoundDef>
 
 	<SoundDef>
-		<defName>BloodborneRemake_Sound_Ocean</defName>
+		<defName>BloodborneRemake_Sound_Lightwave</defName>
 		<context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>BloodborneRemake_Sound_Ocean</clipPath>
+						<clipPath>BloodborneRemake_Sound_Lightwave</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
-					<min>30</min>
-					<max>30</max>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_BloodLight</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_BloodLight</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_BloodMedium</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_BloodMedium</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_BloodHeavy</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_BloodHeavy</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_BloodSlash</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_BloodSlash</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_Torture</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_Torture</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_BeastHigh</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_BeastHigh</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_BeastLow</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_BeastLow</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_GasImpact</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_GasImpact</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_ElectricityIn</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_ElectricityIn</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_ElectricityOut</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_ElectricityOut</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -450,8 +726,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -473,8 +749,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -496,8 +772,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -519,8 +795,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -542,8 +818,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -565,8 +841,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -588,8 +864,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -611,8 +887,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -634,8 +910,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -657,8 +933,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -680,8 +956,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
@@ -703,8 +979,537 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>25</min>
-					<max>25</max>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_InteractBaseParasite</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_InteractBaseParasite</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_InteractBaseBayonet</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_InteractBaseBayonet</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_InteractBaseStake</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_InteractBaseStake</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformA</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformA</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformB</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformB</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformC</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformC</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformD</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformD</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformE</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformE</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformF</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformF</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformG</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformG</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformH</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformH</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformI</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformJ</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformJ</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformK</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformK</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformL</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformL</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformM</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformM</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformN</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformN</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformO</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformO</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformP</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformP</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformQ</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformQ</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformR</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformR</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformS</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformS</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_TransformT</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_TransformT</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.95</min>
