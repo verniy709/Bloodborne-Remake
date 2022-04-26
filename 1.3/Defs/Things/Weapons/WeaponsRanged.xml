@@ -54,9 +54,8 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>BloodborneRemake_Sound_InteractHeavy</soundInteract>
-		<costStuffCount>1</costStuffCount>
 		<costList>
-			<BloodborneRemake_BloodEchoes>100</BloodborneRemake_BloodEchoes>
+			<BloodborneRemake_BloodEchoes>150</BloodborneRemake_BloodEchoes>
 		</costList>
 		<statBases>
 			<Mass>6</Mass>

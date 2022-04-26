@@ -923,4 +923,45 @@
     <positionRadius>0.1</positionRadius>
   </EffecterDef>
 
+  <!-- HitFlesh-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_HitFlesh</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+        <soundDef>BloodborneRemake_Sound_BloodLight</soundDef>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_FlashRed</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>0.9~1.2</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_BloodStain</fleckDef>
+        <burstCount>5~8</burstCount>
+        <speed>-0.3~-0.4</speed>
+        <scale>0.5~0.8</scale>
+        <rotationRate>-120~120</rotationRate>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(40, 0, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
 </Defs>

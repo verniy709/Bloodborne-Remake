@@ -346,7 +346,7 @@
 		</subSounds>
 	</SoundDef>
 
-<SoundDef>
+	<SoundDef>
 		<defName>BloodborneRemake_Sound_Torch</defName>
 		<context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
@@ -485,9 +485,32 @@
 	</SoundDef>
 
 	<SoundDef>
-		<defName>BloodborneRemake_Sound_BloodLight</defName>
+		<defName>BloodborneRemake_Sound_Stake</defName>
 		<context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_Stake</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_BloodLight</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>5</maxSimultaneous>
 		<subSounds>
 			<li>
 				<grains>

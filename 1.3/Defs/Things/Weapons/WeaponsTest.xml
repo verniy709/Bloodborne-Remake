@@ -1,113 +1,172 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Area attack test tool-->
-
-  <ToolCapacityDef>
-    <defName>BloodborneRemake_Tool_AreaTest</defName>
-    <label>area cut A</label>
-  </ToolCapacityDef>
-
-  <ManeuverDef>
-    <defName>BloodborneRemake_Maneuver_AreaTest</defName>
-    <requiredCapacity>BloodborneRemake_Tool_AreaTest</requiredCapacity>
-    <verb>
-      <verbClass>Bloodborne_Remake.Verb_MeleeAttackDamage_Area</verbClass>
-      <meleeDamageDef>Cut</meleeDamageDef>
-    </verb>
-    <logEntryDef>MeleeAttack</logEntryDef>
-    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
-    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
-    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
-    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
-  </ManeuverDef>
-
-  <!-- Hit effecter test tool-->
-
-  <ToolCapacityDef>
-    <defName>BloodborneRemake_Tool_effecterTest</defName>
-    <label>tool test</label>
-  </ToolCapacityDef>
-
-  <ManeuverDef>
-    <defName>BloodborneRemake_Maneuver_effecterTest</defName>
-    <requiredCapacity>BloodborneRemake_Tool_effecterTest</requiredCapacity>
-    <verb>
-      <verbClass>Verb_MeleeAttackDamage</verbClass>
-      <meleeDamageDef>Cut</meleeDamageDef>
-    </verb>
-    <logEntryDef>MeleeAttack</logEntryDef>
-    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
-    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
-    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
-    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
-  </ManeuverDef>
-
   <!-- Test weapon-->
 
   <ThingDef ParentName="BloodborneRemake_BaseMelee">
     <defName>BloodborneRemake_Test</defName> 
     <label>(a)test</label>
     <description>.</description>
-    <equippedAngleOffset>-15</equippedAngleOffset>
     <graphicData>
-      <texPath>Things/TrickWeapons/AmygdalanArm</texPath>
+      <texPath>Things/TrickWeapons/Chikage_Sheath</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <soundInteract>BloodborneRemake_Sound_TransformQ</soundInteract>
-    <tools>
-      <!-- Normal Attack Blunt-->
-      <li>
-        <label>normal head</label>
-        <capacities>
-          <li>BloodborneRemake_Tool_AreaTest</li>
-        </capacities>
-        <power>18</power>
-        <cooldownTime>1.0</cooldownTime>
+    <soundInteract>BloodborneRemake_Sound_BloodSlash</soundInteract>
+    <statBases>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.75</AccuracyLong>
+      <RangedWeapon_Cooldown>0.20</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="MVCF.Comps.CompProperties_VerbProps">
+        <compClass>MVCF.Comps.Comp_VerbProps</compClass>
+        <ConsiderMelee>true</ConsiderMelee>
+        <verbProps>
+          <li>
+            <label>bloodwave</label>
+            <canBeToggled>true</canBeToggled>
+          </li>
+        </verbProps>
       </li>
-      <!-- Transformation Attack Blunt Heavy -->
+    </comps>
+    <verbs>
       <li>
-        <label>transformed head</label>
+        <label>bloodwave</label>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BloodborneRemake_Bloodwave</defaultProjectile>
+        <warmupTime>0.35</warmupTime>
+        <range>23.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>BloodborneRemake_Sound_BloodSlash</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>normal handle</label>
         <capacities>
           <li>BloodborneRemake_Tool_AreaTest</li>
         </capacities>
-        <power>26</power>
-        <cooldownTime>1.0</cooldownTime>
+        <power>12</power>
+        <cooldownTime>1.1</cooldownTime>
+      </li>
+      <li>
+        <label>normal point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaTest</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.1</cooldownTime>
+      </li>
+      <li>
+        <label>normal edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaTest</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>blood handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaTest</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>BloodborneRemake_Blood</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>blood point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaTest</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.3</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>BloodborneRemake_Blood</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>blood edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaTest</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>1.5</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>BloodborneRemake_Blood</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
       </li>
     </tools>
     <modExtensions>
       <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
-        <range>3</range>
-        <chance>0.99</chance>
-        <effecter_Normal>BloodborneRemake_Effecter_TransformA</effecter_Normal>
+        <range>4</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFlesh</effecter_Normal>
         <effecter_Mechanoid>Damage_HitMechanoid</effecter_Mechanoid>
       </li>
       <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
         <modes>
           <li>
             <labels>
-              <li>normal head</li>
+              <li>RANGE</li>
             </labels>
             <graphicData>
-              <texPath>Things/TrickWeapons/AmygdalanArm</texPath>
+              <texPath>Things/TrickWeapons/Chikage_Sheath</texPath>
               <graphicClass>Graphic_Single</graphicClass>
               <shaderType>CutoutComplex</shaderType>
             </graphicData>
-            <effecter>BloodborneRemake_Effecter_TransformA</effecter>
-            <sound>BloodborneRemake_Sound_TransformQ</sound>
+            <effecter>BloodborneRemake_Effecter_TransformF_Add</effecter>
+            <sound>BloodborneRemake_Sound_BloodExtract</sound>
           </li>
           <li>
             <labels>
-              <li>transformed head</li>
+              <li>normal handle</li>
+              <li>normal point</li>
+              <li>normal edge</li>
             </labels>
             <graphicData>
-              <texPath>Things/TrickWeapons/AmygdalanArm_Transformed</texPath>
+              <texPath>Things/TrickWeapons/Chikage</texPath>
               <graphicClass>Graphic_Single</graphicClass>
               <shaderType>CutoutComplex</shaderType>
             </graphicData>
-            <effecter>BloodborneRemake_Effecter_TransformA</effecter>
-            <sound>BloodborneRemake_Sound_TransformQ</sound>
+            <effecter>BloodborneRemake_Effecter_TransformF_Remove</effecter>
+            <sound>BloodborneRemake_Sound_BloodLight</sound>
+          </li>
+          <li>
+            <labels>
+              <li>blood handle</li>
+              <li>blood point</li>
+              <li>blood edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Chikage_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformF_Add</effecter>
+            <sound>BloodborneRemake_Sound_BloodSlash</sound>
           </li>
         </modes>
       </li>

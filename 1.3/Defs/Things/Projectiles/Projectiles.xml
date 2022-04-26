@@ -30,7 +30,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>true</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>12</damageAmountBase>
       <speed>60</speed>
@@ -48,7 +47,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>true</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>16</damageAmountBase>
       <speed>70</speed>
@@ -66,7 +64,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>true</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>26</damageAmountBase>
       <speed>65</speed>
@@ -84,7 +81,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>true</flyOverhead>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>34</damageAmountBase>
       <speed>55</speed>
@@ -104,7 +100,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>true</flyOverhead>
       <damageDef>RangedStab</damageDef>
       <damageAmountBase>28</damageAmountBase>
       <stoppingPower>2.5</stoppingPower>
@@ -135,7 +130,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>true</flyOverhead>
       <damageDef>BloodborneRemake_ParasiteHit</damageDef>
       <damageAmountBase>1</damageAmountBase>
       <stoppingPower>10.0</stoppingPower>
@@ -143,30 +137,6 @@
       <shadowSize>0.4</shadowSize>
     </projectile>
   </ThingDef>
-
-  <DamageDef>
-    <defName>BloodborneRemake_ParasiteHit</defName>
-    <label>parasite hit</label>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <externalViolence>true</externalViolence>
-    <makesBlood>false</makesBlood>
-    <canInterruptJobs>false</canInterruptJobs>
-    <deathMessage>{0} has been killed by a parasite.</deathMessage>
-    <hediff>Scratch</hediff>
-    <hediffSolid>Crack</hediffSolid>
-    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <impactSoundType>Slice</impactSoundType>
-    <armorCategory>Sharp</armorCategory>
-    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
-    <isRanged>true</isRanged>
-    <makesAnimalsFlee>true</makesAnimalsFlee>
-    <additionalHediffs>
-      <li>
-        <hediff>BloodborneRemake_KosParasite_Infection</hediff>
-        <severityPerDamageDealt>1</severityPerDamageDealt>
-      </li>
-    </additionalHediffs>
-  </DamageDef>
 
   <!-- Bloodborne Flame --> <!-- Need VEF Projectile -->
 
@@ -223,7 +193,7 @@
     <dealsDamageOnce>true</dealsDamageOnce>
     <minDistanceToAffect>3</minDistanceToAffect>
     <projectile>
-      <damageDef>BloodborneRemake_ArcaneMist</damageDef>    
+      <damageDef>BloodborneRemake_Arcane</damageDef>    
       <flyOverhead>false</flyOverhead>
       <damageAmountBase>18</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>    
@@ -254,9 +224,9 @@
     <dealsDamageOnce>true</dealsDamageOnce>
     <minDistanceToAffect>3</minDistanceToAffect>
     <projectile>
-      <damageDef>BloodborneRemake_ArcaneMist</damageDef>    
+      <damageDef>BloodborneRemake_Arcane</damageDef>    
       <flyOverhead>false</flyOverhead>
-      <damageAmountBase>16</damageAmountBase>
+      <damageAmountBase>18</damageAmountBase>
       <stoppingPower>2.5</stoppingPower>    
       <speed>24</speed>
     </projectile>
@@ -285,62 +255,13 @@
     <dealsDamageOnce>true</dealsDamageOnce>
     <minDistanceToAffect>3</minDistanceToAffect>
     <projectile>
-      <damageDef>BloodborneRemake_ArcaneMist</damageDef>    
+      <damageDef>BloodborneRemake_Blood</damageDef>    
       <flyOverhead>false</flyOverhead>
-      <damageAmountBase>16</damageAmountBase>
+      <damageAmountBase>20</damageAmountBase>
       <stoppingPower>2.5</stoppingPower>    
       <speed>28</speed>
     </projectile>
   </VFECore.ExpandableProjectileDef>
-
-  <DamageDef>
-    <defName>BloodborneRemake_ArcaneMist</defName>
-    <label>arcane mist</label>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <externalViolence>true</externalViolence>
-    <makesBlood>false</makesBlood>
-    <canInterruptJobs>false</canInterruptJobs>
-    <deathMessage>{0} has been killed by arcane mist.</deathMessage>
-    <hediff>ChemicalBurn</hediff>
-    <hediffSolid>Crack</hediffSolid>
-    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <impactSoundType>Blunt</impactSoundType>
-    <armorCategory>Blunt</armorCategory>
-    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
-    <isRanged>true</isRanged>
-    <makesAnimalsFlee>true</makesAnimalsFlee>
-  </DamageDef>
-
-  <!-- Bloodborne Chain --> <!-- Need VEF Projectile -->
-
-  <!-- <VFECore.ExpandableProjectileDef ParentName="BaseBullet">
-    <defName>BloodborneRemake_Chain</defName>
-    <label>ToDo</label>
-    <thingClass>VFECore.ExpandableProjectile</thingClass>
-    <graphicData>
-      <texPath>Things/Projectiles/BloodborneRemake_Chain</texPath>
-      <texPathFadeOut>Projectiles/BloodborneRemake_ChainFadeOut</texPathFadeOut>
-      <shaderType>TransparentPostLight</shaderType>
-    </graphicData>
-    <drawOffscreen>true</drawOffscreen>
-    <lifeTimeDuration>100</lifeTimeDuration>
-    <widthScaleFactor>0.85</widthScaleFactor>
-    <heightScaleFactor>1</heightScaleFactor>
-    <startingPositionOffset>(0, 0, -1)</startingPositionOffset>
-    <totalSizeScale>0.75</totalSizeScale>
-    <tickFrameRate>4</tickFrameRate>
-    <finalTickFrameRate>4</finalTickFrameRate>
-    <tickDamageRate>20</tickDamageRate>
-    <dealsDamageOnce>true</dealsDamageOnce>
-    <minDistanceToAffect>3</minDistanceToAffect>
-    <projectile>
-      <damageDef>Scratch</damageDef>    
-      <flyOverhead>false</flyOverhead>
-      <damageAmountBase>15</damageAmountBase>
-      <stoppingPower>1.5</stoppingPower>    
-      <speed>24</speed>
-    </projectile>
-  </VFECore.ExpandableProjectileDef> -->
 
   <!-- Hunter's Nightmare -->
 
@@ -362,76 +283,36 @@
     </projectile>
   </ThingDef>
 
-  <DamageDef ParentName="StunBase">
-    <defName>BloodborneRemake_HuntersNightmareHit</defName>
-    <label>hunter's nightmare</label>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <externalViolence>true</externalViolence>
-    <isExplosive>true</isExplosive>
-    <deathMessage>{0} falls in sleep forever.</deathMessage>
-    <hediff>Shredded</hediff>
-    <hediffSolid>Crack</hediffSolid>
-    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <impactSoundType>Blunt</impactSoundType>
-    <armorCategory>Sharp</armorCategory>
-    <harmsHealth>true</harmsHealth>
-    <defaultDamage>1</defaultDamage>
-    <explosionCellFleck>BloodborneRemake_BlastHuntersNightmare</explosionCellFleck>
-    <explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
-    <explosionInteriorFleck>BloodborneRemake_CenterHuntersNightmare</explosionInteriorFleck>
-    <soundExplosion>BloodborneRemake_Sound_Nightmare</soundExplosion>
-    <additionalHediffs>
-      <li>
-        <hediff>BloodborneRemake_KosParasite_Witness</hediff>
-        <severityPerDamageDealt>1</severityPerDamageDealt>
-      </li>
-    </additionalHediffs>
-  </DamageDef>
+  <!-- Bloodborne Stake --> <!-- Need VEF Projectile -->
 
-  <!-- Mother's Nightmare -->
-
-  <!-- <ThingDef ParentName="BaseBullet">
-    <defName>BloodborneRemake_MothersNightmare</defName>
-    <label>Mother's nightmare</label>
+  <VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+    <defName>BloodborneRemake_Stake</defName>
+    <label>fire</label>
+    <thingClass>VFECore.FlamethrowProjectile</thingClass>
     <graphicData>
-      <texPath>Things/Projectiles/BloodborneRemake_MothersNightmare</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Projectiles/BloodborneRemake_Stake</texPath>
+      <texPathFadeOut>Things/Projectiles/BloodborneRemake_StakeFadeOut</texPathFadeOut>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
+    <drawOffscreen>true</drawOffscreen>
+    <lifeTimeDuration>40</lifeTimeDuration>
+    <widthScaleFactor>0.40</widthScaleFactor>
+    <heightScaleFactor>1</heightScaleFactor>
+    <startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+    <totalSizeScale>1.0</totalSizeScale>
+    <tickFrameRate>3</tickFrameRate>
+    <finalTickFrameRate>3</finalTickFrameRate>
+    <tickDamageRate>10</tickDamageRate>
+    <dealsDamageOnce>false</dealsDamageOnce>
+    <minDistanceToAffect>2</minDistanceToAffect>
     <projectile>
-      <flyOverhead>true</flyOverhead>
-      <damageDef>BloodborneRemake_MothersNightmareHit</damageDef>
-      <explosionRadius>3.9</explosionRadius>
-      <speed>30</speed>
-      <shadowSize>0.4</shadowSize>
+      <damageDef>RangedStab</damageDef>    
+      <flyOverhead>false</flyOverhead>
+      <damageAmountBase>80</damageAmountBase>
+      <stoppingPower>10.0</stoppingPower>    
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <speed>70</speed>
     </projectile>
-  </ThingDef>
-
-  <DamageDef ParentName="StunBase">
-    <defName>BloodborneRemake_MothersNightmareHit</defName>
-    <label>Mother's nightmare</label>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <externalViolence>true</externalViolence>
-    <isExplosive>true</isExplosive>
-    <deathMessage>{0} falls in sleep forever.</deathMessage>
-    <hediff>Shredded</hediff>
-    <hediffSolid>Crack</hediffSolid>
-    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <impactSoundType>Blunt</impactSoundType>
-    <armorCategory>Sharp</armorCategory>
-    <harmsHealth>true</harmsHealth>
-    <defaultDamage>1</defaultDamage>
-    <explosionCellFleck>BloodborneRemake_BlastMothersNightmare</explosionCellFleck>
-    <explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
-    <explosionInteriorFleck>BloodborneRemake_CenterMothersNightmare</explosionInteriorFleck>
-    <soundExplosion>BloodborneRemake_Sound_Ocean</soundExplosion>
-    <additionalHediffs>
-      <li>
-        <hediff>BloodborneRemake_KosParasite_Witness</hediff>
-        <severityPerDamageDealt>1</severityPerDamageDealt>
-      </li>
-    </additionalHediffs>
-  </DamageDef> -->
+  </VFECore.ExpandableProjectileDef>
 
 </Defs>
