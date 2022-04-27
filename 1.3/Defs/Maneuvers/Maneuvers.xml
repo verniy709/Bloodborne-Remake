@@ -2,20 +2,6 @@
 <Defs>
 
   <ManeuverDef>
-    <defName>BloodborneRemake_Maneuver_AreaTest</defName>
-    <requiredCapacity>BloodborneRemake_Tool_AreaTest</requiredCapacity>
-    <verb>
-      <verbClass>Bloodborne_Remake.Verb_MeleeAttackDamage_Area</verbClass>
-      <meleeDamageDef>Cut</meleeDamageDef>
-    </verb>
-    <logEntryDef>MeleeAttack</logEntryDef>
-    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
-    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
-    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
-    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
-  </ManeuverDef>
-
-  <ManeuverDef>
     <defName>BloodborneRemake_Maneuver_AreaSlash</defName>
     <requiredCapacity>BloodborneRemake_Tool_AreaCut</requiredCapacity>
     <verb>

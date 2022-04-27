@@ -54,7 +54,7 @@
         <fleck>BloodborneRemake_Mist</fleck>
         <offsetMin>(-0.5,0,0.2)</offsetMin>
         <offsetMax>(0.5,0,0.5)</offsetMax>
-        <emissionInterval>35</emissionInterval>
+        <emissionInterval>45</emissionInterval>
         <scale>1.0~1.2</scale>
         <rotationRate>-15~15</rotationRate>
         <velocityX>-0.1~0.1</velocityX>
@@ -64,7 +64,7 @@
         <fleck>BloodborneRemake_Smoke</fleck>
         <offsetMin>(-0.5,0,0.4)</offsetMin>
         <offsetMax>(0.5,0,0.8)</offsetMax>
-        <emissionInterval>80</emissionInterval>
+        <emissionInterval>90</emissionInterval>
         <scale>1.5~1.8</scale>
         <rotationRate>-15~15</rotationRate>
         <velocityX>-0.1~0.1</velocityX>

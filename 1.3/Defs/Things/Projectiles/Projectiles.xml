@@ -33,7 +33,6 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>12</damageAmountBase>
       <speed>60</speed>
-      <shadowSize>0.2</shadowSize>
     </projectile>
   </ThingDef>
 
@@ -50,7 +49,6 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>16</damageAmountBase>
       <speed>70</speed>
-      <shadowSize>0.2</shadowSize>
     </projectile>
   </ThingDef>
 
@@ -67,7 +65,6 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>26</damageAmountBase>
       <speed>65</speed>
-      <shadowSize>0.2</shadowSize>
     </projectile>
   </ThingDef>
 
@@ -86,7 +83,6 @@
       <speed>55</speed>
       <stoppingPower>5</stoppingPower>
       <armorPenetrationBase>0.2</armorPenetrationBase>
-      <shadowSize>0.2</shadowSize>
     </projectile>
   </ThingDef>
 
@@ -104,7 +100,6 @@
       <damageAmountBase>28</damageAmountBase>
       <stoppingPower>2.5</stoppingPower>
       <speed>40</speed>
-      <shadowSize>0.4</shadowSize>
     </projectile>
   </ThingDef>
 
@@ -134,7 +129,6 @@
       <damageAmountBase>1</damageAmountBase>
       <stoppingPower>10.0</stoppingPower>
       <speed>25</speed>
-      <shadowSize>0.4</shadowSize>
     </projectile>
   </ThingDef>
 
@@ -279,7 +273,6 @@
       <damageDef>BloodborneRemake_HuntersNightmareHit</damageDef>
       <explosionRadius>3.9</explosionRadius>
       <speed>30</speed>
-      <shadowSize>0.4</shadowSize>
     </projectile>
   </ThingDef>
 
@@ -303,7 +296,7 @@
     <tickFrameRate>3</tickFrameRate>
     <finalTickFrameRate>3</finalTickFrameRate>
     <tickDamageRate>10</tickDamageRate>
-    <dealsDamageOnce>false</dealsDamageOnce>
+    <dealsDamageOnce>true</dealsDamageOnce>
     <minDistanceToAffect>2</minDistanceToAffect>
     <projectile>
       <damageDef>RangedStab</damageDef>    

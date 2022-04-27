@@ -61,7 +61,7 @@
     <label>blood vial</label>
     <description>Special blood used in ministration. Restores HP. Once a patient has had their blood ministered, a unique but common treatment in Yharnam, successive infusions recall the first, and are all the more invigorating for it. No surprise that most Yharnamites are heavy users of blood.</description>
     <costList>
-      <BloodborneRemake_BloodEchoes>5</BloodborneRemake_BloodEchoes>
+      <BloodborneRemake_BloodEchoes>4</BloodborneRemake_BloodEchoes>
     </costList>
     <graphicData>
       <texPath>Things/Items/ApothecaryJars_Blood</texPath>

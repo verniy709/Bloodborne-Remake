@@ -301,6 +301,33 @@
 	</SoundDef>
 
 	<SoundDef>
+		<defName>BloodborneRemake_Sound_BowPull</defName>
+		<sustain>True</sustain>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<sustainLoop>False</sustainLoop>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_InteractBow</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
 		<defName>BloodborneRemake_Sound_Flame</defName>
 		<context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
@@ -510,7 +537,7 @@
 	<SoundDef>
 		<defName>BloodborneRemake_Sound_BloodLight</defName>
 		<context>MapOnly</context>
-		<maxSimultaneous>5</maxSimultaneous>
+		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
 				<grains>
@@ -876,6 +903,29 @@
 	</SoundDef>
 
 	<SoundDef>
+		<defName>BloodborneRemake_Sound_InteractBaseBluntMedium</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_InteractBaseBluntMedium</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
 		<defName>BloodborneRemake_Sound_InteractBaseBluntHeavy</defName>
 		<context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
@@ -1068,6 +1118,33 @@
 				<grains>
 					<li Class="AudioGrain_Clip">
 						<clipPath>BloodborneRemake_Sound_InteractBaseStake</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15</min>
+					<max>15</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BloodborneRemake_Sound_RangeCharge</defName>
+		<sustain>True</sustain>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<priorityMode>PrioritizeNearest</priorityMode>
+		<subSounds>
+			<li>
+				<muteWhenPaused>True</muteWhenPaused>
+				<sustainLoop>False</sustainLoop>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>BloodborneRemake_Sound_RangeCharge</clipPath>
 					</li>
 				</grains>
 				<volumeRange>

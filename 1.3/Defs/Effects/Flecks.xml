@@ -159,7 +159,7 @@
     </graphicData>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <solidTime>0.05</solidTime>
-    <fadeOutTime>0.35</fadeOutTime>
+    <fadeOutTime>0.55</fadeOutTime>
   </FleckDef>
 
   <FleckDef ParentName="FleckBase">
@@ -170,7 +170,7 @@
     </graphicData>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <solidTime>0.05</solidTime>
-    <fadeOutTime>0.35</fadeOutTime>
+    <fadeOutTime>0.55</fadeOutTime>
   </FleckDef>
 
   <FleckDef ParentName="FleckBase">
@@ -182,7 +182,7 @@
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <fadeInTime>0.05</fadeInTime>
     <solidTime>0.2</solidTime>
-    <fadeOutTime>0.65</fadeOutTime>
+    <fadeOutTime>0.75</fadeOutTime>
   </FleckDef>
 
   <FleckDef ParentName="FleckBase">
@@ -194,7 +194,7 @@
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <fadeInTime>0.05</fadeInTime>
     <solidTime>0.2</solidTime>
-    <fadeOutTime>0.65</fadeOutTime>
+    <fadeOutTime>0.75</fadeOutTime>
   </FleckDef>
 
   <FleckDef ParentName="FleckBase_Thrown">
@@ -321,6 +321,18 @@
     <fadeInTime>0.15</fadeInTime>
     <solidTime>0.1</solidTime>
     <fadeOutTime>0.25</fadeOutTime>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase">
+    <defName>BloodborneRemake_BloodCut</defName>
+    <graphicData>
+      <texPath>Effects/BloodborneRemake_BloodCut</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.05</fadeInTime>
+    <solidTime>0.1</solidTime>
+    <fadeOutTime>0.35</fadeOutTime>
   </FleckDef>
 
   <FleckDef ParentName="FleckBase_Thrown">

@@ -2,11 +2,6 @@
 <Defs>
 
   <ToolCapacityDef>
-    <defName>BloodborneRemake_Tool_AreaTest</defName>
-    <label>area cut test</label>
-  </ToolCapacityDef>
-
-  <ToolCapacityDef>
     <defName>BloodborneRemake_Tool_AreaStab</defName>
     <label>area stab</label>
   </ToolCapacityDef>

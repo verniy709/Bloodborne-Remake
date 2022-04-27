@@ -212,7 +212,7 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>-0.25</offset>
+            <offset>-0.15</offset>
           </li>
           <li>
             <capacity>Talking</capacity>
@@ -253,7 +253,7 @@
     <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-24</severityPerDay>
+        <severityPerDay>-6</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
        </li>
     </comps>

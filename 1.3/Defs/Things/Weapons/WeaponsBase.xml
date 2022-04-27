@@ -87,7 +87,7 @@
       <li>Category_BloodborneRemake_Melee</li>
     </thingCategories>
     <equippedAngleOffset>-15</equippedAngleOffset>
-    <costStuffCount>50</costStuffCount>
+    <costStuffCount>1</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>
@@ -100,6 +100,9 @@
       <WorkToMake>200</WorkToMake>
       <Mass>1.0</Mass>
     </statBases>
+    <equippedStatOffsets>
+      <MeleeHitChance>0.25</MeleeHitChance>
+    </equippedStatOffsets>
     <weaponTags>
       <li>UltratechMelee</li>
       <li>BloodborneRemake_Melee</li>
@@ -153,7 +156,7 @@
       <li>Stony</li>
     </stuffCategories>
     <costList>
-      <BloodborneRemake_BloodEchoes>50</BloodborneRemake_BloodEchoes>
+      <BloodborneRemake_BloodEchoes>75</BloodborneRemake_BloodEchoes>
     </costList>
     <statBases>
       <WorkToMake>200</WorkToMake>
