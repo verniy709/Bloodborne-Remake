@@ -795,7 +795,7 @@
     <children>
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
-        <positionRadius>0.2</positionRadius>
+        <positionRadius>0.5</positionRadius>
         <fleckDef>BloodborneRemake_Current</fleckDef>
         <burstCount>2~3</burstCount>
         <speed>-0.4~0.4</speed>
@@ -804,7 +804,7 @@
       </li>
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
-        <positionRadius>0.2</positionRadius>
+        <positionRadius>0.5</positionRadius>
         <fleckDef>BloodborneRemake_Electricity</fleckDef>
         <burstCount>2~3</burstCount>
         <speed>-0.4~0.4</speed>
@@ -1096,14 +1096,14 @@
         <soundDef>BloodborneRemake_Sound_InteractBaseBlunt</soundDef>
         <spawnLocType>OnSource</spawnLocType>
       </li>
-      <li>
+      <!-- <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <fleckDef>BloodborneRemake_Glow</fleckDef>
         <positionLerpFactor>0.6</positionLerpFactor>
         <scale>0.7~0.9</scale>
         <color>(140, 130, 135)</color>
         <spawnLocType>OnSource</spawnLocType>
-      </li>
+      </li> -->
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <fleckDef>BloodborneRemake_AuraWhite</fleckDef>
@@ -1145,14 +1145,14 @@
         <soundDef>BloodborneRemake_Sound_InteractBaseBluntMedium</soundDef>
         <spawnLocType>OnSource</spawnLocType>
       </li>
-      <li>
+      <!-- <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <fleckDef>BloodborneRemake_FlashWhite</fleckDef>
         <positionLerpFactor>0.6</positionLerpFactor>
         <scale>0.9~1.1</scale>
         <color>(140, 130, 135)</color>
         <spawnLocType>OnSource</spawnLocType>
-      </li>
+      </li> -->
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <fleckDef>BloodborneRemake_AuraWhite</fleckDef>
@@ -1194,14 +1194,14 @@
         <soundDef>BloodborneRemake_Sound_InteractBaseBluntHeavy</soundDef>
         <spawnLocType>OnSource</spawnLocType>
       </li>
-      <li>
+      <!-- <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <fleckDef>BloodborneRemake_FlashWhite</fleckDef>
         <positionLerpFactor>0.6</positionLerpFactor>
         <scale>1.2~1.5</scale>
         <color>(140, 130, 135)</color>
         <spawnLocType>OnSource</spawnLocType>
-      </li>
+      </li> -->
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <fleckDef>BloodborneRemake_AuraWhite</fleckDef>

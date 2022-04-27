@@ -372,7 +372,8 @@
           <li>BloodborneRemake_Tool_AreaStab</li>
         </capacities>
         <power>31</power>
-        <cooldownTime>2.2</cooldownTime>
+        <cooldownTime>2.1</cooldownTime>
+        <chanceFactor>1.2</chanceFactor>
         <extraMeleeDamages>
           <li>
             <def>Stun</def>
@@ -386,7 +387,8 @@
           <li>BloodborneRemake_Tool_AreaCut</li>
         </capacities>
         <power>34</power>
-        <cooldownTime>2.4</cooldownTime>
+        <cooldownTime>2.3</cooldownTime>
+        <chanceFactor>1.2</chanceFactor>
         <extraMeleeDamages>
           <li>
             <def>Stun</def>
@@ -684,6 +686,7 @@
         </capacities>
         <power>25</power>
         <cooldownTime>2.0</cooldownTime>
+        <chanceFactor>1.1</chanceFactor>
         <extraMeleeDamages>
           <li>
             <def>BloodborneRemake_Blood</def>
@@ -702,6 +705,7 @@
         </capacities>
         <power>22</power>
         <cooldownTime>1.7</cooldownTime>
+        <chanceFactor>1.1</chanceFactor>
         <extraMeleeDamages>
           <li>
             <def>BloodborneRemake_Blood</def>
@@ -806,6 +810,7 @@
         </capacities>
         <power>28</power>
         <cooldownTime>2.3</cooldownTime>
+        <chanceFactor>1.2</chanceFactor>
         <extraMeleeDamages>
           <li>
             <def>Stun</def>
@@ -922,6 +927,7 @@
         </capacities>
         <power>24</power>
         <cooldownTime>1.8</cooldownTime>
+        <chanceFactor>2.0</chanceFactor>
         <extraMeleeDamages>
           <li>
             <def>Stun</def>
@@ -936,6 +942,7 @@
         </capacities>
         <power>29</power>
         <cooldownTime>1.9</cooldownTime>
+        <chanceFactor>1.2</chanceFactor>
         <extraMeleeDamages>
           <li>
             <def>Stun</def>
@@ -3067,6 +3074,7 @@
         </capacities>
         <power>15</power>
         <cooldownTime>1.0</cooldownTime>
+        <chanceFactor>2.0</chanceFactor>
         <extraMeleeDamages>
           <li>
             <def>Stun</def>
@@ -3238,7 +3246,7 @@
         <capacities>
           <li>BloodborneRemake_Tool_AreaBlunt</li>
         </capacities>
-        <power>16</power>
+        <power>17</power>
         <cooldownTime>1.2</cooldownTime>
         <extraMeleeDamages>
           <li>
@@ -3268,7 +3276,8 @@
           <li>BloodborneRemake_Tool_AreaCut</li>
         </capacities>
         <power>28</power>
-        <cooldownTime>2.2</cooldownTime>
+        <cooldownTime>2.0</cooldownTime>
+        <chanceFactor>3.0</chanceFactor>
         <extraMeleeDamages>
           <li>
             <def>Stun</def>
