@@ -104,7 +104,7 @@
       <MeleeHitChance>0.25</MeleeHitChance>
     </equippedStatOffsets>
     <weaponTags>
-      <li>UltratechMelee</li>
+      <!-- <li>UltratechMelee</li> -->
       <li>BloodborneRemake_Melee</li>
     </weaponTags>
     <recipeMaker>

@@ -55,29 +55,6 @@
     </stages>
   </HediffDef>
 
-<!-- <HediffDef>
-    <hediffClass>HediffWithComps</hediffClass>
-    <defName>BloodborneRemake_KosParasite_Rage</defName>
-    <label>Kos Parasite rage</label>
-    <labelNoun>KosParasite rage</labelNoun>
-    <description>Hit by Kos Parasite (rage).</description>
-    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
-    <initialSeverity>1</initialSeverity>
-    <isBad>true</isBad>
-    <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-3</severityPerDay>
-        <showHoursToRecover>true</showHoursToRecover>
-       </li>
-      <li Class="HediffCompProperties_CauseMentalState">
-        <animalMentalState>Manhunter</animalMentalState>
-        <humanMentalState>Berserk</humanMentalState>
-        <letterDef>KosParasite_Rage_Letter</letterDef>
-        <mtbDaysToCauseMentalState>0.01</mtbDaysToCauseMentalState>
-      </li>
-    </comps>
-  </HediffDef> -->
-
   <HediffDef>
     <defName>BloodborneRemake_ArcanePoisonBuildup</defName>
     <label>BloodborneRemake arcane poison buildup</label>
@@ -247,8 +224,8 @@
     <hediffClass>HediffWithComps</hediffClass>
     <defName>BloodborneRemake_BloodHealing</defName>
     <label>BloodborneRemake blood healing</label>
-    <labelNoun>BloodborneRemake invisibility</labelNoun>
-    <description>Effect of blue elixir.</description>
+    <labelNoun>BloodborneRemake blood healing</labelNoun>
+    <description>Effect of blood vial.</description>
     <initialSeverity>1</initialSeverity>
     <isBad>false</isBad>
     <comps>
@@ -269,7 +246,7 @@
     <defName>BloodborneRemake_Invisibility</defName>
     <label>BloodborneRemake invisibility</label>
     <labelNoun>BloodborneRemake invisibility</labelNoun>
-    <description>ToDo.</description>
+    <description>Effect of blue elixir.</description>
     <initialSeverity>1</initialSeverity>
     <isBad>false</isBad>
     <comps>

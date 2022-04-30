@@ -161,7 +161,7 @@
 	<ThingDef ParentName="BloodborneRemake_BaseFirearm">
 		<defName>BloodborneRemake_GatlingGun</defName> 
 		<label>(BBRe)Gatling Gun</label>
-		<description>Special pistol used by Cainhurst knights. The GatlingGun uses Quicksilver Bullets, just as any workshop firearm, but the Cainhurst variant relies more on bloodtinge. Lovingly named after a woman and graced with an intricate design, GatlingGuns were adored by Cainhurst knights.</description>
+		<description>This is a highly-customised, portable version of the stationary gatling gun operated by the old hunter Djura in Old Yharnam. It was the weapon of choice of the youngest of Djura's three companions. The Gatling Gun boasts exceptional rapid-firing functionality, but is considered a cumbersome weapon, due to its excessive weight and insatiable consumption of Quicksilver Bullets.</description>
 		<graphicData>
 			<texPath>Things/Firearms/GatlingGun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

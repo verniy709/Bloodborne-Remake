@@ -1296,7 +1296,7 @@
   <!-- FistofGratia-->
 
   <ThingDef ParentName="BloodborneRemake_BaseMelee">
-    <defName>FistofGratia</defName>
+    <defName>BloodborneRemake_FistofGratia</defName>
     <label>(BBRe)Fist of Gratia</label>
     <description>A chunk of iron fitted with finger holes The hulking hunter woman Simple Gratia, ever hopeless when handling hunter firearms, preferred to knock the lights out of beasts with this hunk of iron, which incidentally caused heavy stagger. Gratia was a fearsome hunter, and to onlookers, her unrelenting pummelling appeared oddly heroic. No wonder this weapon later assumed her name.</description>
     <graphicData>
@@ -1327,6 +1327,30 @@
       <MeleeDodgeChance>0.40</MeleeDodgeChance>
       <MeleeHitChance>0.10</MeleeHitChance>
     </equippedStatOffsets>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>3</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshLight</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelLight</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>head</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/FistofGratia</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseGlove</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- HolyMoonlightSword-->
@@ -1768,7 +1792,7 @@
     </graphicData>
     <soundInteract>BloodborneRemake_Sound_InteractBaseTentacle</soundInteract>
     <costList>
-      <BloodborneRemake_BloodEchoes>300</BloodborneRemake_BloodEchoes>
+      <BloodborneRemake_BloodEchoes>200</BloodborneRemake_BloodEchoes>
     </costList>
     <statBases>
       <Mass>1.0</Mass>
