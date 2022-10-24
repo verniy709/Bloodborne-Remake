@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ToolCapacityDef>
+    <defName>BloodborneRemake_Tool_AreaStab</defName>
+    <label>area stab</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>BloodborneRemake_Tool_AreaCut</defName>
+    <label>area cut</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>BloodborneRemake_Tool_AreaBlunt</defName>
+    <label>area blunt</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>BloodborneRemake_Tool_AreaScratch</defName>
+    <label>area scratch</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>BloodborneRemake_Tool_AreaPoke</defName>
+    <label>area poke</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>BloodborneRemake_Tool_AreaBite</defName>
+    <label>area bite</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>BloodborneRemake_Tool_AreaToxicBite</defName>
+    <label>area toxic bite</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>BloodborneRemake_Tool_AreaScratchToxic</defName>
+    <label>area toxic scratch</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>BloodborneRemake_Tool_AreaDemolish</defName>
+    <label>area demolish</label>
+  </ToolCapacityDef>
+
+</Defs>

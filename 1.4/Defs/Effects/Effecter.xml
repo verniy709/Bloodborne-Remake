@@ -1,0 +1,1246 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- AmygdalanArm-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformA</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_FlashWhite</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.8</scale>
+        <color>(140, 130, 135)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_AuraWhite</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.5~2.0</scale>
+        <color>(140, 130, 135)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>1.0~1.5</scale>
+        <color>(40, 30, 35)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_SparkWhite</fleckDef>
+        <burstCount>3~5</burstCount>
+        <speed>0.3~0.4</speed>
+        <scale>0.4~0.7</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- BeastClaw-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformB</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Beasthood</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>-0.4~0.4</speed>
+        <scale>0.6~0.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(140, 135, 125)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_FogLine</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>-0.4~0.4</speed>
+        <scale>0.6~0.8</scale>
+        <color>(140, 135, 125)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>1.0~1.5</scale>
+        <color>(40, 30, 35)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_SparkDark</fleckDef>
+        <burstCount>3~5</burstCount>
+        <speed>-0.3~-0.4</speed>
+        <scale>0.5~0.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(40, 30, 35)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- BeasthunterSaif--><!-- BurialBlade--><!-- ChurchPick--><!-- HunterAxe--><!-- Reiterpallasch--><!-- RifleSpear--><!-- SawCleaver--><!-- SawSpear-->
+  <!-- StakeDriver--><!-- ThreadedCane-->
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformC</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_FlashYellow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_AuraYellow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.5~2.0</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>1.0~1.5</scale>
+        <color>(40, 30, 35)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_SparkYellow</fleckDef>
+        <burstCount>3~5</burstCount>
+        <speed>0.3~0.4</speed>
+        <scale>0.2~0.5</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>YellowSparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- BeastCutter-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformD</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_FlashYellow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_AuraYellow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.5~2.0</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_FlameDark</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.2~0.4</speed>
+        <scale>0.6~0.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.7~1.0</scale>
+        <color>(60, 60, 60)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_SparkYellow</fleckDef>
+        <burstCount>3~5</burstCount>
+        <speed>0.3~0.4</speed>
+        <scale>0.2~0.5</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>YellowSparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- BladeofMercy--><!-- Kirkhammer--><!-- LudwigsHolyBlade-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformE</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_FlashWhite</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.8</scale>
+        <color>(140, 130, 135)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_AuraWhite</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.5~2.0</scale>
+        <color>(140, 130, 135)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_SparkWhite</fleckDef>
+        <burstCount>3~5</burstCount>
+        <speed>0.3~0.4</speed>
+        <scale>0.4~0.7</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- Bloodletter-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformF</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_FlashRed</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_CrackBlood</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.0~1.6</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_BloodStain</fleckDef>
+        <burstCount>5~8</burstCount>
+        <speed>-0.3~-0.4</speed>
+        <scale>0.5~0.8</scale>
+        <rotationRate>-120~120</rotationRate>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.5</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(40, 0, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(40, 0, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- BoomHammer-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformG</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_FlashYellow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_AuraYellow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.5~2.0</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Flame</fleckDef>
+        <burstCount>3~5</burstCount>
+        <speed>0.2~0.4</speed>
+        <scale>0.9~1.4</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.7~1.0</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_SparkYellow</fleckDef>
+        <burstCount>3~5</burstCount>
+        <speed>0.3~0.4</speed>
+        <scale>0.2~0.5</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>YellowSparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- Chikage-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformF_Add</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_BloodGlow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_CrackBlood</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.0~1.6</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_BloodStain</fleckDef>
+        <burstCount>5~8</burstCount>
+        <speed>-0.3~-0.4</speed>
+        <scale>0.5~0.8</scale>
+        <rotationRate>-120~120</rotationRate>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.5</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(40, 0, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(40, 0, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformF_Remove</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_BloodSplash</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_CrackBlood</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.0~1.6</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_BloodStain</fleckDef>
+        <burstCount>5~8</burstCount>
+        <speed>-0.3~-0.4</speed>
+        <scale>0.5~0.8</scale>
+        <rotationRate>-120~120</rotationRate>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.5</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(40, 0, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(40, 0, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- HolyMoonlightSword-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformI</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_FlashGreen</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.0~1.3</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_Moonlight</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.6</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_MoonlightMoteGlow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.8~2.0</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.4</positionRadius>
+        <fleckDef>BloodborneRemake_SparkGreen</fleckDef>
+        <burstCount>5~7</burstCount>
+        <speed>0.3~0.4</speed>
+        <scale>0.2~0.5</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(120, 220, 190)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- KosParasite-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformJ</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_Arcane</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.6</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_ArcaneMoteGlow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.8~2.0</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_FogLine</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>-0.4~0.4</speed>
+        <scale>0.6~0.8</scale>
+        <color>(100, 90, 110)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(100, 90, 110)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>1.0~1.5</scale>
+        <color>(40, 30, 35)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_SparkDark</fleckDef>
+        <burstCount>3~5</burstCount>
+        <speed>-0.3~-0.4</speed>
+        <scale>0.5~0.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(100, 90, 110)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- LogariusWheel-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformK</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_FogLine</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>-0.4~0.4</speed>
+        <scale>0.6~0.8</scale>
+        <color>(40, 0, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.5</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>5~7</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(40, 0, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.4</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>1.2~1.8</scale>
+        <color>(40, 30, 35)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.4</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>1.2~1.8</scale>
+        <color>(10, 5, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.4</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>1.2~1.8</scale>
+        <color>(100, 80, 85)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+<!-- Rakuyo-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformL</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_BloodGlow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_AuraWhite</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.5~2.0</scale>
+        <color>(210, 130, 130)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(210, 130, 130)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_SparkWhite</fleckDef>
+        <burstCount>3~5</burstCount>
+        <speed>0.3~0.4</speed>
+        <scale>0.4~0.7</scale>
+        <color>(210, 130, 130)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(210, 130, 130)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+<!-- Tonitrus-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformM</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.5</positionRadius>
+        <fleckDef>BloodborneRemake_Current</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>-0.4~0.4</speed>
+        <scale>0.8~1.0</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.5</positionRadius>
+        <fleckDef>BloodborneRemake_Electricity</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>-0.4~0.4</speed>
+        <scale>0.2~0.4</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>1.0~1.5</scale>
+        <color>(40, 30, 35)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(60, 70, 100)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+<!-- WhirligigSaw-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformN</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_FlashYellow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.8</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_AuraYellow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.5~2.0</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>1.0~1.5</scale>
+        <color>(40, 30, 35)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_SparkYellow</fleckDef>
+        <burstCount>3~5</burstCount>
+        <speed>0.3~0.4</speed>
+        <scale>0.2~0.5</scale>
+        <chancePerTick>0.4</chancePerTick>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>YellowSparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <chancePerTick>0.4</chancePerTick>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+<!-- Dagger--><!-- Arrow-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_TransformO</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_Glow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.8</scale>
+        <color>(140, 130, 135)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_AuraWhite</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.5~2.0</scale>
+        <color>(140, 130, 135)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.4</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>1.2~1.8</scale>
+        <color>(40, 30, 35)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~5</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- HitFleshSmall-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_HitFleshLight</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+        <soundDef>BloodborneRemake_Sound_BloodLight</soundDef>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_BloodCut</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>0.9~1.2</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_BloodStain</fleckDef>
+        <burstCount>3~5</burstCount>
+        <speed>-0.3~-0.4</speed>
+        <scale>0.5~0.8</scale>
+        <rotationRate>-120~120</rotationRate>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~6</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(40, 0, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- HitFleshMedium-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_HitFleshMedium</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+        <soundDef>BloodborneRemake_Sound_BloodMedium</soundDef>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_FlashRed</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>0.9~1.2</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_BloodStain</fleckDef>
+        <burstCount>5~8</burstCount>
+        <speed>-0.3~-0.4</speed>
+        <scale>0.5~0.8</scale>
+        <rotationRate>-120~120</rotationRate>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~6</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(40, 0, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- HitFleshHeavy-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_HitFleshHeavy</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+        <soundDef>BloodborneRemake_Sound_BloodHeavy</soundDef>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_FlashRed</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.1~1.5</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_BloodStain</fleckDef>
+        <burstCount>6~9</burstCount>
+        <speed>-0.3~-0.4</speed>
+        <scale>0.5~0.8</scale>
+        <rotationRate>-120~120</rotationRate>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.5</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>0.6~0.9</scale>
+        <color>(40, 0, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>4~6</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(40, 0, 5)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- HitSteelSmall-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_HitSteelLight</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+        <soundDef>BloodborneRemake_Sound_InteractBaseBlunt</soundDef>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <!-- <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_Glow</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>0.7~0.9</scale>
+        <color>(140, 130, 135)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li> -->
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_AuraWhite</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.0~1.2</scale>
+        <color>(140, 130, 135)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_SparkWhite</fleckDef>
+        <burstCount>1~2</burstCount>
+        <speed>0.3~0.4</speed>
+        <scale>0.4~0.7</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>3~4</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- HitSteelMedium-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_HitSteelMedium</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+        <soundDef>BloodborneRemake_Sound_InteractBaseBluntMedium</soundDef>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <!-- <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_FlashWhite</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>0.9~1.1</scale>
+        <color>(140, 130, 135)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li> -->
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_AuraWhite</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.3~1.5</scale>
+        <color>(140, 130, 135)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_SparkWhite</fleckDef>
+        <burstCount>3~4</burstCount>
+        <speed>0.3~0.4</speed>
+        <scale>0.4~0.7</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>3~4</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <!-- HitSteelHeavy-->
+
+  <EffecterDef>
+    <defName>BloodborneRemake_Effecter_HitSteelHeavy</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+        <soundDef>BloodborneRemake_Sound_InteractBaseBluntHeavy</soundDef>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <!-- <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_FlashWhite</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.2~1.5</scale>
+        <color>(140, 130, 135)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li> -->
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>BloodborneRemake_AuraWhite</fleckDef>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <scale>1.5~1.8</scale>
+        <color>(140, 130, 135)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.4</positionRadius>
+        <fleckDef>BloodborneRemake_Fog</fleckDef>
+        <burstCount>2~3</burstCount>
+        <speed>0.4~0.8</speed>
+        <scale>1.2~1.8</scale>
+        <color>(140, 130, 135)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>BloodborneRemake_SparkWhite</fleckDef>
+        <burstCount>5~7</burstCount>
+        <speed>0.3~0.4</speed>
+        <scale>0.4~0.7</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <fleckDef>SparkFlash</fleckDef>
+        <burstCount>5~7</burstCount>
+        <speed>3.3~5</speed>
+        <scale>2.5~4.5</scale>
+        <color>(180, 170, 175)</color>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+</Defs>

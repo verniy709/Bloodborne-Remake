@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+      <!-- Compatibility Defs for Weapon Racks -->
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_AmygdalanArm</defName>
+    <thingDef>BloodborneRemake_AmygdalanArm</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_BeasthunterSaif</defName>
+    <thingDef>BloodborneRemake_BeasthunterSaif</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_BeastCutter</defName>
+    <thingDef>BloodborneRemake_BeastCutter</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_BladeofMercy</defName>
+    <thingDef>BloodborneRemake_BladeofMercy</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_Bloodletter</defName>
+    <thingDef>BloodborneRemake_Bloodletter</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_BoomHammer</defName>
+    <thingDef>BloodborneRemake_BoomHammer</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_BurialBlade</defName>
+    <thingDef>BloodborneRemake_BurialBlade</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_Chikage</defName>
+    <thingDef>BloodborneRemake_Chikage</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_ChurchPick</defName>
+    <thingDef>BloodborneRemake_ChurchPick</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_HolyMoonlightSword</defName>
+    <thingDef>BloodborneRemake_HolyMoonlightSword</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_HunterAxe</defName>
+    <thingDef>BloodborneRemake_HunterAxe</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_Kirkhammer</defName>
+    <thingDef>BloodborneRemake_Kirkhammer</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_LogariusWheel</defName>
+    <thingDef>BloodborneRemake_LogariusWheel</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_LudwigsHolyBlade</defName>
+    <thingDef>BloodborneRemake_LudwigsHolyBlade</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_Rakuyo</defName>
+    <thingDef>BloodborneRemake_Rakuyo</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_Reiterpallasch</defName>
+    <thingDef>BloodborneRemake_Reiterpallasch</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_RifleSpear</defName>
+    <thingDef>BloodborneRemake_RifleSpear</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_SawCleaver</defName>
+    <thingDef>BloodborneRemake_SawCleaver</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_SawSpear</defName>
+    <thingDef>BloodborneRemake_SawSpear</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_SimonsBowblade</defName>
+    <thingDef>BloodborneRemake_SimonsBowblade</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_ThreadedCane</defName>
+    <thingDef>BloodborneRemake_ThreadedCane</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_Tonitrus</defName>
+    <thingDef>BloodborneRemake_Tonitrus</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_WhirligigSaw</defName>
+    <thingDef>BloodborneRemake_WhirligigSaw</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_Cannon</defName>
+    <thingDef>BloodborneRemake_Cannon</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_ChurchCannon</defName>
+    <thingDef>BloodborneRemake_ChurchCannon</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_Evelyn</defName>
+    <thingDef>BloodborneRemake_Evelyn</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_Flamesprayer</defName>
+    <thingDef>BloodborneRemake_Flamesprayer</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_GatlingGun</defName>
+    <thingDef>BloodborneRemake_GatlingGun</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_HunterBlunderbuss</defName>
+    <thingDef>BloodborneRemake_HunterBlunderbuss</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_HunterPistol</defName>
+    <thingDef>BloodborneRemake_HunterPistol</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_LudwigsRifle</defName>
+    <thingDef>BloodborneRemake_LudwigsRifle</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_PiercingRifle</defName>
+    <thingDef>BloodborneRemake_PiercingRifle</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_RepeatingPistol</defName>
+    <thingDef>BloodborneRemake_RepeatingPistol</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+  <WeaponRacks.WeaponAdjustmentDef MayRequire="Aelanna.WeaponRacks">
+    <defName>BloodborneRemake_Rosmarinus</defName>
+    <thingDef>BloodborneRemake_Rosmarinus</thingDef>
+    <sizeFactor>0.8</sizeFactor>
+    <horizontalOffset>0.0</horizontalOffset>
+    <verticalOffset>0.0</verticalOffset>
+    <rotationHorizontal>45</rotationHorizontal>
+    <rotationVertical>-135</rotationVertical>
+  </WeaponRacks.WeaponAdjustmentDef>
+
+</Defs>
