@@ -34,6 +34,7 @@ namespace Bloodborne_Remake
 			}
 			Func<ManeuverDef, RulePackDef> func_MeleeCombat = (ManeuverDef maneuver) => maneuver.combatLogRulesHit;
 			MethodInfo method_GetNonMissChance = typeof(Verb_MeleeAttack).GetMethod("GetNonMissChance", BindingFlags.Instance | BindingFlags.NonPublic);
+			MethodInfo method_GetDodgeChance = typeof(Verb_MeleeAttack).GetMethod("GetDodgeChance", BindingFlags.Instance | BindingFlags.NonPublic);
 			MethodInfo method_SoundHitPawn = typeof(Verb_MeleeAttack).GetMethod("SoundHitPawn", BindingFlags.Instance | BindingFlags.NonPublic);
 			MethodInfo method_SoundDodge = typeof(Verb_MeleeAttack).GetMethod("SoundDodge", BindingFlags.Instance | BindingFlags.NonPublic);
 			MethodInfo method_SoundMiss = typeof(Verb_MeleeAttack).GetMethod("SoundMiss", BindingFlags.Instance | BindingFlags.NonPublic);
@@ -52,7 +53,7 @@ namespace Bloodborne_Remake
 					LocalTargetInfo localTarget = target;
 					if (Rand.Chance((float)method_GetNonMissChance.Invoke(this, new object[] { localTarget })))
 					{
-						if (!Rand.Chance((float)method_GetNonMissChance.Invoke(this, new object[] { localTarget })))
+						if (!Rand.Chance((float)method_GetDodgeChance.Invoke(this, new object[] { localTarget })))
 						{
 							result = true;
 							soundDef = method_SoundHitPawn.Invoke(this, new object[] { }) as SoundDef;

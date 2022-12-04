@@ -95,3 +95,16 @@ G:\Studio\RWdll库\Bloodborne_Remake\Bloodborne_Remake\obj\Debug\Bloodborne_Rema
 G:\Studio\RWdll库\Bloodborne_Remake\Bloodborne_Remake\obj\Debug\Bloodborne_Remake.dll
 G:\Studio\RWdll库\Bloodborne_Remake\Bloodborne_Remake\obj\Debug\Bloodborne_Remake.pdb
 G:\Studio\RWdll库\Bloodborne_Remake\Bloodborne_Remake\bin\Debug\Assembly-CSharp.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bloodborne-Remake\1.4\Source\Bloodborne_Remake\bin\Debug\Bloodborne_Remake.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bloodborne-Remake\1.4\Source\Bloodborne_Remake\bin\Debug\Bloodborne_Remake.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bloodborne-Remake\1.4\Source\Bloodborne_Remake\bin\Debug\0Harmony.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bloodborne-Remake\1.4\Source\Bloodborne_Remake\obj\Debug\Bloodborne_Remake.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bloodborne-Remake\1.4\Source\Bloodborne_Remake\obj\Debug\Bloodborne_Remake.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bloodborne-Remake\1.4\Source\Bloodborne_Remake\obj\Debug\Bloodborne_Remake.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bloodborne-Remake\1.4\Source\Bloodborne_Remake\obj\Debug\Bloodborne_Remake.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bloodborne-Remake\1.4\Assemblies\Bloodborne_Remake.dll
+D:\Github_Repository\Bloodborne-Remake\1.4\Assemblies\Bloodborne_Remake.dll
+D:\Github_Repository\Bloodborne-Remake\1.4\Source\Bloodborne_Remake\obj\Debug\Bloodborne_Remake.csproj.AssemblyReference.cache
+D:\Github_Repository\Bloodborne-Remake\1.4\Source\Bloodborne_Remake\obj\Debug\Bloodborne_Remake.csproj.CoreCompileInputs.cache
+D:\Github_Repository\Bloodborne-Remake\1.4\Source\Bloodborne_Remake\obj\Debug\Bloodborne_Remake.csproj.CopyComplete
+D:\Github_Repository\Bloodborne-Remake\1.4\Source\Bloodborne_Remake\obj\Debug\Bloodborne_Remake.dll
