@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="BloodborneRemake_DrugsBase" ParentName="MakeableDrugPillBase" Abstract="True">
+    <techLevel>Medieval</techLevel>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>20</WorkToMake>
+      <Mass>0.005</Mass>
+      <Flammability>0.25</Flammability>
+    </statBases>
+    <ingestible>
+      <baseIngestTicks>150</baseIngestTicks>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>BloodborneRemake_Bench</li>
+      </recipeUsers>
+      <unfinishedThingDef>BloodborneRemake_Unfinished</unfinishedThingDef>
+      <soundWorking>BloodborneRemake_Sound_BloodExtract</soundWorking>
+    </recipeMaker>
+    <costList>
+      <BloodborneRemake_BloodEchoes>8</BloodborneRemake_BloodEchoes>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1200</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+
+  </ThingDef> 
+
+  <ThingDef ParentName="BloodborneRemake_DrugsBase">
+    <defName>BloodborneRemake_BeastBloodPellet</defName>
+    <label>beast blood pellet</label>
+    <description>Large medicinal pellets, supposedly formed of coagulated beast blood. Banned by the Healing Church due to their unclear origin. Grants a spurt of beasthood. Ripping apart the flesh of one's enemies and being rained up by their splattering blood invigorates one's sense of beasthood, feeding strength and euphoric feeling alike.</description>
+    <graphicData>
+      <texPath>Things/Items/ApothecaryJars_BeastBloodPellet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <ingestSound>BloodborneRemake_Sound_BeastBloodPellet</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BloodborneRemake_BeastBlood</hediffDef>
+          <severity>1.0</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BloodborneRemake_ArcanePoisonBuildup</hediffDef>
+          <severity>0.1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="BloodborneRemake_DrugsBase">
+    <defName>BloodborneRemake_BloodVial</defName>
+    <label>blood vial</label>
+    <description>Special blood used in ministration. Restores HP. Once a patient has had their blood ministered, a unique but common treatment in Yharnam, successive infusions recall the first, and are all the more invigorating for it. No surprise that most Yharnamites are heavy users of blood.</description>
+    <costList>
+      <BloodborneRemake_BloodEchoes>4</BloodborneRemake_BloodEchoes>
+    </costList>
+    <graphicData>
+      <texPath>Things/Items/ApothecaryJars_Blood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <ingestSound>BloodborneRemake_Sound_BloodVial</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BloodborneRemake_BloodHealing</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="BloodborneRemake_DrugsBase">
+    <defName>BloodborneRemake_BlueElixir</defName>
+    <label>blue elixir</label>
+    <description>Dubious liquid medicine used in strange experiments conducted by high ministers of the Healing Church. A type of anesthetic that numbs the brain. Hunters, able to retain consciousness by force of will, make use of a secondary effect of the medicine, which dilutes their presence while standing still.</description>
+    <graphicData>
+      <texPath>Things/Items/ApothecaryJars_BlueElixir</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <ingestSound>BloodborneRemake_Sound_BlueElixir</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BloodborneRemake_Invisibility</hediffDef>
+          <severity>1.0</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BloodborneRemake_ArcanePoisonBuildup</hediffDef>
+          <severity>0.1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="BloodborneRemake_DrugsBase">
+    <defName>BloodborneRemake_BoneMarrowAsh</defName>
+    <label>bone marrow ash</label>
+    <description>Additional medium that strengthens Quicksilver Bullets. According to the workshop, this is a special bone marrow ash collected from Hemwick Charnel Lane. Invaluable to hunters with weak bloodtinge who require the use of stronger firearms.</description>
+    <graphicData>
+      <texPath>Things/Items/ApothecaryJars_BoneMarrowAsh</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <ingestSound>BloodborneRemake_Sound_BoneMarrowAsh</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BloodborneRemake_BoneAsh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BloodborneRemake_ArcanePoisonBuildup</hediffDef>
+          <severity>0.1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="BloodborneRemake_DrugsBase">
+    <defName>BloodborneRemake_BrainFluid</defName>
+    <label>brain fluid</label>
+    <description>Brain fluid of a madman touched by the wisdom of the Great Ones. Use to gain Insight. Making contact with eldritch wisdom is a blessing, for even if it drives one mad, it allows one to serve a grander purpose, for posterity.</description>
+    <graphicData>
+      <texPath>Things/Items/ApothecaryJars_BrainFluid</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <ingestSound>BloodborneRemake_Sound_BrainFluid</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BloodborneRemake_Enlightened</hediffDef>
+          <severity>1.0</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BloodborneRemake_ArcanePoisonBuildup</hediffDef>
+          <severity>0.1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="BloodborneRemake_DrugsBase">
+    <defName>BloodborneRemake_LeadElixir</defName>
+    <label>lead elixir</label>
+    <description>A heavy, syrupy liquid medicine. Temporarily shifts weight to make deflection of attacks easier, but must be used with care, as it also slows movement with no change to defense. Its recipe for this mysterious concoction is unknown, but some postulate that it materializes only within the most desperate nightmares.</description>
+    <graphicData>
+      <texPath>Things/Items/ApothecaryJars_LeadElixir</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <ingestSound>BloodborneRemake_Sound_LeadElixi</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BloodborneRemake_LeadPoisoning</hediffDef>
+          <severity>1.0</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BloodborneRemake_ArcanePoisonBuildup</hediffDef>
+          <severity>0.1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  
+</Defs>

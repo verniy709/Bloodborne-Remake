@@ -1,0 +1,3365 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- AmygdalanArm-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_AmygdalanArm</defName> 
+    <label>(BBRe)Amygdalan Arm</label>
+    <description>The arm of a small Amygdala Great One. Strictly speaking, the Amygdalan Arm is no trick weapon of any sort, but certain madmen wield them like clubs. Starts as a large, tough blunt weapon formed of bone, but when extended, the hand quivers as if it were still alive.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/AmygdalanArm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformQ</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.2</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>heavy head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+          <li>BloodborneRemake_Tool_AreaDemolish</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>2.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>2.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>5</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshHeavy</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelHeavy</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light head</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/AmygdalanArm</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformA</effecter>
+            <sound>BloodborneRemake_Sound_TransformQ</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy head</li>
+              <li>heavy edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/AmygdalanArm_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformA</effecter>
+            <sound>BloodborneRemake_Sound_TransformQ</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+    <!-- <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+    <angleAdjustmentNorth>-47</angleAdjustmentNorth>
+    <angleAdjustmentSouth>-85</angleAdjustmentSouth>
+        <angleAdjustmentWest>45</angleAdjustmentWest>
+        <angleAdjustmentEast>-45</angleAdjustmentEast>
+        <northOffset>(-0.25,0,0.0)</northOffset>
+        <eastOffset>(0.15,-0.03,0.0)</eastOffset>
+        <westOffset>(-0.15,0,0.0)</westOffset>
+        <southOffset>(-0.20,0,0.4)</southOffset>
+      </li>
+    </comps> -->
+  </ThingDef>
+
+  <!-- BeastClaw-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_BeastClaw</defName> 
+    <label>(BBRe)Beast Claw</label>
+    <description>Beastly weapon wielded by Irreverent Izzy. Crafted by chiseling the long bones of an undead darkbeast and fastening them to the weapon. The bones are still alive, and when unleashed, grant its wielder a spurt of beastly power. As flesh is flayed and blood is sprayed, the beast within awakens, and in time, the wielder of this weapon surges with both strength and feverish reverie.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/BeastClaw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_InteractBaseGlove</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>baghnakh point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>baghnakh edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>claw nail</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaScratch</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>0.7</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>BloodborneRemake_Blood</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>3</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshLight</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelLight</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>baghnakh point</li>
+              <li>baghnakh edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/BeastClaw</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformB</effecter>
+            <sound>BloodborneRemake_Sound_BeastLow</sound>
+          </li>
+          <li>
+            <labels>
+              <li>claw nail</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/BeastClaw_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformB</effecter>
+            <sound>BloodborneRemake_Sound_BeastHigh</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- BeasthunterSaif-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_BeasthunterSaif</defName> 
+    <label>(BBRe)Beasthunter Saif</label>
+    <description>A trick weapon used by the old hunters. A second blade is found inside the curve of the main one. In its initial form, the saif can be wielded like a long curved sword, but when transformed, its blade is contracted, allowing for quick, repeated stabs. Although this trick weapon allows for adaptive combat, it was later replaced by saws and similar weapons that were more effective at disposing of beasts.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/BeasthunterSaif</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformJ</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.2</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack -->
+      <li>
+        <label>heavy point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>1.8</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>1.9</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>4</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshMedium</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelMedium</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light edge</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/BeasthunterSaif</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformJ</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy point</li>
+              <li>heavy edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/BeasthunterSaif_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformJ</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- BeastCutter-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_BeastCutter</defName> 
+    <label>(BBRe)Beast Cutter</label>
+    <description>A trick weapon used by Old Hunters. This thick iron cleaver slices through the toughest of beast hides, and when transformed the blade splits into sections, allowing one to lash it in the fashion of a heavy whip. This crude weapon relies on brute force and is regrettably inelegant, suggesting that the hunts of the earliest hunters made for horrific affairs, painted in sanguine black and reds.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/BeastCutter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_InteractBaseBluntHeavy</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.4</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.2</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack -->
+      <li>
+        <label>heavy point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>31</power>
+        <cooldownTime>2.1</cooldownTime>
+        <chanceFactor>1.2</chanceFactor>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>34</power>
+        <cooldownTime>2.3</cooldownTime>
+        <chanceFactor>1.2</chanceFactor>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>5</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshHeavy</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelHeavy</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light edge</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/BeastCutter</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformD</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseBluntHeavy</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy point</li>
+              <li>heavy edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/BeastCutter_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformD</effecter>
+            <sound>BloodborneRemake_Sound_TransformA</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- BladeofMercy-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_BladeofMercy</defName> 
+    <label>(BBRe)Bladeof Mercy</label>
+    <description>A special trick weapon passed down among hunters of hunters. One of the oldest weapons of the workshop. Splits into two when activated. The weapon's warped blades are forged with siderite, a rare mineral of the heavens. Most effective swift attacks,such as after a quick-stepping.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/BladeofMercy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformT</soundInteract>
+    <tools>
+      <!-- Black Attack -->
+      <li>
+        <label>black handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>0.8</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>black blade</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>0.8</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>black point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>0.8</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- White Attack -->
+      <li>
+        <label>white handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>0.8</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>white blade</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>0.8</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>white point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>0.8</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>0.9</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>3</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshLight</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelLight</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>black handle</li>
+              <li>black blade</li>
+              <li>black point</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/BladeofMercy_Black</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformE</effecter>
+            <sound>BloodborneRemake_Sound_TransformT</sound>
+          </li>
+          <li>
+            <labels>
+              <li>white handle</li>
+              <li>white blade</li>
+              <li>white point</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/BladeofMercy_White</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformE</effecter>
+            <sound>BloodborneRemake_Sound_TransformT</sound>
+          </li>
+          <li>
+            <labels>
+              <li>handle</li>
+              <li>blade</li>
+              <li>point</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/BladeofMercy</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformE</effecter>
+            <sound>BloodborneRemake_Sound_TransformT</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Bloodletter-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_Bloodletter</defName> 
+    <label>(BBRe)Bloodletter</label>
+    <description>The demented hunter weapon brandished by Brador, the Healing Church assassin. The Bloodletter assumes its true and terrifying form after it draws upon blood from the inner reaches of one's body and soul. This is the only effective means of expelling tainted blood, or so Brador, isolated in his cell, continued to believe.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/Bloodletter_Transformed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_BloodHeavy</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>BloodborneRemake_Blood</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>BloodborneRemake_Blood</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>heavy head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.0</cooldownTime>
+        <chanceFactor>1.1</chanceFactor>
+        <extraMeleeDamages>
+          <li>
+            <def>BloodborneRemake_Blood</def>
+            <amount>8</amount>
+          </li>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>1.7</cooldownTime>
+        <chanceFactor>1.1</chanceFactor>
+        <extraMeleeDamages>
+          <li>
+            <def>BloodborneRemake_Blood</def>
+            <amount>8</amount>
+          </li>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>4</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshMedium</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelMedium</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light head</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Bloodletter</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformF</effecter>
+            <sound>BloodborneRemake_Sound_BloodExtract</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy head</li>
+              <li>heavy point</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Bloodletter_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformF</effecter>
+            <sound>BloodborneRemake_Sound_BloodHeavy</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- BoomHammer-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_BoomHammer</defName> 
+    <label>(BBRe)Boom Hammer</label>
+    <description>A trick weapon used by the old hunters, and crafted by the workshop heretics, the Powder Kegs. A giant hammer equipped with a miniature furnace. When ignited and fired, it emits a volley of flame that explodes furiously upon impact. Crush the beasts, then burn them - the brute simplicity of the Boom Hammer was favored by hunters with an acute distaste for beasts.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/BoomHammer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformE</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>heavy head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+          <li>BloodborneRemake_Tool_AreaDemolish</li>
+        </capacities>
+        <power>29</power>
+        <cooldownTime>2.2</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.3</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>flame head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+          <li>BloodborneRemake_Tool_AreaDemolish</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>2.3</cooldownTime>
+        <chanceFactor>1.2</chanceFactor>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+          <li>
+            <def>Flame</def>
+            <amount>10</amount>
+            <chance>0.8</chance>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>flame point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>1.6</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+          <li>
+            <def>Flame</def>
+            <amount>10</amount>
+            <chance>0.8</chance>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>5</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshHeavy</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelHeavy</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>heavy head</li>
+              <li>heavy handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/BoomHammer</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformG</effecter>
+            <sound>BloodborneRemake_Sound_TransformE</sound>
+          </li>
+          <li>
+            <labels>
+              <li>flame head</li>
+              <li>flame point</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/BoomHammer_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformG</effecter>
+            <sound>BloodborneRemake_Sound_TransformF</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- BurialBlade-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_BurialBlade</defName> 
+    <label>(BBRe)Burial Blade</label>
+    <description>Trick weapon wielded by Gehrman, the first hunter." A masterpiece that defined the entire array of weapons crafted at the workshop. Its blade is forged with siderite, said to have fallen from the heavens. Gehrman surely saw the hunt as a dirge of farewell, wishing only that his prey might rest in peace, never again to awaken to another harrowing nightmare.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/BurialBlade_Transformed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformB</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>0.9</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>0.9</cooldownTime>
+      </li>
+      <!-- Transformation Attack -->
+      <li>
+        <label>heavy point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.8</cooldownTime>
+        <chanceFactor>2.0</chanceFactor>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>29</power>
+        <cooldownTime>1.9</cooldownTime>
+        <chanceFactor>1.2</chanceFactor>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>4</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshMedium</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelMedium</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light edge</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/BurialBlade</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformM</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy point</li>
+              <li>heavy edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/BurialBlade_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformB</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Chikage-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_Chikage</defName> 
+    <label>(BBRe)Chikage</label>
+    <description>Foreign-made weapon wielded by the royal guards who protect Annalise, Queen of the Vilebloods at Cainhurst Castle. When the intricate, rippled engraving that spans the Chikage's blade is imbrued with blood, the sword sings in scarlet hues. However, the rite eats away at the wielder's very essence.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/Chikage_Sheath</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_BloodSlash</soundInteract>
+    <statBases>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.75</AccuracyLong>
+      <RangedWeapon_Cooldown>0.20</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="MVCF.Comps.CompProperties_VerbProps">
+        <compClass>MVCF.Comps.Comp_VerbProps</compClass>
+        <ConsiderMelee>true</ConsiderMelee>
+        <verbProps>
+          <li>
+            <label>bloodwave</label>
+            <canBeToggled>true</canBeToggled>
+          </li>
+        </verbProps>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>bloodwave</label>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BloodborneRemake_Bloodwave</defaultProjectile>
+        <warmupTime>0.35</warmupTime>
+        <range>23.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>BloodborneRemake_Sound_BloodSlash</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>normal handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>normal point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>normal edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>blood handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>BloodborneRemake_Blood</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>blood point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.3</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>BloodborneRemake_Blood</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>blood edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>1.4</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>BloodborneRemake_Blood</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>3</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshLight</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelLight</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>RANGE</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Chikage_Sheath</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformF_Add</effecter>
+            <sound>BloodborneRemake_Sound_BloodExtract</sound>
+          </li>
+          <li>
+            <labels>
+              <li>normal handle</li>
+              <li>normal point</li>
+              <li>normal edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Chikage</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformF_Remove</effecter>
+            <sound>BloodborneRemake_Sound_BloodLight</sound>
+          </li>
+          <li>
+            <labels>
+              <li>blood handle</li>
+              <li>blood point</li>
+              <li>blood edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Chikage_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformF_Add</effecter>
+            <sound>BloodborneRemake_Sound_BloodSlash</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- ChurchPick-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_ChurchPick</defName> 
+    <label>(BBRe)Church Pick</label>
+    <description>One of the old trick weapons of the Healing Church, a hunting weapon formed from one of the giant picks that appear in old beast tales. The Church Pick initially serves as a large sword, but when transformed functions as an extended war pick. In spite of its origins, it is a highly practical weapon.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/ChurchPick</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformB</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.2</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack -->
+      <li>
+        <label>heavy point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>1.6</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>1.7</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>4</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshMedium</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelMedium</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light edge</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/ChurchPick</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformD</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy point</li>
+              <li>heavy edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/ChurchPick_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformH</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- FistofGratia-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_FistofGratia</defName>
+    <label>(BBRe)Fist of Gratia</label>
+    <description>A chunk of iron fitted with finger holes The hulking hunter woman Simple Gratia, ever hopeless when handling hunter firearms, preferred to knock the lights out of beasts with this hunk of iron, which incidentally caused heavy stagger. Gratia was a fearsome hunter, and to onlookers, her unrelenting pummelling appeared oddly heroic. No wonder this weapon later assumed her name.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/FistofGratia</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_InteractBaseGlove</soundInteract>
+    <equippedAngleOffset>-45</equippedAngleOffset>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>0.7</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <equippedStatOffsets>
+      <MeleeDodgeChance>0.40</MeleeDodgeChance>
+      <MeleeHitChance>0.10</MeleeHitChance>
+    </equippedStatOffsets>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>3</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshLight</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelLight</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>head</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/FistofGratia</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseGlove</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- HolyMoonlightSword-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_HolyMoonlightSword</defName> 
+    <label>(BBRe)Holy Moonlight Sword</label>
+    <description>An arcane sword discovered long ago by Ludwig. When blue moonlight dances around the sword, and it channels the abyssal cosmos, its great blade will hurl a shadowy lightwave. The Holy Moonlight Sword is synonymous with Ludwig, the Holy Blade, but few have ever set eyes on the great blade, and whatever guidance it has to offer, it seems to be of a very private, elusive sort.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/HolyMoonlightSword_Transformed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformN</soundInteract>
+    <statBases>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.75</AccuracyLong>
+      <RangedWeapon_Cooldown>1.20</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="MVCF.Comps.CompProperties_VerbProps">
+        <compClass>MVCF.Comps.Comp_VerbProps</compClass>
+        <ConsiderMelee>true</ConsiderMelee>
+        <verbProps>
+          <li>
+            <label>lightwave</label>
+            <canBeToggled>true</canBeToggled>
+          </li>
+        </verbProps>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>lightwave</label>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BloodborneRemake_Lightwave</defaultProjectile>
+        <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+        <warmupTime>1.00</warmupTime>
+        <range>23.9</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <soundAiming>BloodborneRemake_Sound_RangeCharge</soundAiming>
+        <soundCast>BloodborneRemake_Sound_Lightwave</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>heavy edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.7</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>BloodborneRemake_Arcane</def>
+            <amount>8</amount>
+          </li>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.6</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>BloodborneRemake_Arcane</def>
+            <amount>8</amount>
+          </li>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>4</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshMedium</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelMedium</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>RANGE</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/HolyMoonlightSword_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformI</effecter>
+            <sound>BloodborneRemake_Sound_TransformN</sound>
+          </li>
+          <li>
+            <labels>
+              <li>light edge</li>
+              <li>light point</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/HolyMoonlightSword</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformI</effecter>
+            <sound>BloodborneRemake_Sound_TransformR</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy edge</li>
+              <li>heavy point</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/HolyMoonlightSword_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformI</effecter>
+            <sound>BloodborneRemake_Sound_TransformN</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- HunterAxe-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_HunterAxe</defName> 
+    <label>(BBRe)Hunter Axe</label>
+    <description>One of the trick weapons of the workshop, commonly used on the hunt. Retains the qualities of an axe, but offers a wider palette of attacks by transforming. Boasts a heavy blunt attack, leading to high rally potential. No matter their pasts, beasts are no more than beasts. Some choose this axe to play the part of executioner.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/HunterAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformH</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>1.2</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>heavy edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>1.7</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.5</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>5</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshHeavy</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelHeavy</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light handle</li>
+              <li>light edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/HunterAxe</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformJ</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy edge</li>
+              <li>heavy point</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/HunterAxe_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformH</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Kirkhammer-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_Kirkhammer</defName> 
+    <label>(BBRe)Kirkhammer</label>
+    <description>A trick weapon typically used by Healing Church hunters. On the one side, an easily handled silver sword. On the other, a giant obtuse stone weapon, characterized by a blunt strike and extreme force of impact. The Church takes a heavy-handed, merciless stance toward the plague of beasts, an irony not lost upon the wielders of this most symbolic weapon.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/Kirkhammer_Transformed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformI</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>0.9</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>heavy head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+          <li>BloodborneRemake_Tool_AreaDemolish</li>
+        </capacities>
+        <power>33</power>
+        <cooldownTime>2.2</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.4</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>5</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshHeavy</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelHeavy</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light edge</li>
+              <li>light point</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Kirkhammer</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformE</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseSharpMedium</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy head</li>
+              <li>heavy handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Kirkhammer_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformE</effecter>
+            <sound>BloodborneRemake_Sound_TransformI</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- KosParasite-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_KosParasite</defName> 
+    <label>(BBRe)Kos Parasite</label>
+    <description>When the carcass of Kos washed up on the coast, its insides were teeming with tiny parasites, unlike any found in humans. This atypical weapon can only be clasped tight and swung, but a Kos Parasite is said to stimulate phantasms inhabiting a lumenwood.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/KosParasite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_InteractBaseTentacle</soundInteract>
+    <costList>
+      <BloodborneRemake_BloodEchoes>200</BloodborneRemake_BloodEchoes>
+    </costList>
+    <statBases>
+      <Mass>1.0</Mass>
+      <AccuracyTouch>1.0</AccuracyTouch>
+      <AccuracyShort>1.0</AccuracyShort>
+      <AccuracyMedium>1.0</AccuracyMedium>
+      <AccuracyLong>1.0</AccuracyLong>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="MVCF.Comps.CompProperties_VerbProps">
+        <compClass>MVCF.Comps.Comp_VerbProps</compClass>
+        <ConsiderMelee>true</ConsiderMelee>
+        <verbProps>
+          <li>
+            <label>Kos Parasite</label>
+            <canBeToggled>true</canBeToggled>
+          </li>
+          <li>
+            <label>Kos Hunter's Nightmare</label>
+            <canBeToggled>true</canBeToggled>
+          </li>
+        </verbProps>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>Kos Parasite</label>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BloodborneRemake_Parasite</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>79.9</range>
+        <soundCast>BloodborneRemake_Sound_Prasite</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+      <li>
+        <label>Kos Hunter's Nightmare</label>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BloodborneRemake_HuntersNightmare</defaultProjectile>
+        <forcedMissRadius>2.9</forcedMissRadius>
+        <warmupTime>5.5</warmupTime>
+        <range>55.9</range>
+        <soundCast>BloodborneRemake_Sound_Ghost</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>transformed tentacle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>transformed radula</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaToxicBite</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>0.7</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>4</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshMedium</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelMedium</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>RANGE</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/KosParasite</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformJ</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseTentacle</sound>
+          </li>
+          <li>
+            <labels>
+              <li>transformed tentacle</li>
+              <li>transformed radula</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/KosParasite_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformJ</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseParasite</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- LogariusWheel-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_LogariusWheel</defName> 
+    <label>(BBRe)Logariu's Wheel</label>
+    <description>Weapon wielded by martyr Logarius' band of executioners. Used to slaughter the Vilebloods in Cainhurst. Bathed in pools of their blood, and forever steeped in their ire. Transform to release the power of the wheel and manifest their lingering rage in a show of utter brilliance.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/LogariusWheel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <equippedAngleOffset>-45</equippedAngleOffset>
+    <soundInteract>BloodborneRemake_Sound_Torture</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>heavy wheel</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+          <li>BloodborneRemake_Tool_AreaDemolish</li>
+        </capacities>
+        <power>34</power>
+        <cooldownTime>2.2</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>blood wheel</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+          <li>BloodborneRemake_Tool_AreaDemolish</li>
+        </capacities>
+        <power>36</power>
+        <cooldownTime>2.3</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+          <li>
+            <def>BloodborneRemake_Blood</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>4</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshMedium</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelMedium</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>heavy wheel</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/LogariusWheel</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformK</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseBluntHeavy</sound>
+          </li>
+          <li>
+            <labels>
+              <li>blood wheel</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/LogariusWheel_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformK</effecter>
+            <sound>BloodborneRemake_Sound_Torture</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- LudwigsHolyBlade-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_LudwigsHolyBlade</defName> 
+    <label>(BBRe)Ludwig's Holy Blade</label>
+    <description>A trick weapon typically used by Healing Church hunters. It is said that the silver sword was employed by Ludwig, the first hunter of the church. When transformed, it combines with its sheath to form a greatsword. It exhibits several departures from the workshop's design, suggesting that the Church anticipated much larger inhuman beasts.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/LudwigsHolyBlade_Transformed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_InteractBaseSharpHeavy</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>0.9</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>heavy edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>1.6</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.5</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>5</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshHeavy</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelHeavy</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light edge</li>
+              <li>light point</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/LudwigsHolyBlade</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformE</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseSharpHeavy</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy edge</li>
+              <li>heavy point</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/LudwigsHolyBlade_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformE</effecter>
+            <sound>BloodborneRemake_Sound_TransformI</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Rakuyo-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_Rakuyo</defName> 
+    <label>(BBRe)Rakuyo</label>
+    <description>Hunter weapon wielded by Lady Maria of the Astral Clocktower. A trick sword originated in the same country as the Cainhurst Chikage, only this sword feeds not off blood, but instead demands great dexterity. Lady Maria was fond of this aspect of the Rakuyo, as she frowned upon blood blades, despite being a distant relative of the queen. One day, she abandoned her beloved Rakuyo, casting it into a dark well, when she could stomach it no longer.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/Rakuyo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformM</soundInteract>
+    <tools>
+      <!-- dagger Attack -->
+      <li>
+        <label>dagger point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>0.8</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>dagger edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>0.9</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- saber Attack -->
+      <li>
+        <label>saber handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>saber point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>saber edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>heavy point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>1.2</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.3</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>4</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshMedium</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelMedium</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>dagger point</li>
+              <li>dagger edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Rakuyo_Dagger</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformO</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseSharpLight</sound>
+          </li>
+          <li>
+            <labels>
+              <li>saber handle</li>
+              <li>saber point</li>
+              <li>saber edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Rakuyo_Saber</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformL</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseSharpMedium</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy point</li>
+              <li>heavy edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Rakuyo</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformL</effecter>
+            <sound>BloodborneRemake_Sound_TransformM</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Reiterpallasch-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_Reiterpallasch</defName> 
+    <label>(BBRe)Reiterpallasch</label>
+    <description>Weapon wielded by the Knights of Cainhurst. Combines an elegant knight's sword with the peculiar firearm wielded by the Cainhurst order. The old nobles, long-time imbibers of blood, are no strangers to the sanguine plague, and the disposal of beasts was a discrete task left to their servants, or knights, as they were called for the sake of appearances.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/Reiterpallasch</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>BloodborneRemake_Sound_TransformK</soundInteract>
+    <statBases>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="MVCF.Comps.CompProperties_VerbProps">
+        <compClass>MVCF.Comps.Comp_VerbProps</compClass>
+        <ConsiderMelee>true</ConsiderMelee>
+        <verbProps>
+          <li>
+            <label>shoot</label>
+            <canBeToggled>true</canBeToggled>
+          </li>
+        </verbProps>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>shoot</label>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BloodborneRemake_BulletLight</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>30.9</range>
+        <soundCast>BloodborneRemake_Sound_Pistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>3</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshLight</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelLight</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>RANGE</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Reiterpallasch_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_InteractPistol</sound>
+          </li>
+          <li>
+            <labels>
+              <li>shaft</li>
+              <li>point</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Reiterpallasch</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformK</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- RifleSpear-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_RifleSpear</defName> 
+    <label>(BBRe)RifleSpear</label>
+    <description>A trick weapon crafted by the workshop heretics, the Powder Kegs. A prototype weapon serving as a simple firearm and spear, possibly created in imitation of a lost Cainhurst weapon. Lacks any notable functions, saving that it is the only trick weapon with an attached gun.</description>
+    <thingClass>Bloodborne_Remake.BloodborneWeapon</thingClass>
+    <graphicData>
+      <texPath>Things/TrickWeapons/RifleSpear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>BloodborneRemake_Sound_InteractBaseBayonet</soundInteract>
+    <statBases>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.70</AccuracyLong>
+      <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="MVCF.Comps.CompProperties_VerbProps">
+        <compClass>MVCF.Comps.Comp_VerbProps</compClass>
+        <ConsiderMelee>true</ConsiderMelee>
+        <verbProps>
+          <li>
+            <label>shoot</label>
+            <canBeToggled>true</canBeToggled>
+          </li>
+        </verbProps>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>shoot</label>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BloodborneRemake_BulletMedium</defaultProjectile>
+        <warmupTime>1.1</warmupTime>
+        <range>51.9</range>
+        <soundCast>BloodborneRemake_Sound_Rifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.3</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.5</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>4</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshMedium</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelMedium</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>RANGE</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/RifleSpear_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_InteractRifle</sound>
+          </li>
+          <li>
+            <labels>
+              <li>shaft</li>
+              <li>point</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/RifleSpear</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseBayonet</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- SawCleaver-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_SawCleaver</defName> 
+    <label>(BBRe)Saw Cleaver</label>
+    <description>One of the trick weapons of the workshop, commonly used in the hunting business. This saw, effective at drawing the blood of beasts, transforms into a long cleaver that makes use of centrifugal force. The saw, with its set of blood-letting teeth, has become a symbol of the hunt, and only grows in effectiveness the more grotesquely transformed the beast.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/SawCleaver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformE</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>0.9</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack -->
+      <li>
+        <label>heavy point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>1.7</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.8</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>4</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshMedium</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelMedium</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light edge</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/SawCleaver</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformE</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy point</li>
+              <li>heavy edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/SawCleaver_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformE</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- SawSpear-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_SawSpear</defName> 
+    <label>(BBRe)Saw Spear</label>
+    <description>One of the trick weapons of the workshop, commonly used by those who dedicate themselves to the hunt. This saw, effective at drawing the blood of beasts, transforms into a medium-range spear. The saw, with its set of blood-letting teeth, has become a symbol of the hunt, and only grows in effectiveness the more grotesquely transformed the beast.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/SawSpear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformJ</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>0.9</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack -->
+      <li>
+        <label>heavy point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>1.7</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>heavy shaft</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.5</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>4</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshMedium</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelMedium</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light edge</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/SawSpear</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformJ</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy point</li>
+              <li>heavy shaft</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/SawSpear_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformJ</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- SimonsBowblade-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_SimonsBowblade</defName> 
+    <label>(BBRe)Simon's Bowblade</label>
+    <description>Choice weapon of Simon, one of the first Healing Church hunters. Simon despised firearms, and so the Church workshop had this specially fashioned to his liking. The large curved blade serves as a bow when transformed. But aside from a few close friends, Simon was scoffed at for his choice of arms, for who would dare face the beasts with a measly bow?</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/SimonsBowblade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <equippedAngleOffset>-45</equippedAngleOffset>
+    <soundInteract>BloodborneRemake_Sound_InteractBow</soundInteract>
+    <statBases>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="MVCF.Comps.CompProperties_VerbProps">
+        <compClass>MVCF.Comps.Comp_VerbProps</compClass>
+        <ConsiderMelee>true</ConsiderMelee>
+        <verbProps>
+          <li>
+            <label>shoot</label>
+            <canBeToggled>true</canBeToggled>
+          </li>
+        </verbProps>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>shoot</label>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BloodborneRemake_Arrow</defaultProjectile>
+        <warmupTime>1.1</warmupTime>
+        <range>41.9</range>
+        <soundAiming>BloodborneRemake_Sound_BowPull</soundAiming>
+        <soundCast>BloodborneRemake_Sound_Bow</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <!-- arrow Attack -->
+      <li>
+        <label>arrow point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>0.6</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- saber Attack -->
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>3</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshLight</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelLight</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>RANGE</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/SimonsBowblade_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformA</sound>
+          </li>
+          <li>
+            <labels>
+              <li>light handle</li>
+              <li>light point</li>
+              <li>light edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/SimonsBowblade</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformA</sound>
+          </li>
+          <li>
+            <labels>
+              <li>arrow point</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/SimonsBowblade_Arrow</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformO</effecter>
+            <sound>BloodborneRemake_Sound_TransformO</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- StakeDriver-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_StakeDriver</defName> 
+    <label>(BBRe)StakeDriver</label>
+    <description>A trick weapon fashioned by the workshop heretics, the Powder Kegs. Favored by the retired hunter Djura. The stake driver, with its queerly complex design, violently drives thick stakes into the flesh of foes. The stake driver allows for high-damage critical attacks, but is difficult to use and leaves its wielder wide open, but none of this should bother a mere Powder Keg.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/StakeDriver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <equippedAngleOffset>0</equippedAngleOffset>
+    <soundInteract>BloodborneRemake_Sound_InteractBaseStake</soundInteract>
+    <statBases>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.75</AccuracyLong>
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="MVCF.Comps.CompProperties_VerbProps">
+        <compClass>MVCF.Comps.Comp_VerbProps</compClass>
+        <ConsiderMelee>true</ConsiderMelee>
+        <verbProps>
+          <li>
+            <label>shoot</label>
+            <canBeToggled>true</canBeToggled>
+          </li>
+        </verbProps>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>shoot</label>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BloodborneRemake_Stake</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>13.9</range>
+        <soundAiming>BloodborneRemake_Sound_RangeCharge</soundAiming>
+        <soundCast>BloodborneRemake_Sound_Stake</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.3</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>heavy point</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaStab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.4</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>3</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshLight</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelLight</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>RANGE</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/StakeDriver_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseStake</sound>
+          </li>
+          <li>
+            <labels>
+              <li>light point</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/StakeDriver</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_GasImpact</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy point</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/StakeDriver_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseStake</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- ThreadedCane-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_ThreadedCane</defName> 
+    <label>(BBRe)Threaded Cane</label>
+    <description>One of the trick weapons of the workshop, commonly used by hunters on their duties. Sufficiently deadly as a rigid bladed cane, but also serves as a whip when its blade is split into many. Concealing the weapon inside the cane and flogging the beasts with the whip is partly an act of ceremony, an attempt to demonstrate to oneself that the bloodlust of the hunt will never encroach upon the soul.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/ThreadedCane</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_Chain</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>chain</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.0</cooldownTime>
+        <chanceFactor>2.0</chanceFactor>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>5</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshLight</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelLight</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light head</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/ThreadedCane</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_InteractBaseBlunt</sound>
+          </li>
+          <li>
+            <labels>
+              <li>chain</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/ThreadedCane_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_Chain</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Tonitrus-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_Tonitrus</defName> 
+    <label>(BBRe)Tonitrus</label>
+    <description>A unique trick weapon contrived by Archibald, the infamous eccentric of the Healing Church workshop. Striking this peculiar iron morning star flail like a match generates the same blue sparks that blanket a darkbeast. Unfortunately, for reasons untold, the hunters of Archibald's time did not fully take to the device.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/Tonitrus</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_ElectricityIn</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>EMP</def>
+            <amount>9</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+          <li>
+            <def>EMP</def>
+            <amount>9</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>charged head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.0</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+          <li>
+            <def>EMP</def>
+            <amount>9</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>3</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshLight</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelLight</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light head</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Tonitrus</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformM</effecter>
+            <sound>BloodborneRemake_Sound_ElectricityOut</sound>
+          </li>
+          <li>
+            <labels>
+              <li>charged head</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/Tonitrus_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformM</effecter>
+            <sound>BloodborneRemake_Sound_ElectricityIn</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- WhirligigSaw-->
+
+  <ThingDef ParentName="BloodborneRemake_BaseMelee">
+    <defName>BloodborneRemake_WhirligigSaw</defName> 
+    <label>(BBRe)Whirligig Saw</label>
+    <description>A trick weapon crafted by the workshop heretics, the Powder Kegs, and weapon of choice of the Old Hunter Valtr, the Beast Eater. This weapon pummels beasts in its mace form, but its true strength lies in its attached mechanical saws. These discs, lined with serrated teeth,spin rapidly, thrashing the flesh of beasts into fine shreds.</description>
+    <graphicData>
+      <texPath>Things/TrickWeapons/WhirligigSaw_Transformed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>BloodborneRemake_Sound_TransformS</soundInteract>
+    <tools>
+      <!-- Normal Attack -->
+      <li>
+        <label>light head</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaBlunt</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.2</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>light handle</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaPoke</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.1</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <!-- Transformation Attack  -->
+      <li>
+        <label>heavy edge</label>
+        <capacities>
+          <li>BloodborneRemake_Tool_AreaCut</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>2.0</cooldownTime>
+        <chanceFactor>3.0</chanceFactor>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>12</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="Bloodborne_Remake.DefModExtension_AOEMelee">
+        <range>4</range>
+        <chance>1.0</chance>
+        <effecter_Normal>BloodborneRemake_Effecter_HitFleshMedium</effecter_Normal>
+        <effecter_Mechanoid>BloodborneRemake_Effecter_HitSteelMedium</effecter_Mechanoid>
+      </li>
+      <li Class="Bloodborne_Remake.DefModExtension_WeaponMod">
+        <modes>
+          <li>
+            <labels>
+              <li>light head</li>
+              <li>light handle</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/WhirligigSaw</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformC</effecter>
+            <sound>BloodborneRemake_Sound_TransformH</sound>
+          </li>
+          <li>
+            <labels>
+              <li>heavy edge</li>
+            </labels>
+            <graphicData>
+              <texPath>Things/TrickWeapons/WhirligigSaw_Transformed</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>CutoutComplex</shaderType>
+            </graphicData>
+            <effecter>BloodborneRemake_Effecter_TransformN</effecter>
+            <sound>BloodborneRemake_Sound_TransformS</sound>
+          </li>
+        </modes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

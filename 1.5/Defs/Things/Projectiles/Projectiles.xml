@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Bloodborne Shell-->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>BloodborneRemake_Shell</defName>
+    <label>shell</label>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_Shell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <flyOverhead>true</flyOverhead>
+      <explosionRadius>2.9</explosionRadius >
+      <damageDef>Bomb</damageDef>
+      <speed>45</speed>
+      <shadowSize>0.4</shadowSize>
+    </projectile>
+  </ThingDef>
+
+  <!-- Bloodborne Bullet Light-->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>BloodborneRemake_BulletLight</defName>
+    <label>pistol bullet</label>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_BulletLight</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- Bloodborne Bullet Medium-->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>BloodborneRemake_BulletMedium</defName>
+    <label>rifle bullet</label>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_BulletMedium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>16</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- Bloodborne Bullet Heavy-->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>BloodborneRemake_BulletHeavy</defName>
+    <label>slug</label>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_BulletHeavy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>26</damageAmountBase>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+
+<!-- Bloodborne Bullet Buckshot-->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>BloodborneRemake_BulletBuckshot</defName>
+    <label>slug</label>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_BulletBuckshot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>34</damageAmountBase>
+      <speed>55</speed>
+      <stoppingPower>5</stoppingPower>
+      <armorPenetrationBase>0.2</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
+  <!-- Bloodborne Arrow-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>BloodborneRemake_Arrow</defName>
+    <label>arrow</label>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_Arrow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>RangedStab</damageDef>
+      <damageAmountBase>28</damageAmountBase>
+      <stoppingPower>2.5</stoppingPower>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+
+<!-- Bloodborne Torch-->
+
+  <ThingDef ParentName="BaseIncendiaryProjectile">
+    <defName>BloodborneRemake_Torch</defName>
+    <label>torch</label>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_Torch</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Bloodborne Parasite-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>BloodborneRemake_Parasite</defName>
+    <label>parasite</label>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_Parasite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>BloodborneRemake_ParasiteHit</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <stoppingPower>10.0</stoppingPower>
+      <speed>25</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- Bloodborne Flame --> <!-- Need VEF Projectile -->
+
+  <VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+    <defName>BloodborneRemake_Flame</defName>
+    <label>fire</label>
+    <thingClass>VFECore.FlamethrowProjectile</thingClass>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_Flame</texPath>
+      <texPathFadeOut>Things/Projectiles/BloodborneRemake_FlameFadeOut</texPathFadeOut>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <drawOffscreen>true</drawOffscreen>
+    <lifeTimeDuration>80</lifeTimeDuration>
+    <widthScaleFactor>0.85</widthScaleFactor>
+    <heightScaleFactor>1</heightScaleFactor>
+    <startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+    <totalSizeScale>0.75</totalSizeScale>
+    <tickFrameRate>5</tickFrameRate>
+    <finalTickFrameRate>4</finalTickFrameRate>
+    <tickDamageRate>20</tickDamageRate>
+    <dealsDamageOnce>true</dealsDamageOnce>
+    <minDistanceToAffect>3</minDistanceToAffect>
+    <projectile>
+      <damageDef>Flame</damageDef>    
+      <flyOverhead>false</flyOverhead>
+      <damageAmountBase>22</damageAmountBase>
+      <stoppingPower>4.5</stoppingPower>    
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <speed>16</speed>
+    </projectile>
+  </VFECore.ExpandableProjectileDef>
+
+  <!-- Bloodborne Gas --> <!-- Need VEF Projectile -->
+
+  <VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+    <defName>BloodborneRemake_Gas</defName>
+    <label>arcane mist</label>
+    <thingClass>VFECore.FlamethrowProjectile</thingClass>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_Gas</texPath>
+      <texPathFadeOut>Things/Projectiles/BloodborneRemake_GasFadeOut</texPathFadeOut>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <drawOffscreen>true</drawOffscreen>
+    <lifeTimeDuration>80</lifeTimeDuration>
+    <widthScaleFactor>0.85</widthScaleFactor>
+    <heightScaleFactor>1</heightScaleFactor>
+    <startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+    <totalSizeScale>0.75</totalSizeScale>
+    <tickFrameRate>5</tickFrameRate>
+    <finalTickFrameRate>4</finalTickFrameRate>
+    <tickDamageRate>20</tickDamageRate>
+    <dealsDamageOnce>true</dealsDamageOnce>
+    <minDistanceToAffect>3</minDistanceToAffect>
+    <projectile>
+      <damageDef>BloodborneRemake_Arcane</damageDef>    
+      <flyOverhead>false</flyOverhead>
+      <damageAmountBase>18</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>    
+      <speed>16</speed>
+    </projectile>
+  </VFECore.ExpandableProjectileDef>
+
+<!-- Bloodborne Lightwave --> <!-- Need VEF Projectile -->
+
+  <VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+    <defName>BloodborneRemake_Lightwave</defName>
+    <label>lightwave</label>
+    <thingClass>VFECore.FlamethrowProjectile</thingClass>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_Lightwave</texPath>
+      <texPathFadeOut>Things/Projectiles/BloodborneRemake_LightwaveFadeOut</texPathFadeOut>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <drawOffscreen>true</drawOffscreen>
+    <lifeTimeDuration>60</lifeTimeDuration>
+    <widthScaleFactor>0.85</widthScaleFactor>
+    <heightScaleFactor>1</heightScaleFactor>
+    <startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+    <totalSizeScale>0.75</totalSizeScale>
+    <tickFrameRate>5</tickFrameRate>
+    <finalTickFrameRate>3</finalTickFrameRate>
+    <tickDamageRate>10</tickDamageRate>
+    <dealsDamageOnce>true</dealsDamageOnce>
+    <minDistanceToAffect>3</minDistanceToAffect>
+    <projectile>
+      <damageDef>BloodborneRemake_Arcane</damageDef>    
+      <flyOverhead>false</flyOverhead>
+      <damageAmountBase>18</damageAmountBase>
+      <stoppingPower>2.5</stoppingPower>    
+      <speed>26</speed>
+    </projectile>
+  </VFECore.ExpandableProjectileDef>
+
+<!-- Bloodborne Bloodwave --> <!-- Need VEF Projectile -->
+
+  <VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+    <defName>BloodborneRemake_Bloodwave</defName>
+    <label>bloodwave</label>
+    <thingClass>VFECore.ExpandableProjectile</thingClass>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_Bloodwave</texPath>
+      <texPathFadeOut>Things/Projectiles/BloodborneRemake_BloodwaveFadeOut</texPathFadeOut>
+      <shaderType>Mote</shaderType>
+    </graphicData>
+    <drawOffscreen>true</drawOffscreen>
+    <lifeTimeDuration>40</lifeTimeDuration>
+    <widthScaleFactor>0.85</widthScaleFactor>
+    <heightScaleFactor>1</heightScaleFactor>
+    <startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+    <totalSizeScale>0.75</totalSizeScale>
+    <tickFrameRate>5</tickFrameRate>
+    <finalTickFrameRate>3</finalTickFrameRate>
+    <tickDamageRate>10</tickDamageRate>
+    <dealsDamageOnce>true</dealsDamageOnce>
+    <minDistanceToAffect>3</minDistanceToAffect>
+    <projectile>
+      <damageDef>BloodborneRemake_Blood</damageDef>    
+      <flyOverhead>false</flyOverhead>
+      <damageAmountBase>20</damageAmountBase>
+      <stoppingPower>2.5</stoppingPower>    
+      <speed>28</speed>
+    </projectile>
+  </VFECore.ExpandableProjectileDef>
+
+  <!-- Hunter's Nightmare -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>BloodborneRemake_HuntersNightmare</defName>
+    <label>hunter's nightmare</label>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_HuntersNightmare</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <flyOverhead>true</flyOverhead>
+      <damageDef>BloodborneRemake_HuntersNightmareHit</damageDef>
+      <explosionRadius>3.9</explosionRadius>
+      <speed>30</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- Bloodborne Stake --> <!-- Need VEF Projectile -->
+
+  <VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+    <defName>BloodborneRemake_Stake</defName>
+    <label>fire</label>
+    <thingClass>VFECore.FlamethrowProjectile</thingClass>
+    <graphicData>
+      <texPath>Things/Projectiles/BloodborneRemake_Stake</texPath>
+      <texPathFadeOut>Things/Projectiles/BloodborneRemake_StakeFadeOut</texPathFadeOut>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <drawOffscreen>true</drawOffscreen>
+    <lifeTimeDuration>40</lifeTimeDuration>
+    <widthScaleFactor>0.40</widthScaleFactor>
+    <heightScaleFactor>1</heightScaleFactor>
+    <startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+    <totalSizeScale>1.0</totalSizeScale>
+    <tickFrameRate>3</tickFrameRate>
+    <finalTickFrameRate>3</finalTickFrameRate>
+    <tickDamageRate>10</tickDamageRate>
+    <dealsDamageOnce>true</dealsDamageOnce>
+    <minDistanceToAffect>2</minDistanceToAffect>
+    <projectile>
+      <damageDef>RangedStab</damageDef>    
+      <flyOverhead>false</flyOverhead>
+      <damageAmountBase>80</damageAmountBase>
+      <stoppingPower>10.0</stoppingPower>    
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <speed>70</speed>
+    </projectile>
+  </VFECore.ExpandableProjectileDef>
+
+</Defs>
