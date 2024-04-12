@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+    <defName>BloodborneRemake_BloodEchoes</defName>
+    <label>blood echoes</label>
+    <description>The Bloody memories of those cursed by the plague of the Beast.</description>
+    <graphicData>
+      <texPath>Things/Items/BloodEchoes</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>100</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>8.0</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.001</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <tradeability>Sellable</tradeability>
+    <techLevel>Medieval</techLevel>
+  </ThingDef>
+
+</Defs>
