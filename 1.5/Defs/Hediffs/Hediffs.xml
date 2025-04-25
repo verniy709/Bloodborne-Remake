@@ -41,7 +41,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-3</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
-       </li>
+      </li>
     </comps>
     <stages>
       <li>
@@ -182,7 +182,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
-       </li>
+      </li>
     </comps>
     <stages>
       <li>
@@ -232,7 +232,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-6</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
-       </li>
+      </li>
     </comps>
     <stages>
       <li>
@@ -250,12 +250,12 @@
     <initialSeverity>1</initialSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-6</severityPerDay>
-        <showHoursToRecover>true</showHoursToRecover>
-       </li>
-      <li Class="HediffCompProperties">
-        <compClass>HediffComp_Invisibility</compClass>
+      <li Class="HediffCompProperties_Invisibility">
+        <visibleToPlayer>true</visibleToPlayer>
+      </li>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>5000</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
       </li>
     </comps>
   </HediffDef>
@@ -272,7 +272,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
-       </li>
+      </li>
     </comps>
     <stages>
       <li>
@@ -302,7 +302,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
-       </li>
+      </li>
     </comps>
     <stages>
       <li>
@@ -328,7 +328,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
-       </li>
+      </li>
     </comps>
     <stages>
       <li>
