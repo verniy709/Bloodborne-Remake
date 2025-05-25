@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bloodborne Shell -->
+
+  <BloodborneRemake_Shell.label>炮弹</BloodborneRemake_Shell.label>
+
+
+  <!-- Bloodborne Bullet Light -->
+
+  <BloodborneRemake_BulletLight.label>手枪子弹</BloodborneRemake_BulletLight.label>
+
+
+  <!-- Bloodborne Bullet Medium -->
+
+  <BloodborneRemake_BulletMedium.label>步枪子弹</BloodborneRemake_BulletMedium.label>
+
+
+  <!-- Bloodborne Bullet Heavy -->
+
+  <BloodborneRemake_BulletHeavy.label>独头弹</BloodborneRemake_BulletHeavy.label>
+
+
+  <!-- Bloodborne Bullet Buckshot -->
+
+  <BloodborneRemake_BulletBuckshot.label>铅弹</BloodborneRemake_BulletBuckshot.label>
+
+
+  <!-- Bloodborne Arrow -->
+
+  <BloodborneRemake_Arrow.label>弓箭</BloodborneRemake_Arrow.label>
+
+
+  <!-- Bloodborne Torch -->
+
+  <BloodborneRemake_Torch.label>火炬</BloodborneRemake_Torch.label>
+
+
+  <!-- Bloodborne Parasite -->
+
+  <BloodborneRemake_Parasite.label>寄生虫</BloodborneRemake_Parasite.label>
+
+
+  <!-- Hunter's Nightmare -->
+
+  <BloodborneRemake_HuntersNightmare.label>猎人的噩梦</BloodborneRemake_HuntersNightmare.label>
+
+
+</LanguageData>

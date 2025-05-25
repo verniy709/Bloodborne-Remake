@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BloodborneRemake_Tool_AreaStab.label>領域 刺擊</BloodborneRemake_Tool_AreaStab.label>
+  <BloodborneRemake_Tool_AreaCut.label>領域 切割</BloodborneRemake_Tool_AreaCut.label>
+  <BloodborneRemake_Tool_AreaBlunt.label>領域 鈍擊</BloodborneRemake_Tool_AreaBlunt.label>
+  <BloodborneRemake_Tool_AreaScratch.label>領域 爪擊</BloodborneRemake_Tool_AreaScratch.label>
+  <BloodborneRemake_Tool_AreaPoke.label>領域 遠程消耗</BloodborneRemake_Tool_AreaPoke.label>
+  <BloodborneRemake_Tool_AreaBite.label>領域 撕咬</BloodborneRemake_Tool_AreaBite.label>
+  <BloodborneRemake_Tool_AreaToxicBite.label>領域 毒嚙</BloodborneRemake_Tool_AreaToxicBite.label>
+  <BloodborneRemake_Tool_AreaScratchToxic.label>領域 毒爪</BloodborneRemake_Tool_AreaScratchToxic.label>
+  <BloodborneRemake_Tool_AreaDemolish.label>領域 破壞</BloodborneRemake_Tool_AreaDemolish.label>
+</LanguageData>

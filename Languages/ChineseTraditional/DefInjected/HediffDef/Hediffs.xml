@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BloodborneRemake_KosParasite_Infection.label>科斯寄生蟲感染</BloodborneRemake_KosParasite_Infection.label>
+  <BloodborneRemake_KosParasite_Infection.description>被科斯寄生蟲襲擊。</BloodborneRemake_KosParasite_Infection.description>
+  <BloodborneRemake_KosParasite_Infection.stages.0.label>幻想</BloodborneRemake_KosParasite_Infection.stages.0.label>
+  <BloodborneRemake_KosParasite_Infection.labelNoun>科斯寄生蟲的感染</BloodborneRemake_KosParasite_Infection.labelNoun>
+
+  <BloodborneRemake_KosParasite_Witness.label>科斯寄生蟲見證</BloodborneRemake_KosParasite_Witness.label>
+  <BloodborneRemake_KosParasite_Witness.description>被科斯寄生蟲襲擊（見證）。</BloodborneRemake_KosParasite_Witness.description>
+  <BloodborneRemake_KosParasite_Witness.labelNoun>科斯寄生蟲見證</BloodborneRemake_KosParasite_Witness.labelNoun>
+
+  <BloodborneRemake_ArcanePoisonBuildup.label>血源詛咒重設 秘法毒素積澱</BloodborneRemake_ArcanePoisonBuildup.label>
+  <BloodborneRemake_ArcanePoisonBuildup.description>身體被來自異世界的物質充滿。</BloodborneRemake_ArcanePoisonBuildup.description>
+  <BloodborneRemake_ArcanePoisonBuildup.stages.0.label>初始</BloodborneRemake_ArcanePoisonBuildup.stages.0.label>
+  <BloodborneRemake_ArcanePoisonBuildup.stages.1.label>輕微</BloodborneRemake_ArcanePoisonBuildup.stages.1.label>
+  <BloodborneRemake_ArcanePoisonBuildup.stages.2.label>溫和</BloodborneRemake_ArcanePoisonBuildup.stages.2.label>
+  <BloodborneRemake_ArcanePoisonBuildup.stages.3.label>嚴重</BloodborneRemake_ArcanePoisonBuildup.stages.3.label>
+  <BloodborneRemake_ArcanePoisonBuildup.stages.4.label>極度</BloodborneRemake_ArcanePoisonBuildup.stages.4.label>
+
+  <BloodborneRemake_BeastBlood.label>血源詛咒重設 獸血</BloodborneRemake_BeastBlood.label>
+  <BloodborneRemake_BeastBlood.description>獸血藥丸的效果。</BloodborneRemake_BeastBlood.description>
+  <BloodborneRemake_BeastBlood.labelNoun>血源詛咒重設 獸血</BloodborneRemake_BeastBlood.labelNoun>
+
+  <BloodborneRemake_BloodHealing.label>血源詛咒重設 血療</BloodborneRemake_BloodHealing.label>
+  <BloodborneRemake_BloodHealing.description>採血瓶的效果。</BloodborneRemake_BloodHealing.description>
+  <BloodborneRemake_BloodHealing.labelNoun>血源詛咒重設 血療</BloodborneRemake_BloodHealing.labelNoun>
+
+  <BloodborneRemake_Invisibility.label>血源詛咒重設 虛形</BloodborneRemake_Invisibility.label>
+  <BloodborneRemake_Invisibility.description>藍色靈藥的效果</BloodborneRemake_Invisibility.description>
+  <BloodborneRemake_Invisibility.labelNoun>血源詛咒重設 虛形</BloodborneRemake_Invisibility.labelNoun>
+
+  <BloodborneRemake_BoneAsh.label>血源詛咒重設 骨灰</BloodborneRemake_BoneAsh.label>
+  <BloodborneRemake_BoneAsh.description>骨髓灰的效果。</BloodborneRemake_BoneAsh.description>
+  <BloodborneRemake_BoneAsh.labelNoun>血源詛咒重設 骨灰</BloodborneRemake_BoneAsh.labelNoun>
+
+  <BloodborneRemake_Enlightened.label>血源詛咒重設 啟示</BloodborneRemake_Enlightened.label>
+  <BloodborneRemake_Enlightened.description>腦液的效果。</BloodborneRemake_Enlightened.description>
+  <BloodborneRemake_Enlightened.labelNoun>血源詛咒重設 啟示</BloodborneRemake_Enlightened.labelNoun>
+
+  <BloodborneRemake_LeadPoisoning.label>血源詛咒重設 鉛毒</BloodborneRemake_LeadPoisoning.label>
+  <BloodborneRemake_LeadPoisoning.description>鉛丹的效果。</BloodborneRemake_LeadPoisoning.description>
+  <BloodborneRemake_LeadPoisoning.labelNoun>血源詛咒重設 鉛毒</BloodborneRemake_LeadPoisoning.labelNoun>
+</LanguageData>

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<!-- AmygdalanArm -->
+
+  <BloodborneRemake_AmygdalanArm.label>(BBRe)阿米戈达拉之臂</BloodborneRemake_AmygdalanArm.label>
+  <BloodborneRemake_AmygdalanArm.description>被称之为阿米戈达的上位者中小型个体的一根手臂。严格来说这可不是机关武器。有些疯子把它当作武器疯狂乱挥。看上去就是根巨大坚硬的骨头钝器。据说将它伸展挥舞时，前端看起来就像还活着一样蠢蠢欲动。</BloodborneRemake_AmygdalanArm.description>
+
+<!-- BeastClaw -->
+
+  <BloodborneRemake_BeastClaw.label>(BBRe)兽爪</BloodborneRemake_BeastClaw.label>
+  <BloodborneRemake_BeastClaw.description>不敬的伊兹持有的野兽武器。通过凿出黑暗不死生物的长骨并将其固定在武器上而制成。这些骨头还活着，释放后，赋予持用者一股野兽般的力量。当剥皮浴血时，体内的野兽苏醒，随着时间的推移，持有者的力量和狂热将难以遏制。</BloodborneRemake_BeastClaw.description>
+
+<!-- BeasthunterSaif -->
+
+  <BloodborneRemake_BeasthunterSaif.label>(BBRe)野兽猎人曲刀</BloodborneRemake_BeasthunterSaif.label>
+  <BloodborneRemake_BeasthunterSaif.description>老猎人使用的机关武器。弯曲的刀身内侧藏了额外的刀刃。变形前作为长柄曲刀可横向挥砍。变形后折叠刀刃，可使出短距离连击。这是一把可实现灵活战术的机关武器。但可惜最后被更加适用于狩猎野兽的锯齿武器所替代。</BloodborneRemake_BeasthunterSaif.description>
+
+<!-- BeastCutter -->
+
+  <BloodborneRemake_BeastCutter.label>(BBRe)野兽切割者</BloodborneRemake_BeastCutter.label>
+  <BloodborneRemake_BeastCutter.description>老猎人使用的机关武器。这是一把连韧劲十足的兽肉都能斩断的厚重铁制砍刀。变形后刀刃分离，变为能够挥舞的沉重鞭子。仅凭蛮力使用的这把武器上不得台面。因而老猎人的狩猎活动看起来很凄惨，他们的身体被黑红色的血液染遍。</BloodborneRemake_BeastCutter.description>
+
+<!-- BladeofMercy -->
+
+  <BloodborneRemake_BladeofMercy.label>(BBRe)慈悲之刃</BloodborneRemake_BladeofMercy.label>
+  <BloodborneRemake_BladeofMercy.description>猎人狩猎者代代相传的特殊机关武器。最古老的工坊武器之一。可借由机关分裂成两把。其刀刃以宇宙中飞来的稀有陨石锻造而成。适用于垫步等快节奏攻击。</BloodborneRemake_BladeofMercy.description>
+
+<!-- Bloodletter -->
+
+  <BloodborneRemake_Bloodletter.label>(BBRe)血祭刀</BloodborneRemake_Bloodletter.label>
+  <BloodborneRemake_Bloodletter.description>这是治愈教会的刺客布拉多使用的疯狂狩猎武器。通过吸食内脏及内心深处的血液后，显露出令人忌惮的外观。这也是将体内污秽之血排出体外的唯一方法，被囚禁在地牢深处的布拉多对此事坚信不疑。</BloodborneRemake_Bloodletter.description>
+  
+<!-- BoomHammer -->
+
+  <BloodborneRemake_BoomHammer.label>(BBRe)轰天锤</BloodborneRemake_BoomHammer.label>
+  <BloodborneRemake_BoomHammer.description>老猎人使用的机关武器。出自工坊异端火药库之手。这把巨锤配有一个小型熔炉，敲击点燃后会被火焰缠绕，攻击会伴随着剧烈的爆炸。据说这种将野兽粉碎、燃烧殆尽的简洁攻击方式，深受厌恶野兽的猎人们欢迎。</BloodborneRemake_BoomHammer.description>
+  
+<!-- BurialBlade -->
+
+  <BloodborneRemake_BurialBlade.label>(BBRe)葬仪之刀</BloodborneRemake_BurialBlade.label>
+  <BloodborneRemake_BurialBlade.description>第一位猎人格尔曼使用的机关武器。奠定了所有工坊武器原点的最高杰作。其刀刃以宇宙中飞来的稀有陨石锻造而成。格尔曼将狩猎比喻成镇魂曲。希望猎物能够安详逝去，不再饱受噩梦之苦。</BloodborneRemake_BurialBlade.description>
+  
+<!-- Chikage -->
+
+  <BloodborneRemake_Chikage.label>(BBRe)千影</BloodborneRemake_Chikage.label>
+  <BloodborneRemake_Chikage.description>守护凯因赫斯特的血之女王安娜丽瑟的近卫骑士使用的异乡武器。十分纤薄的刀身上刻满了错综复杂的波纹。当刀身遍布鲜血之时，将会化作绯红色的血刃。但那终将是会反噬持有者的诅咒之物。</BloodborneRemake_Chikage.description>
+
+<!-- ChurchPick -->
+
+  <BloodborneRemake_ChurchPick.label>(BBRe)教会之镐</BloodborneRemake_ChurchPick.label>
+  <BloodborneRemake_ChurchPick.description>根据古老的野兽传承中记述的内容，将大型铁桩改造而成的狩猎武器。变形前可当作一把大剑，变形后可当作战斗镐。与设计初衷不符的是，这把武器实战效果出色。</BloodborneRemake_ChurchPick.description>
+  
+<!-- FistofGratia -->
+
+  <BloodborneRemake_FistofGratia.label>(BBRe)格拉缇娅之拳</BloodborneRemake_FistofGratia.label>
+  <BloodborneRemake_FistofGratia.description>一块带有指孔的铁块。这是大块头女猎人，迟钝的格拉缇娅使用的特殊狩猎武器。据说她不会使用枪械，只能依靠这铁块暴揍野兽，能让野兽产生巨大硬直。某种意义上，这种英雄气概也体现出她是一名非凡的猎人。因此这件武器被冠以她的姓名为人所知。</BloodborneRemake_FistofGratia.description>
+  
+<!-- HolyMoonlightSword -->
+
+  <BloodborneRemake_HolyMoonlightSword.label>(BBRe)圣月光剑</BloodborneRemake_HolyMoonlightSword.label>
+  <BloodborneRemake_HolyMoonlightSword.description>这是很久以前路德维希发现的神秘圣剑。当缠绕着苍白月光的剑身，被月色照耀之时，巨大的刀刃便能迸发出暗淡的光波。虽然月光圣剑是圣剑路德维希的象征性武器。但实际目睹过的人极少。那是属于他独享的秘密指引。</BloodborneRemake_HolyMoonlightSword.description>
+
+<!-- HunterAxe -->
+
+  <BloodborneRemake_HunterAxe.label>(BBRe)猎人斧</BloodborneRemake_HunterAxe.label>
+  <BloodborneRemake_HunterAxe.description>出自工坊的机关武器之一，是猎人狩猎用武器。保留了作为斧子的特性，变形后可提升应对各种复杂状况的能力。其最大特征是能砍出沉重一击和提高体力回复速度。无论过去如何，兽已非人。据说有些猎人喜欢借由处刑的名义使用这把斧头。</BloodborneRemake_HunterAxe.description>
+  
+<!-- Kirkhammer -->
+
+  <BloodborneRemake_Kirkhammer.label>(BBRe)教会的石锤</BloodborneRemake_Kirkhammer.label>
+  <BloodborneRemake_Kirkhammer.description>治愈教会的猎人使用的机关武器。一边是易于上手的银剑，另一边则是有着巨大石头的钝器。这是一件拥有两个极端面的武器。显著特征是巨石重击能撞击出巨大的冲击力。治愈教会工坊是猎人机关武器的分支一派。据说过去藏匿于教会镇的某处。</BloodborneRemake_Kirkhammer.description>
+  
+<!-- KosParasite -->
+
+  <BloodborneRemake_KosParasite.label>(BBRe)科斯寄生虫</BloodborneRemake_KosParasite.label>
+  <BloodborneRemake_KosParasite.description>在海岸边被抛弃的上位者科斯的尸体中，有着大量蚕食尸体的微小寄生虫，不会寄生在人体。这种攥在手上只能用来殴打的一条虫，连武器都谈不上。但这种虫子可激发乳草符文中的精灵之力。</BloodborneRemake_KosParasite.description>
+
+<!-- LogariusWheel -->
+
+  <BloodborneRemake_LogariusWheel.label>(BBRe)洛加留斯的轮椅</BloodborneRemake_LogariusWheel.label>
+  <BloodborneRemake_LogariusWheel.description>这是一件曾经洛加留斯率领处刑部队时使用的武器。由于杀戮了不计其数的凯因赫斯特之污秽血族，转轮上涂满了他们的鲜血，如今缠绕着深深的怨念。通过启动车轮机关解放怨念，会显露其恐怖的威力。</BloodborneRemake_LogariusWheel.description>
+  
+<!-- LudwigsHolyBlade -->
+
+  <BloodborneRemake_LudwigsHolyBlade.label>(BBRe)路德维希的圣剑</BloodborneRemake_LudwigsHolyBlade.label>
+  <BloodborneRemake_LudwigsHolyBlade.description>治愈教会的猎人使用的机关武器。据传曾是教会最初的猎人路德维希所使用的武器。银剑插入沉重的剑鞘中启动机关，会成为一柄巨剑。以路德维希为首的治愈教会工坊开辟出了与老格尔曼完全不同的流派。他们猎杀更为恐怖的野兽或异样的怪物。</BloodborneRemake_LudwigsHolyBlade.description>
+  
+<!-- Rakuyo -->
+
+  <BloodborneRemake_Rakuyo.label>(BBRe)落叶</BloodborneRemake_Rakuyo.label>
+  <BloodborneRemake_Rakuyo.description>星辰钟楼的女猎人玛丽亚挥舞的狩猎武器。与凯因赫斯特的千景一样，是来自异国他乡的精致刀具。只不过它不以鲜血为食，反而是一把需要高超技巧才能运用自如的名刀。玛丽亚也是看中落叶的这个特性故而喜爱有加。据说尽管她是血之女王的旁系亲属，却十分讨厌血族武器。但有一天，她因心力憔悴而将心爱的武器落叶抛弃，丢进了黑暗的深井之中。</BloodborneRemake_Rakuyo.description>
+  
+<!-- Reiterpallasch -->
+
+  <BloodborneRemake_Reiterpallasch.label>(BBRe)骑士剑</BloodborneRemake_Reiterpallasch.label>
+  <BloodborneRemake_Reiterpallasch.description>凯因赫斯特骑士使用的武器。由大型骑士剑与独特枪械结合而成。从古至今，一直嗜血的贵族们是血之病的老熟人了。秘密处置野兽，是他们仆人的使命。将仆人称作骑士，也算是赋予了他们一种荣耀吧。</BloodborneRemake_Reiterpallasch.description>
+
+<!-- RifleSpear -->
+
+  <BloodborneRemake_RifleSpear.label>(BBRe)铳枪</BloodborneRemake_RifleSpear.label>
+  <BloodborneRemake_RifleSpear.description>出自工坊异端火药库之手的机关武器。是铳与长枪的结合试验。据说是照着凯因赫斯特的武器仿造而成。作为一把武器虽然没有卓越的性能，但却有着其他武器没有的铳枪机关。</BloodborneRemake_RifleSpear.description>
+
+<!-- SawCleaver -->
+
+  <BloodborneRemake_SawCleaver.label>(BBRe)锯齿砍刀</BloodborneRemake_SawCleaver.label>
+  <BloodborneRemake_SawCleaver.description>出自坊房的机关武器之一，是猎人狩猎用武器。变形前的锯齿可撕裂野兽的皮肉，变形后成为利用离心力的长柄砍刀。这把带有放血功能的割肉刀是猎杀野兽的符号象征。对兽化病侵蚀越严重的怪物效果越佳。</BloodborneRemake_SawCleaver.description>
+  
+<!-- SawSpear -->
+
+  <BloodborneRemake_SawSpear.label>(BBRe)锯齿长矛</BloodborneRemake_SawSpear.label>
+  <BloodborneRemake_SawSpear.description>出自工坊的机关武器之一，是猎人狩猎用武器。变形前的锯齿可撕裂野兽的皮肉，变形后成为长距离的枪。对兽化病侵蚀越严重的怪物效果越佳。</BloodborneRemake_SawSpear.description>
+  
+<!-- SimonsBowblade -->
+
+  <BloodborneRemake_SimonsBowblade.label>(BBRe)西蒙的弓刃</BloodborneRemake_SimonsBowblade.label>
+  <BloodborneRemake_SimonsBowblade.description>这是作为治愈教会最初的猎人而广为人知的猎人西蒙的狩猎武器。由教会工坊为极度讨厌枪械的西蒙量身定做。弯曲剑身的巨大刀刃变形后可转变成一把弓使用。除了少数挚友以外，其他人都嘲笑西蒙用弓进行狩猎活动。</BloodborneRemake_SimonsBowblade.description>
+
+<!-- StakeDriver -->
+
+  <BloodborneRemake_StakeDriver.label>(BBRe)打桩机</BloodborneRemake_StakeDriver.label>
+  <BloodborneRemake_StakeDriver.description>出自工坊异端火药库之手的机关武器。作为老猎人裘拉喜爱武器而广为人知。因其复杂奇特的构造，可将极粗的桩子插入目标体内。作为武器能够一击必杀，但破绽很大，使用难度很高。正因其极高的上手门槛，才配被称为火药库的武器。</BloodborneRemake_StakeDriver.description>
+
+<!-- ThreadedCane -->
+
+  <BloodborneRemake_ThreadedCane.label>(BBRe)螺纹手杖</BloodborneRemake_ThreadedCane.label>
+  <BloodborneRemake_ThreadedCane.description>出自工坊的机关武器之一，是猎人狩猎用武器。就凭带刃的坚硬手杖这一点，作为武器就十分优秀了。驱动机关可将刀刃分离，宛如鞭子一样挥舞。将武器隐藏于手杖中，对待野兽挥鞭抽打的姿态十分华丽。也许它的设计初衷是为了不会让自己成为嗜血猎人吧。</BloodborneRemake_ThreadedCane.description>
+  
+<!-- Tonitrus -->
+
+  <BloodborneRemake_Tonitrus.label>(BBRe)雷霆</BloodborneRemake_Tonitrus.label>
+  <BloodborneRemake_Tonitrus.description>出自治愈教会工坊的怪人阿奇巴德之手的机关武器。通过摩擦像火柴一样的神奇铁球，能够人工再现出缠绕在黑兽周围的蓝色闪电。但是那个时代的猎人们好像都不太喜欢这把武器。</BloodborneRemake_Tonitrus.description>
+  
+<!-- WhirligigSaw -->
+
+  <BloodborneRemake_WhirligigSaw.label>(BBRe)旋转锯</BloodborneRemake_WhirligigSaw.label>
+  <BloodborneRemake_WhirligigSaw.description>出自工坊异端火药库之手的怪异机关武器。是老猎人怪兽吞噬者瓦尔特的偏嗜。平时是一把能够锤击殴打怪物的武器，但其真正的价值在于额外的回旋锯齿部分。圆盘边缘带有无数的锯齿之刃，高速飞旋可将野兽的皮肉撕成肉末。</BloodborneRemake_WhirligigSaw.description>
+  
+
+</LanguageData>

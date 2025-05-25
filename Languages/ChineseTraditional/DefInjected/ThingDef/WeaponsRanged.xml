@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Cannon -->
+
+  <BloodborneRemake_Cannon.label>(BBRe)大炮</BloodborneRemake_Cannon.label>
+  <BloodborneRemake_Cannon.description>過去治癒教會的工坊試作的大型槍炮。這門座式大炮被改造成了手持。無論是誇張的重量，後坐力還是水銀子彈的消耗量，都讓它在正式啟用前就被中止了。但是對那些巨大的敵人使用的話，想必能物盡其用。</BloodborneRemake_Cannon.description>
+  <BloodborneRemake_Cannon.tools.0.label>把柄</BloodborneRemake_Cannon.tools.0.label>
+
+
+  <!-- ChurchCannon -->
+
+  <BloodborneRemake_ChurchCannon.label>(BBRe)教會大炮</BloodborneRemake_ChurchCannon.label>
+  <BloodborneRemake_ChurchCannon.description>治癒教會所使用的大型火器。是大炮的一種。初衷是為了方便腦癱的巨型莽夫使用而設計的。普通獵人想要操作這門大炮極其困難。據說最後卻由於這群巨型弱智莽夫，無法有效地操作，這些大炮遭到雪藏。</BloodborneRemake_ChurchCannon.description>
+  <BloodborneRemake_ChurchCannon.tools.0.label>把柄</BloodborneRemake_ChurchCannon.tools.0.label>
+
+
+  <!-- Evelyn -->
+
+  <BloodborneRemake_Evelyn.label>(BBRe)伊芙琳</BloodborneRemake_Evelyn.label>
+  <BloodborneRemake_Evelyn.description>凱恩赫斯特騎士使用的特殊手槍。像任何工坊槍枝一樣使用水銀子彈，但凱恩赫斯特的變種更依賴血質。伊芙琳以一名女子的名字命名，設計精巧，深受凱恩赫斯特騎士的喜愛。</BloodborneRemake_Evelyn.description>
+  <BloodborneRemake_Evelyn.tools.0.label>把柄</BloodborneRemake_Evelyn.tools.0.label>
+
+
+  <!-- Flamesprayer -->
+
+  <BloodborneRemake_Flamesprayer.label>(BBRe)火焰噴射器</BloodborneRemake_Flamesprayer.label>
+  <BloodborneRemake_Flamesprayer.description>治癒教會部分成員使用的特殊火器。通過注入混有血液的水銀子彈當作媒介，可持續放射炙熱的火焰。雖然作為武器效率不佳，但有時某些地方需要一片火海來淨化。尤其是充滿汙穢野獸之地的亞楠！</BloodborneRemake_Flamesprayer.description>
+  <BloodborneRemake_Flamesprayer.tools.0.label>把柄</BloodborneRemake_Flamesprayer.tools.0.label>
+
+
+  <!-- GatlingGun -->
+
+  <BloodborneRemake_GatlingGun.label>(BBRe)加特林</BloodborneRemake_GatlingGun.label>
+  <BloodborneRemake_GatlingGun.description>老獵人裘拉在舊亞楠使用的座式機關槍。這把機關槍被強行改造成了手持槍械。裘拉他們伙伴三人中最年輕的那位會選擇用這件武器。有著極高的連射性能，但非常笨重且會快速消耗水銀子彈。被認為是一種非常難以使用的武器。</BloodborneRemake_GatlingGun.description>
+  <BloodborneRemake_GatlingGun.tools.0.label>把柄</BloodborneRemake_GatlingGun.tools.0.label>
+
+
+  <!-- HunterBlunderbuss -->
+
+  <BloodborneRemake_HunterBlunderbuss.label>(BBRe)獵人短筒火銃</BloodborneRemake_HunterBlunderbuss.label>
+  <BloodborneRemake_HunterBlunderbuss.description>工坊製造的，用於狩獵的槍械。狩獵槍械為特製槍械，在水銀中融合了持有者自身的血液。這樣才能確保彈藥對野獸的殺傷力。強大的衝擊力應對高速移動的野獸非常有效。這把散彈槍的命中率較高。</BloodborneRemake_HunterBlunderbuss.description>
+  <BloodborneRemake_HunterBlunderbuss.tools.0.label>把柄</BloodborneRemake_HunterBlunderbuss.tools.0.label>
+  <BloodborneRemake_HunterBlunderbuss.verbs.0.label>炮彈</BloodborneRemake_HunterBlunderbuss.verbs.0.label>
+
+
+  <!-- HunterPistol -->
+
+  <BloodborneRemake_HunterPistol.label>(BBRe)獵人手槍</BloodborneRemake_HunterPistol.label>
+  <BloodborneRemake_HunterPistol.description>工坊製造的，用於狩獵的槍械。狩獵槍械為特製槍械，在水銀中融合了持有者自身的血液。這樣才能確保彈藥對野獸的殺傷力。相較短筒火銃更為輕便，適合用於快速反擊。</BloodborneRemake_HunterPistol.description>
+  <BloodborneRemake_HunterPistol.tools.0.label>把柄</BloodborneRemake_HunterPistol.tools.0.label>
+
+
+  <!-- Ludwig'sRifle -->
+
+  <BloodborneRemake_LudwigsRifle.label>(BBRe)路德維希的步槍</BloodborneRemake_LudwigsRifle.label>
+  <BloodborneRemake_LudwigsRifle.description>治癒教會的獵人使用的長槍。據傳曾是教會最初的獵人路德維希所使用的武器。炮身又長又重，以犧牲連射性能換取提高射程距離。以路德維希為首的治癒教會工坊開闢出了與老格爾曼完全不同的流派。他們獵殺更為恐怖的野獸或異樣的怪物。</BloodborneRemake_LudwigsRifle.description>
+  <BloodborneRemake_LudwigsRifle.tools.0.label>把柄</BloodborneRemake_LudwigsRifle.tools.0.label>
+  <BloodborneRemake_LudwigsRifle.verbs.0.label>鹿彈</BloodborneRemake_LudwigsRifle.verbs.0.label>
+
+
+  <!-- PiercingRifle -->
+
+  <BloodborneRemake_PiercingRifle.label>(BBRe)穿刺槍</BloodborneRemake_PiercingRifle.label>
+  <BloodborneRemake_PiercingRifle.description>出自工坊異端火藥庫前身的沃德工坊的長槍。專為狹窄細長的街道獵殺活動而設計的槍械。強化了槍彈的貫穿性能。缺點是不適合迎擊使用。</BloodborneRemake_PiercingRifle.description>
+  <BloodborneRemake_PiercingRifle.tools.0.label>把柄</BloodborneRemake_PiercingRifle.tools.0.label>
+
+
+  <!-- RepeatingPistol -->
+
+  <BloodborneRemake_RepeatingPistol.label>(BBRe)連發手槍</BloodborneRemake_RepeatingPistol.label>
+  <BloodborneRemake_RepeatingPistol.description>治癒教會的獵人使用的連發槍械。槍身幾乎都是金屬製成，擁有複雜的槍械構造。可同時發射兩發子彈，因此水銀子彈的消耗也很快。與工坊的散彈槍使用相比，有必要更為慎重地當作殺手鐧來使用吧。</BloodborneRemake_RepeatingPistol.description>
+  <BloodborneRemake_RepeatingPistol.tools.0.label>把柄</BloodborneRemake_RepeatingPistol.tools.0.label>
+
+
+  <!-- Rosmarinus -->
+
+  <BloodborneRemake_Rosmarinus.label>(BBRe)迷迭香</BloodborneRemake_Rosmarinus.label>
+  <BloodborneRemake_Rosmarinus.description>治癒教會高層“聖歌隊”使用的特殊火器。通過注入混有血液的水銀子彈當作媒介，可持續放射秘法之霧。聖霧環繞著的歌聲乃是星球的恩賜。“美麗的姑娘啊，你為何在哭泣？”</BloodborneRemake_Rosmarinus.description>
+  <BloodborneRemake_Rosmarinus.tools.0.label>把柄</BloodborneRemake_Rosmarinus.tools.0.label>
+</LanguageData>

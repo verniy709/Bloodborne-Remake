@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BloodborneRemake_WoodenShield.label>(BBRe)木盾</BloodborneRemake_WoodenShield.label>
+  <BloodborneRemake_WoodenShield.description>蜂擁而上加入狩獵活動的群眾所使用的粗製木盾。通常獵人是不會使用盾牌的。因為盾牌在野獸的怪力面前羸弱不堪。有盾牌防身是很不錯，但也別太自信過頭了！</BloodborneRemake_WoodenShield.description>
+  <BloodborneRemake_WoodenShield.tools.0.label>盾基</BloodborneRemake_WoodenShield.tools.0.label>
+  <BloodborneRemake_WoodenShield.tools.1.label>盾心</BloodborneRemake_WoodenShield.tools.1.label>
+
+  <BloodborneRemake_LochShield.label>(BBRe)湖盾</BloodborneRemake_LochShield.label>
+  <BloodborneRemake_LochShield.description>用藍色玻璃製作的手工盾牌。最初用於保護主持神聖療癒教堂儀式的領袖，後來提供給墳墓勘探者，尤其是那些探索伊斯迷宮的人。藍色是仿照湖泊設計的，盾牌可以大大減少所有形式的非物理傷害。</BloodborneRemake_LochShield.description>
+  <BloodborneRemake_LochShield.tools.0.label>盾基</BloodborneRemake_LochShield.tools.0.label>
+  <BloodborneRemake_LochShield.tools.1.label>盾心</BloodborneRemake_LochShield.tools.1.label>
+
+  <BloodborneRemake_TorchOff.label>(BBRe)熄滅的火炬</BloodborneRemake_TorchOff.label>
+  <BloodborneRemake_TorchOff.description>由頂部被浸泡滿松脂的白布纏繞而成的木棍。是極為普通的火把。狩獵活動時而在陰暗場所進行，火把必不可少。眾所周知，某些野獸病態般畏懼火焰。</BloodborneRemake_TorchOff.description>
+
+  <BloodborneRemake_TorchOn.label>(BBRe)燃燒的火炬</BloodborneRemake_TorchOn.label>
+  <BloodborneRemake_TorchOn.description>由頂部被浸泡滿松脂的白布纏繞而成的木棍。是極為普通的火把。狩獵活動時而在陰暗場所進行，火把必不可少。眾所周知，某些野獸病態般畏懼火焰。</BloodborneRemake_TorchOn.description>
+  
+
+</LanguageData>

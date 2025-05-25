@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BloodborneRemake_Blood.label>鮮血攻擊</BloodborneRemake_Blood.label>
+  <BloodborneRemake_Blood.deathMessage>{0}已被鮮血攻擊殺死。</BloodborneRemake_Blood.deathMessage>
+
+  <BloodborneRemake_Arcane.label>秘法之力</BloodborneRemake_Arcane.label>
+  <BloodborneRemake_Arcane.deathMessage>{0}已被秘法之力殺死。</BloodborneRemake_Arcane.deathMessage>
+
+  <BloodborneRemake_ParasiteHit.label>寄生蟲攻擊</BloodborneRemake_ParasiteHit.label>
+  <BloodborneRemake_ParasiteHit.deathMessage>{0}已被一隻寄生蟲殺死。</BloodborneRemake_ParasiteHit.deathMessage>
+
+  <BloodborneRemake_HuntersNightmareHit.label>獵人夢魘</BloodborneRemake_HuntersNightmareHit.label>
+  <BloodborneRemake_HuntersNightmareHit.deathMessage>{0}已陷入永恆的沉睡。</BloodborneRemake_HuntersNightmareHit.deathMessage>
+</LanguageData>

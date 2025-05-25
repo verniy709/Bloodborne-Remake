@@ -41,7 +41,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-3</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
-      </li>
+       </li>
     </comps>
     <stages>
       <li>
@@ -182,7 +182,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
-      </li>
+       </li>
     </comps>
     <stages>
       <li>
@@ -232,7 +232,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-6</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
-      </li>
+       </li>
     </comps>
     <stages>
       <li>
@@ -272,7 +272,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
-      </li>
+       </li>
     </comps>
     <stages>
       <li>
@@ -302,7 +302,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
-      </li>
+       </li>
     </comps>
     <stages>
       <li>
@@ -328,7 +328,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
-      </li>
+       </li>
     </comps>
     <stages>
       <li>

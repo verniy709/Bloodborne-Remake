@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<!-- AmygdalanArm -->
+
+  <BloodborneRemake_AmygdalanArm.label>(BBRe)阿米戈達拉之臂</BloodborneRemake_AmygdalanArm.label>
+  <BloodborneRemake_AmygdalanArm.description>被稱之為阿米戈達的上位者中小型個體的一根手臂。嚴格來說這可不是機關武器。有些瘋子把它當作武器瘋狂亂揮。看起來就是根巨大堅硬的骨頭鈍器。據說將它伸展揮舞時，前端看起來就像還活著一樣蠢蠢欲動。</BloodborneRemake_AmygdalanArm.description>
+  
+<!-- BeastClaw -->
+
+  <BloodborneRemake_BeastClaw.label>(BBRe)獸爪</BloodborneRemake_BeastClaw.label>
+  <BloodborneRemake_BeastClaw.description>不敬的伊茲持有的野獸武器。透過鑿出黑暗不死生物的長骨並將其固定在武器上而製成。這些骨頭還活著，釋放後，賦予持用者一股野獸般的力量。當剝皮浴血時，體內的野獸甦醒，隨著時間的推移，持有者的力量和狂熱將難以遏制。</BloodborneRemake_BeastClaw.description>
+  
+<!-- BeasthunterSaif -->
+
+  <BloodborneRemake_BeasthunterSaif.label>(BBRe)野獸獵人曲刀</BloodborneRemake_BeasthunterSaif.label>
+  <BloodborneRemake_BeasthunterSaif.description>老獵人使用的機關武器。彎曲的刀身內側藏了額外的刀刃。變形前作為長柄曲刀可橫向揮砍。變形後摺疊刀刃，可使出短距離連擊。這是一把可實現靈活戰術的機關武器。但可惜最後被更加適用於狩獵野獸的鋸齒武器所替代。</BloodborneRemake_BeasthunterSaif.description>
+  
+<!-- BeastCutter -->
+
+  <BloodborneRemake_BeastCutter.label>(BBRe)野獸切割者</BloodborneRemake_BeastCutter.label>
+  <BloodborneRemake_BeastCutter.description>老獵人使用的機關武器。這是一把連韌勁十足的獸肉都能斬斷的厚重鐵製砍刀。變形後刀刃分離，變為能夠揮舞的沉重鞭子。僅憑蠻力使用的這把武器上不得台面。因而老獵人的狩獵活動看起來很悽慘，他們的身體被黑紅色的血液染遍。</BloodborneRemake_BeastCutter.description>
+  
+<!-- BladeofMercy -->
+
+  <BloodborneRemake_BladeofMercy.label>(BBRe)慈悲之刃</BloodborneRemake_BladeofMercy.label>
+  <BloodborneRemake_BladeofMercy.description>獵人狩獵者代代相傳的特殊機關武器。最古老的工坊武器之一。可藉由機關分裂成兩把。其刀刃以宇宙中飛來的稀有隕石鍛造而成。適用於墊步等快節奏攻擊。</BloodborneRemake_BladeofMercy.description>
+  
+<!-- Bloodletter -->
+
+  <BloodborneRemake_Bloodletter.label>(BBRe)血祭刀</BloodborneRemake_Bloodletter.label>
+  <BloodborneRemake_Bloodletter.description>這是治癒教會的刺客布拉多使用的瘋狂狩獵武器。通過吸食內臟及內心深處的血液後，顯露出令人忌憚的外觀。這也是將體內汙穢之血排出體外的唯一方法，被囚禁在地牢深處的布拉多對此事堅信不疑。</BloodborneRemake_Bloodletter.description>
+  
+<!-- BoomHammer -->
+
+  <BloodborneRemake_BoomHammer.label>(BBRe)轟天錘</BloodborneRemake_BoomHammer.label>
+  <BloodborneRemake_BoomHammer.description>老獵人使用的機關武器。出自工坊異端火藥庫之手。這把巨錘配有一個小型熔爐，敲擊點燃後會被火焰纏繞，攻擊會伴隨著劇烈的爆炸。據說這種將野獸粉碎、燃燒殆盡的簡潔攻擊方式，深受厭惡野獸的獵人們歡迎。</BloodborneRemake_BoomHammer.description>
+  
+<!-- BurialBlade -->
+
+  <BloodborneRemake_BurialBlade.label>(BBRe)葬儀之刀</BloodborneRemake_BurialBlade.label>
+  <BloodborneRemake_BurialBlade.description>第一位獵人格爾曼使用的機關武器。奠定了所有工坊武器原點的最高傑作。其刀刃以宇宙中飛來的稀有隕石鍛造而成。格爾曼將狩獵比喻成鎮魂曲。希望獵物能夠安詳逝去，不再飽受噩夢之苦。</BloodborneRemake_BurialBlade.description>
+  
+<!-- Chikage -->
+
+  <BloodborneRemake_Chikage.label>(BBRe)千影</BloodborneRemake_Chikage.label>
+  <BloodborneRemake_Chikage.description>守護凱因赫斯特的血之女王安娜麗瑟的近衛騎士使用的異鄉武器。十分纖薄的刀身上刻滿了錯綜複雜的波紋。當刀身遍布鮮血之時，將會化作緋紅色的血刃。但那終將是會反噬持有者的詛咒之物。</BloodborneRemake_Chikage.description>
+
+<!-- ChurchPick -->
+
+  <BloodborneRemake_ChurchPick.label>(BBRe)教會之鎬</BloodborneRemake_ChurchPick.label>
+  <BloodborneRemake_ChurchPick.description>根據古老的野獸傳承中記述的內容，將大型鐵樁改造而成的狩獵武器。變形前可當作一把大劍，變形後可當作戰鬥鎬。與設計初衷不符的是，這把武器實戰效果出色。</BloodborneRemake_ChurchPick.description>
+  
+<!-- FistofGratia -->
+
+  <BloodborneRemake_FistofGratia.label>(BBRe)格拉緹婭之拳</BloodborneRemake_FistofGratia.label>
+  <BloodborneRemake_FistofGratia.description>一塊帶有指孔的鐵塊。這是大塊頭女獵人，遲鈍的格拉緹婭使用的特殊狩獵武器。據說她不會使用槍械，只能依靠這鐵塊暴揍野獸，能讓野獸產生巨大硬直。某種意義上，這種英雄氣概也體現出她是一名非凡的獵人。因此這件武器被冠以她的姓名為人所知。</BloodborneRemake_FistofGratia.description>
+  
+<!-- HolyMoonlightSword -->
+
+  <BloodborneRemake_HolyMoonlightSword.label>(BBRe)聖月光劍</BloodborneRemake_HolyMoonlightSword.label>
+  <BloodborneRemake_HolyMoonlightSword.description>這是很久以前路德維希發現的神秘聖劍。當纏繞著蒼白月光的劍身，被月色照耀之時，巨大的刀刃便能迸發出暗淡的光波。雖然月光聖劍是聖劍路德維希的象徵性武器。但實際目睹過的人極少。那是屬於他獨享的秘密指引。</BloodborneRemake_HolyMoonlightSword.description>
+  
+<!-- HunterAxe -->
+
+  <BloodborneRemake_HunterAxe.label>(BBRe)獵人斧</BloodborneRemake_HunterAxe.label>
+  <BloodborneRemake_HunterAxe.description>出自工坊的機關武器之一，是獵人狩獵用武器。保留了作為斧頭的特性，變形後可提升應對各種複雜狀況的能力。其最大特徵是能砍出沉重一擊和提高體力回復速度。無論過去如何，獸已非人。據說有些獵人喜歡藉由處刑的名義使用這把斧頭。</BloodborneRemake_HunterAxe.description>
+  
+<!-- Kirkhammer -->
+
+  <BloodborneRemake_Kirkhammer.label>(BBRe)教會的石錘</BloodborneRemake_Kirkhammer.label>
+  <BloodborneRemake_Kirkhammer.description>治癒教會的獵人使用的機關武器。一邊是易於上手的銀劍，另一邊則是有著巨大石頭的鈍器。這是一件擁有兩個極端面的武器。顯著特徵是巨石重擊能撞擊出巨大的衝擊力。治癒教會工坊是獵人機關武器的分支一派。據說過去藏匿於教會鎮的某處。</BloodborneRemake_Kirkhammer.description>
+  
+<!-- KosParasite -->
+
+  <BloodborneRemake_KosParasite.label>(BBRe)科斯寄生蟲</BloodborneRemake_KosParasite.label>
+  <BloodborneRemake_KosParasite.description>在海岸邊被拋棄的上位者科斯的屍體中，有著大量蠶食屍體的微小寄生蟲，不會寄生在人體。這種攥在手上隻能用來毆打的一條蟲，連武器都談不上。但這種蟲子可激髮乳草符文中的精靈之力。</BloodborneRemake_KosParasite.description>
+
+<!-- LogariusWheel -->
+
+  <BloodborneRemake_LogariusWheel.label>(BBRe)洛加留斯的輪椅</BloodborneRemake_LogariusWheel.label>
+  <BloodborneRemake_LogariusWheel.description>這是一件曾經洛加留斯率領處刑部隊時使用的武器。由於殺戮了不計其數的凱因赫斯特之汙穢血族，轉輪上塗滿了他們的鮮血，如今纏繞著深深的怨念。通過啟動車輪機關解放怨念，會顯露其恐怖的威力。</BloodborneRemake_LogariusWheel.description>
+  
+<!-- LudwigsHolyBlade -->
+
+  <BloodborneRemake_LudwigsHolyBlade.label>(BBRe)路德維希的聖劍</BloodborneRemake_LudwigsHolyBlade.label>
+  <BloodborneRemake_LudwigsHolyBlade.description>治癒教會的獵人使用的機關武器。據傳曾是教會最初的獵人路德維希所使用的武器。銀劍插入沉重的劍鞘中啟動機關，會成為一柄巨劍。以路德維希為首的治癒教會工坊開闢出了與老格爾曼完全不同的流派。他們獵殺更為恐怖的野獸或異樣的怪物。</BloodborneRemake_LudwigsHolyBlade.description>
+  
+<!-- Rakuyo -->
+
+  <BloodborneRemake_Rakuyo.label>(BBRe)落葉</BloodborneRemake_Rakuyo.label>
+  <BloodborneRemake_Rakuyo.description>星辰鐘樓的女獵人瑪麗亞揮舞的狩獵武器。與凱因赫斯特的千景一樣，是來自異國他鄉的精緻刀具。只不過它不以鮮血為食，反而是一把需要高超技巧才能運用自如的名刀。瑪麗亞也是看中落葉的這個特性故而喜愛有加。據說儘管她是血之女王的旁系親屬，卻十分討厭血族武器。但有一天，她因心力憔悴而將心愛的武器落葉拋棄，丟進了黑暗的深井之中。</BloodborneRemake_Rakuyo.description>
+  
+<!-- Reiterpallasch -->
+
+  <BloodborneRemake_Reiterpallasch.label>(BBRe)騎士劍</BloodborneRemake_Reiterpallasch.label>
+  <BloodborneRemake_Reiterpallasch.description>凱因赫斯特騎士使用的武器。由大型騎士劍與獨特槍械結合而成。從古至今，一直嗜血的貴族們是血之病的老熟人了。秘密處置野獸，是他們僕人的使命。將僕人稱作騎士，也算是賦予了他們一種榮耀吧。</BloodborneRemake_Reiterpallasch.description>
+
+<!-- RifleSpear -->
+
+  <BloodborneRemake_RifleSpear.label>(BBRe)銃槍</BloodborneRemake_RifleSpear.label>
+  <BloodborneRemake_RifleSpear.description>出自工坊異端火藥庫之手的機關武器。是銃與長槍的結合試驗。據說是照著凱因赫斯特的武器仿造而成。作為一把武器雖然沒有卓越的性能，但卻有著其他武器沒有的銃槍機關。</BloodborneRemake_RifleSpear.description>
+
+<!-- SawCleaver -->
+
+  <BloodborneRemake_SawCleaver.label>(BBRe)鋸齒砍刀</BloodborneRemake_SawCleaver.label>
+  <BloodborneRemake_SawCleaver.description>出自坊房的機關武器之一，是獵人狩獵用武器。變形前的鋸齒可撕裂野獸的皮肉，變形後成為利用離心力的長柄砍刀。這把帶有放血功能的割肉刀是獵殺野獸的符號象徵。對獸化病侵蝕越嚴重的怪物效果越佳。</BloodborneRemake_SawCleaver.description>
+  
+<!-- SawSpear -->
+
+  <BloodborneRemake_SawSpear.label>(BBRe)鋸齒長矛</BloodborneRemake_SawSpear.label>
+  <BloodborneRemake_SawSpear.description>出自工坊的機關武器之一，是獵人狩獵用武器。變形前的鋸齒可撕裂野獸的皮肉，變形後成為長距離的槍。對獸化病侵蝕越嚴重的怪物效果越佳。</BloodborneRemake_SawSpear.description>
+  
+<!-- SimonsBowblade -->
+
+  <BloodborneRemake_SimonsBowblade.label>(BBRe)西蒙的弓刃</BloodborneRemake_SimonsBowblade.label>
+  <BloodborneRemake_SimonsBowblade.description>這是作為治癒教會最初的獵人而廣為人知的獵人西蒙的狩獵武器。由教會工坊為極度討厭槍械的西蒙量身定做。彎曲劍身的巨大刀刃變形後可轉變成一把弓使用。除了少數摯友以外，其他人都嘲笑西蒙用弓進行狩獵活動。</BloodborneRemake_SimonsBowblade.description>
+
+<!-- StakeDriver -->
+
+  <BloodborneRemake_StakeDriver.label>(BBRe)打樁機</BloodborneRemake_StakeDriver.label>
+  <BloodborneRemake_StakeDriver.description>出自工坊異端火藥庫之手的機關武器。作為老獵人裘拉喜愛武器而廣為人知。因其複雜奇特的構造，可將極粗的樁子插入目標體內。作為武器能夠一擊必殺，但破綻很大，使用難度很高。正因其極高的上手門檻，才配被稱為火藥庫的武器。</BloodborneRemake_StakeDriver.description>
+
+<!-- ThreadedCane -->
+
+  <BloodborneRemake_ThreadedCane.label>(BBRe)螺紋手杖</BloodborneRemake_ThreadedCane.label>
+  <BloodborneRemake_ThreadedCane.description>出自工坊的機關武器之一，是獵人狩獵用武器。就憑帶刃的堅硬手杖這一點，作為武器就十分優秀了。驅動機關可將刀刃分離，宛如鞭子一樣揮舞。將武器隱藏於手杖中，對待野獸揮鞭抽打的姿態十分華麗。也許它的設計初衷是為了不會讓自己成為嗜血獵人吧。</BloodborneRemake_ThreadedCane.description>
+  
+<!-- Tonitrus -->
+
+  <BloodborneRemake_Tonitrus.label>(BBRe)雷霆</BloodborneRemake_Tonitrus.label>
+  <BloodborneRemake_Tonitrus.description>出自治癒教會工坊的怪人阿奇巴德之手的機關武器。通過摩擦像火柴一樣的神奇鐵球，能夠人工再現出纏繞在黑獸周圍的藍色閃電。但是那個時代的獵人們好像都不太喜歡這把武器。</BloodborneRemake_Tonitrus.description>
+  
+<!-- WhirligigSaw -->
+
+  <BloodborneRemake_WhirligigSaw.label>(BBRe)旋轉鋸</BloodborneRemake_WhirligigSaw.label>
+  <BloodborneRemake_WhirligigSaw.description>出自工坊異端火藥庫之手的怪異機關武器。是老獵人怪獸吞噬者瓦爾特的偏嗜。平時是一把能夠錘擊毆打怪物的武器，但其真正的價值在於額外的迴旋鋸齒部分。圓盤邊緣帶有無數的鋸齒之刃，高速飛旋可將野獸的皮肉撕成肉末。</BloodborneRemake_WhirligigSaw.description>
+  
+
+</LanguageData>

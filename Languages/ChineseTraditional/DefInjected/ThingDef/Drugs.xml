@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BloodborneRemake_BeastBloodPellet.label>獸血藥丸</BloodborneRemake_BeastBloodPellet.label>
+  <BloodborneRemake_BeastBloodPellet.description>醫用大藥丸，據說由野獸凝固的血液製成。因為來源不明被治癒教會嚴令禁止。蒙賜獸血的奔湧吧。撕碎敵人的血肉、沐浴噴灑的血雨，啟動獸血，去感受無與倫比的力量、以及殘暴的歡愉。.</BloodborneRemake_BeastBloodPellet.description>
+  <BloodborneRemake_BeastBloodPellet.ingestible.ingestCommandString>服用{0}</BloodborneRemake_BeastBloodPellet.ingestible.ingestCommandString>
+  <BloodborneRemake_BeastBloodPellet.ingestible.ingestReportString>正在服用{0}</BloodborneRemake_BeastBloodPellet.ingestible.ingestReportString>
+
+  <BloodborneRemake_BloodVial.label>採血瓶</BloodborneRemake_BloodVial.label>
+  <BloodborneRemake_BloodVial.description>用於血療的特殊血液。恢復生命值。接受過亞楠這種獨特血療的病人，此後會感受到透過相同的輸血方式，汲取到生命力。毫無疑問，亞楠的大部分人因此嗜血成性。</BloodborneRemake_BloodVial.description>
+  <BloodborneRemake_BloodVial.ingestible.ingestCommandString>服用{0}</BloodborneRemake_BloodVial.ingestible.ingestCommandString>
+  <BloodborneRemake_BloodVial.ingestible.ingestReportString>正在服用{0}</BloodborneRemake_BloodVial.ingestible.ingestReportString>
+
+  <BloodborneRemake_BlueElixir.label>藍色迷藥</BloodborneRemake_BlueElixir.label>
+  <BloodborneRemake_BlueElixir.description>治癒教會的上位醫療者用於怪異實驗的液體藥劑。是一種能夠麻痺大腦的精神麻醉劑。獵人們通過強迫意志維持意識清醒，以利用此藥的副作用：站定不動時，自身的存在會變得稀薄。</BloodborneRemake_BlueElixir.description>
+  <BloodborneRemake_BlueElixir.ingestible.ingestCommandString>服用{0}</BloodborneRemake_BlueElixir.ingestible.ingestCommandString>
+  <BloodborneRemake_BlueElixir.ingestible.ingestReportString>正在服用{0}</BloodborneRemake_BlueElixir.ingestible.ingestReportString>
+
+  <BloodborneRemake_BoneMarrowAsh.label>骨髓灰</BloodborneRemake_BoneMarrowAsh.label>
+  <BloodborneRemake_BoneMarrowAsh.description>強化水銀子彈的額外媒介。據說這是產於亨維科的停屍房通道的一種特殊的骨灰。對於沒有強大血液之力的獵人來說，是可以強化射擊威力的珍貴手段。</BloodborneRemake_BoneMarrowAsh.description>
+  <BloodborneRemake_BoneMarrowAsh.ingestible.ingestCommandString>服用{0}</BloodborneRemake_BoneMarrowAsh.ingestible.ingestCommandString>
+  <BloodborneRemake_BoneMarrowAsh.ingestible.ingestReportString>正在服用{0}</BloodborneRemake_BoneMarrowAsh.ingestible.ingestReportString>
+
+  <BloodborneRemake_BrainFluid.label>腦液</BloodborneRemake_BrainFluid.label>
+  <BloodborneRemake_BrainFluid.description>觸及上位者知識後陷入瘋狂之人的腦液。為了提升洞察力，請使用它。接觸駭人的智慧是一種賜福，即使會陷入瘋狂。但無疑，這是為了千秋萬代而服務的偉大目的。</BloodborneRemake_BrainFluid.description>
+  <BloodborneRemake_BrainFluid.ingestible.ingestCommandString>服用{0}</BloodborneRemake_BrainFluid.ingestible.ingestCommandString>
+  <BloodborneRemake_BrainFluid.ingestible.ingestReportString>正在服用{0}</BloodborneRemake_BrainFluid.ingestible.ingestReportString>
+
+  <BloodborneRemake_LeadElixir.label>鉛丹</BloodborneRemake_LeadElixir.label>
+  <BloodborneRemake_LeadElixir.description>厚重黏稠的液體藥劑。短暫提升體重獲得輕鬆反彈攻擊的效果，但會變得行動遲緩且防禦力不變，故而請謹慎使用。製作方法完全無從得知的神秘藥劑，但有一種說法，它只會誕生於噩夢般的絕望之中。</BloodborneRemake_LeadElixir.description>
+  <BloodborneRemake_LeadElixir.ingestible.ingestCommandString>服用{0}</BloodborneRemake_LeadElixir.ingestible.ingestCommandString>
+  <BloodborneRemake_LeadElixir.ingestible.ingestReportString>正在服用{0}</BloodborneRemake_LeadElixir.ingestible.ingestReportString>
+
+
+</LanguageData>
