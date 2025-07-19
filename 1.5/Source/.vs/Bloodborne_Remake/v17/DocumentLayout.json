@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38B7D2D6-B53A-48FC-901F-E975B5D4D743}|Bloodborne_Remake\\Bloodborne_Remake.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\bloodborne_remake\\harmonypatches\\verb_meleeattack_changemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38B7D2D6-B53A-48FC-901F-E975B5D4D743}|Bloodborne_Remake\\Bloodborne_Remake.csproj|solutionrelative:bloodborne_remake\\harmonypatches\\verb_meleeattack_changemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38B7D2D6-B53A-48FC-901F-E975B5D4D743}|Bloodborne_Remake\\Bloodborne_Remake.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\bloodborne-remake\\1.5\\source\\bloodborne_remake\\bloodborneweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38B7D2D6-B53A-48FC-901F-E975B5D4D743}|Bloodborne_Remake\\Bloodborne_Remake.csproj|solutionrelative:bloodborne_remake\\bloodborneweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38B7D2D6-B53A-48FC-901F-E975B5D4D743}|Bloodborne_Remake\\Bloodborne_Remake.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\bloodborne_remake\\verb_meleeattackdamage_area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38B7D2D6-B53A-48FC-901F-E975B5D4D743}|Bloodborne_Remake\\Bloodborne_Remake.csproj|solutionrelative:bloodborne_remake\\verb_meleeattackdamage_area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Bloodborne_Remake||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38B7D2D6-B53A-48FC-901F-E975B5D4D743}|Bloodborne_Remake\\Bloodborne_Remake.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\bloodborne_remake\\defmodextension_weaponmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38B7D2D6-B53A-48FC-901F-E975B5D4D743}|Bloodborne_Remake\\Bloodborne_Remake.csproj|solutionrelative:bloodborne_remake\\defmodextension_weaponmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38B7D2D6-B53A-48FC-901F-E975B5D4D743}|Bloodborne_Remake\\Bloodborne_Remake.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\bloodborne_remake\\defmodextension_aoemelee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38B7D2D6-B53A-48FC-901F-E975B5D4D743}|Bloodborne_Remake\\Bloodborne_Remake.csproj|solutionrelative:bloodborne_remake\\defmodextension_aoemelee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38B7D2D6-B53A-48FC-901F-E975B5D4D743}|Bloodborne_Remake\\Bloodborne_Remake.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\bloodborne_remake\\harmonypatches\\patchmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38B7D2D6-B53A-48FC-901F-E975B5D4D743}|Bloodborne_Remake\\Bloodborne_Remake.csproj|solutionrelative:bloodborne_remake\\harmonypatches\\patchmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ryzen\\AppData\\Local\\Temp\\7zO4BD85777\\WeaponsMelee.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\QQ\u6587\u4EF6\u7F13\u5B58\\Bloodborne-Remake\\1.3\\Defs\\Things\\Weapons\\WeaponsTest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\Things\\WeaponsTest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\Things\\Weapons\\Shields.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\Things\\Weapons\\WeaponsBase.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\MVCF.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\CompatibilityWeaponRacks.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\About\\About.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\Effects\\Flecks.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\\u65CB\u98CE\u5236\u4F5C[1.3]\u673A\u7532\\Vanilla\\Defs\\\u5355\u5175\u6B66\u5668.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bloodborne_Remake",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\Bloodborne_Remake\\Bloodborne_Remake.csproj",
+              "RelativeDocumentMoniker": "Bloodborne_Remake\\Bloodborne_Remake.csproj",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.4\\Source\\Bloodborne_Remake\\Bloodborne_Remake.csproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2022-11-08T00:19:19.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Verb_MeleeAttackDamage_Area.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\Bloodborne_Remake\\Verb_MeleeAttackDamage_Area.cs",
+              "RelativeDocumentMoniker": "Bloodborne_Remake\\Verb_MeleeAttackDamage_Area.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\Bloodborne_Remake\\Verb_MeleeAttackDamage_Area.cs",
+              "RelativeToolTip": "Bloodborne_Remake\\Verb_MeleeAttackDamage_Area.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAwGoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:04:19.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PatchMain.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\Bloodborne_Remake\\HarmonyPatches\\PatchMain.cs",
+              "RelativeDocumentMoniker": "Bloodborne_Remake\\HarmonyPatches\\PatchMain.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\Bloodborne_Remake\\HarmonyPatches\\PatchMain.cs",
+              "RelativeToolTip": "Bloodborne_Remake\\HarmonyPatches\\PatchMain.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:04:19.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Verb_MeleeAttack_ChangeMode.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\Bloodborne_Remake\\HarmonyPatches\\Verb_MeleeAttack_ChangeMode.cs",
+              "RelativeDocumentMoniker": "Bloodborne_Remake\\HarmonyPatches\\Verb_MeleeAttack_ChangeMode.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\Bloodborne_Remake\\HarmonyPatches\\Verb_MeleeAttack_ChangeMode.cs",
+              "RelativeToolTip": "Bloodborne_Remake\\HarmonyPatches\\Verb_MeleeAttack_ChangeMode.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:04:19.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BloodborneWeapon.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\Bloodborne_Remake\\BloodborneWeapon.cs",
+              "RelativeDocumentMoniker": "Bloodborne_Remake\\BloodborneWeapon.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\Bloodborne_Remake\\BloodborneWeapon.cs",
+              "RelativeToolTip": "Bloodborne_Remake\\BloodborneWeapon.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwB4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:04:19.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DefModExtension_AOEMelee.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\Bloodborne_Remake\\DefModExtension_AOEMelee.cs",
+              "RelativeDocumentMoniker": "Bloodborne_Remake\\DefModExtension_AOEMelee.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\Bloodborne_Remake\\DefModExtension_AOEMelee.cs",
+              "RelativeToolTip": "Bloodborne_Remake\\DefModExtension_AOEMelee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:04:19.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DefModExtension_WeaponMod.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\Bloodborne_Remake\\DefModExtension_WeaponMod.cs",
+              "RelativeDocumentMoniker": "Bloodborne_Remake\\DefModExtension_WeaponMod.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.5\\Source\\Bloodborne_Remake\\DefModExtension_WeaponMod.cs",
+              "RelativeToolTip": "Bloodborne_Remake\\DefModExtension_WeaponMod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:04:19.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeaponsTest.xml",
+              "DocumentMoniker": "E:\\QQ\u6587\u4EF6\u7F13\u5B58\\Bloodborne-Remake\\1.3\\Defs\\Things\\Weapons\\WeaponsTest.xml",
+              "ToolTip": "E:\\QQ\u6587\u4EF6\u7F13\u5B58\\Bloodborne-Remake\\1.3\\Defs\\Things\\Weapons\\WeaponsTest.xml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2022-04-24T15:25:50.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeaponsTest.xml",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\Things\\WeaponsTest.xml",
+              "RelativeDocumentMoniker": "..\\..\\1.3\\Defs\\Things\\WeaponsTest.xml",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\Things\\WeaponsTest.xml",
+              "RelativeToolTip": "..\\..\\1.3\\Defs\\Things\\WeaponsTest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2022-04-24T15:44:27.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeaponsMelee.xml",
+              "DocumentMoniker": "C:\\Users\\Ryzen\\AppData\\Local\\Temp\\7zO4BD85777\\WeaponsMelee.xml",
+              "ToolTip": "C:\\Users\\Ryzen\\AppData\\Local\\Temp\\7zO4BD85777\\WeaponsMelee.xml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2022-04-27T14:53:04.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Shields.xml",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\Things\\Weapons\\Shields.xml",
+              "RelativeDocumentMoniker": "..\\..\\1.3\\Defs\\Things\\Weapons\\Shields.xml",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\Things\\Weapons\\Shields.xml",
+              "RelativeToolTip": "..\\..\\1.3\\Defs\\Things\\Weapons\\Shields.xml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2022-04-17T05:12:09.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeaponsBase.xml",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\Things\\Weapons\\WeaponsBase.xml",
+              "RelativeDocumentMoniker": "..\\..\\1.3\\Defs\\Things\\Weapons\\WeaponsBase.xml",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\Things\\Weapons\\WeaponsBase.xml",
+              "RelativeToolTip": "..\\..\\1.3\\Defs\\Things\\Weapons\\WeaponsBase.xml",
+              "ViewState": "AQIAAHoBAAAAAAAAAAAAACkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2022-04-17T05:05:54.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MVCF.xml",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\MVCF.xml",
+              "RelativeDocumentMoniker": "..\\..\\1.3\\Defs\\MVCF.xml",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\MVCF.xml",
+              "RelativeToolTip": "..\\..\\1.3\\Defs\\MVCF.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2022-04-17T05:11:24.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CompatibilityWeaponRacks.xml",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\CompatibilityWeaponRacks.xml",
+              "RelativeDocumentMoniker": "..\\..\\1.3\\Defs\\CompatibilityWeaponRacks.xml",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\CompatibilityWeaponRacks.xml",
+              "RelativeToolTip": "..\\..\\1.3\\Defs\\CompatibilityWeaponRacks.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2022-04-17T05:11:18.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "About.xml",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\About\\About.xml",
+              "RelativeDocumentMoniker": "..\\..\\About\\About.xml",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\About\\About.xml",
+              "RelativeToolTip": "..\\..\\About\\About.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2022-04-17T05:10:54.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Flecks.xml",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\Effects\\Flecks.xml",
+              "RelativeDocumentMoniker": "..\\..\\1.3\\Defs\\Effects\\Flecks.xml",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bloodborne-Remake\\1.3\\Defs\\Effects\\Flecks.xml",
+              "RelativeToolTip": "..\\..\\1.3\\Defs\\Effects\\Flecks.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2022-04-17T05:05:16.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "\u5355\u5175\u6B66\u5668.xml",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\\u65CB\u98CE\u5236\u4F5C[1.3]\u673A\u7532\\Vanilla\\Defs\\\u5355\u5175\u6B66\u5668.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\\u65CB\u98CE\u5236\u4F5C[1.3]\u673A\u7532\\Vanilla\\Defs\\\u5355\u5175\u6B66\u5668.xml",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\\u65CB\u98CE\u5236\u4F5C[1.3]\u673A\u7532\\Vanilla\\Defs\\\u5355\u5175\u6B66\u5668.xml",
+              "RelativeToolTip": "..\\..\\..\\\u65CB\u98CE\u5236\u4F5C[1.3]\u673A\u7532\\Vanilla\\Defs\\\u5355\u5175\u6B66\u5668.xml",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAAAI4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2022-04-17T05:07:18.497Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
