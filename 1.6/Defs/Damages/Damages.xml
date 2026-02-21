@@ -19,6 +19,7 @@
     <label>arcane power</label>
     <deathMessage>{0} has been killed by arcane power.</deathMessage>
     <hediff>ChemicalBurn</hediff>
+    <defaultArmorPenetration>1</defaultArmorPenetration>
   </DamageDef>
 
   <DamageDef ParentName="Scratch">

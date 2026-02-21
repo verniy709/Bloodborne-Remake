@@ -153,13 +153,12 @@
     <finalTickFrameRate>4</finalTickFrameRate>
     <tickDamageRate>20</tickDamageRate>
     <dealsDamageOnce>true</dealsDamageOnce>
-    <minDistanceToAffect>3</minDistanceToAffect>
+    <minDistanceToAffect>2</minDistanceToAffect>
     <projectile>
       <damageDef>Flame</damageDef>    
       <flyOverhead>false</flyOverhead>
-      <damageAmountBase>22</damageAmountBase>
-      <stoppingPower>4.5</stoppingPower>    
-      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <damageAmountBase>12</damageAmountBase>
+      <stoppingPower>2.5</stoppingPower>    
       <speed>16</speed>
     </projectile>
   </VEF.Weapons.ExpandableProjectileDef>
@@ -169,7 +168,7 @@
   <VEF.Weapons.ExpandableProjectileDef ParentName="BaseBullet">
     <defName>BloodborneRemake_Gas</defName>
     <label>arcane mist</label>
-    <thingClass>VEF.Weapons.FlamethrowProjectile</thingClass>
+    <thingClass>VEF.Weapons.GaussProjectile</thingClass>
     <graphicData>
       <texPath>Things/Projectiles/BloodborneRemake_Gas</texPath>
       <texPathFadeOut>Things/Projectiles/BloodborneRemake_GasFadeOut</texPathFadeOut>
@@ -183,14 +182,15 @@
     <totalSizeScale>0.75</totalSizeScale>
     <tickFrameRate>5</tickFrameRate>
     <finalTickFrameRate>4</finalTickFrameRate>
-    <tickDamageRate>20</tickDamageRate>
-    <dealsDamageOnce>true</dealsDamageOnce>
-    <minDistanceToAffect>3</minDistanceToAffect>
+    <tickDamageRate>10</tickDamageRate>
+    <dealsDamageOnce>false</dealsDamageOnce>
+    <minDistanceToAffect>2</minDistanceToAffect>
+    <arcSize>4.0</arcSize>
     <projectile>
       <damageDef>BloodborneRemake_Arcane</damageDef>    
       <flyOverhead>false</flyOverhead>
       <damageAmountBase>18</damageAmountBase>
-      <stoppingPower>1.5</stoppingPower>    
+      <stoppingPower>4.5</stoppingPower>    
       <speed>16</speed>
     </projectile>
   </VEF.Weapons.ExpandableProjectileDef>
@@ -200,7 +200,7 @@
   <VEF.Weapons.ExpandableProjectileDef ParentName="BaseBullet">
     <defName>BloodborneRemake_Lightwave</defName>
     <label>lightwave</label>
-    <thingClass>VEF.Weapons.FlamethrowProjectile</thingClass>
+    <thingClass>VEF.Weapons.GaussProjectile</thingClass>
     <graphicData>
       <texPath>Things/Projectiles/BloodborneRemake_Lightwave</texPath>
       <texPathFadeOut>Things/Projectiles/BloodborneRemake_LightwaveFadeOut</texPathFadeOut>
@@ -216,11 +216,11 @@
     <finalTickFrameRate>3</finalTickFrameRate>
     <tickDamageRate>10</tickDamageRate>
     <dealsDamageOnce>true</dealsDamageOnce>
-    <minDistanceToAffect>3</minDistanceToAffect>
+    <minDistanceToAffect>2</minDistanceToAffect>
     <projectile>
       <damageDef>BloodborneRemake_Arcane</damageDef>    
       <flyOverhead>false</flyOverhead>
-      <damageAmountBase>18</damageAmountBase>
+      <damageAmountBase>28</damageAmountBase>
       <stoppingPower>2.5</stoppingPower>    
       <speed>26</speed>
     </projectile>
@@ -231,7 +231,7 @@
   <VEF.Weapons.ExpandableProjectileDef ParentName="BaseBullet">
     <defName>BloodborneRemake_Bloodwave</defName>
     <label>bloodwave</label>
-    <thingClass>VEF.Weapons.ExpandableProjectile</thingClass>
+    <thingClass>VEF.Weapons.GaussProjectile</thingClass>
     <graphicData>
       <texPath>Things/Projectiles/BloodborneRemake_Bloodwave</texPath>
       <texPathFadeOut>Things/Projectiles/BloodborneRemake_BloodwaveFadeOut</texPathFadeOut>
@@ -247,11 +247,11 @@
     <finalTickFrameRate>3</finalTickFrameRate>
     <tickDamageRate>10</tickDamageRate>
     <dealsDamageOnce>true</dealsDamageOnce>
-    <minDistanceToAffect>3</minDistanceToAffect>
+    <minDistanceToAffect>2</minDistanceToAffect>
     <projectile>
       <damageDef>BloodborneRemake_Blood</damageDef>    
       <flyOverhead>false</flyOverhead>
-      <damageAmountBase>20</damageAmountBase>
+      <damageAmountBase>14</damageAmountBase>
       <stoppingPower>2.5</stoppingPower>    
       <speed>28</speed>
     </projectile>
@@ -281,7 +281,7 @@
   <VEF.Weapons.ExpandableProjectileDef ParentName="BaseBullet">
     <defName>BloodborneRemake_Stake</defName>
     <label>fire</label>
-    <thingClass>VEF.Weapons.FlamethrowProjectile</thingClass>
+    <thingClass>VEF.Weapons.GaussProjectile</thingClass>
     <graphicData>
       <texPath>Things/Projectiles/BloodborneRemake_Stake</texPath>
       <texPathFadeOut>Things/Projectiles/BloodborneRemake_StakeFadeOut</texPathFadeOut>
@@ -298,6 +298,7 @@
     <tickDamageRate>10</tickDamageRate>
     <dealsDamageOnce>true</dealsDamageOnce>
     <minDistanceToAffect>2</minDistanceToAffect>
+    <arcSize>1.5</arcSize>
     <projectile>
       <damageDef>RangedStab</damageDef>    
       <flyOverhead>false</flyOverhead>
